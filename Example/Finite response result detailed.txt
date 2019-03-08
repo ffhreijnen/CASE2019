@@ -26,9 +26,6 @@ Iteration 2
 The following events have initially been encountered in a forcible-event loop of automaton Ep
 * (Ep.on Ep.off)
 
-Ev.LP_Ev = 1 or Ev.LP_Ev = 2, Ev.LP_Ev = 0
-Ev.LP_Ev = 1, Ev.LP_Ev = 0
-Ev.LP_Ev = 2, Ev.LP_Ev = 0
 (Ep.on Ep.off) is forcible-unconnectable
 Iteration 3
 The specification has finite response.
