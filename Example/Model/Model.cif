@@ -1,0 +1,39 @@
+automaton Ep:
+	controllable on, off;
+	location L1:
+		initial; marked;
+		edge on  when L1 goto L2;
+	location L2:
+		edge off when L2 goto L1;
+end
+
+automaton Ev:
+	controllable empti, fill, stopE, stopF;
+	location L2:
+		initial; marked;
+		edge empti when L2 goto L1;
+		edge fill  when L2 goto L3;
+	location L1:
+		edge stopE when L1 goto L2;
+	location L3:
+		edge stopF when L3 goto L2;
+end
+
+automaton Es:
+	uncontrollable s1on, s1off, s2on, s2off;
+	location L1:
+		initial; marked;
+		edge s1on  when L1 goto L2;
+	location L2:
+		edge s1off when L2 goto L1;
+		edge s2on  when L2 goto L3;
+	location L3:
+		edge s2off when L3 goto L2;
+end
+
+requirement Ep.on    needs Ev.L1 or Ev.L3;
+requirement Ep.off   needs Ev.L2;
+requirement Ev.fill  needs Es.L1 and Ep.L1;
+requirement Ev.empti needs Es.L3 and Ep.L1;
+requirement Ev.stopF needs Es.L3;
+requirement Ev.stopE needs Es.L1;

@@ -1,0 +1,34 @@
+Checking for finite response...
+Iteration 1
+
+The following events have initially been encountered in a forcible-event loop of automaton Ep
+* (Ep.on Ep.off)
+
+Warning: (Ep.on Ep.off) is not forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton Ev
+* (Ev.empti Ev.stopE)
+* (Ev.fill Ev.stopF)
+
+Es.LP_Es = 2, Es.LP_Es = 0
+(Ev.empti Ev.stopE) is forcible-unconnectable
+Es.LP_Es = 0, Es.LP_Es = 2
+(Ev.fill Ev.stopF) is forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton RequirementStateEvtExcls
+* (Ep.on)
+* (Ep.off)
+
+Warning: (Ep.on) is not forcible-unconnectable
+Warning: (Ep.off) is not forcible-unconnectable
+Iteration 2
+
+The following events have initially been encountered in a forcible-event loop of automaton Ep
+* (Ep.on Ep.off)
+
+Ev.LP_Ev = 1 or Ev.LP_Ev = 2, Ev.LP_Ev = 0
+Ev.LP_Ev = 1, Ev.LP_Ev = 0
+Ev.LP_Ev = 2, Ev.LP_Ev = 0
+(Ep.on Ep.off) is forcible-unconnectable
+Iteration 3
+The specification has finite response.
