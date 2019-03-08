@@ -1,0 +1,11 @@
+The specification does not have finite response, at least one forcible-event loop was found.
+The following events might still occur in a forcible loop.
+
+A_conveyerB.c_off, 
+A_conveyerB.c_on, 
+BTimer.c_on, 
+BTimer.c_reset, 
+A_conveyer.c_off, 
+A_conveyer.c_on, 
+STimer.c_on, 
+STimer.c_reset, 

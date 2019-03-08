@@ -1,0 +1,27 @@
+Event A_x2distributing.c_off and event A_zdown.c_on are undefined
+Event A_x2testing.c_off and event A_zdown.c_on are undefined
+Event A_zdown.c_off and event A_gripperclose.c_on are undefined
+Event A_elevator_up.c_off and event TTimer.c_reset are undefined
+Event A_elevator_up.c_on and event A_elevator_down.c_on are undefined
+Event A_elevator_up.c_on and event TTimer.c_reset are undefined
+Event A_elevator_down.c_off and event TTimer.c_reset are undefined
+Event A_elevator_down.c_on and event TTimer.c_reset are undefined
+Event A_pusher.c_off and event TTimer.c_reset are undefined
+Event A_turntable.c_on and event A_clamp.c_on are undefined
+Event A_turntable.c_on and event A_tester.c_on are undefined
+Event A_turntable.c_on and event A_eject.c_on are undefined
+Event A_eject.c_off and event A_conveyer.c_on are undefined
+Event A_gate1.c_on and event A_stopperretract.c_on are undefined
+Event A_gate1.c_on and event STimer.c_reset are undefined
+Event A_gate2.c_on and event A_stopperretract.c_on are undefined
+Event A_gate2.c_on and event STimer.c_reset are undefined
+
+123 forcible-event combinations are mutually exclusive.
+1874 forcible-event combinations are independent.
+0 forcible-event combinations are update equivalent.
+0 forcible-event combinations are skippable.
+2 forcible-event combinations are reversible.
+0 forcible-event combinations are confluent after explicit check.
+Warning: 17 forcible-event combinations are undefined.
+
+The specification is not confluent.

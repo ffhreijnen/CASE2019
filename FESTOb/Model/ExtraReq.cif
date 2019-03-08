@@ -1,0 +1,59 @@
+import "model.cif";
+
+// Counter forcible-loops.
+requirement A_conveyerB.c_off needs S_atin.Off;
+requirement BTimer.c_reset    needs S_atend.Off;
+requirement STimer.c_on       needs S_slidefull.Off;
+requirement A_conveyer.c_off  needs S_product.Off;
+
+//Workstation 3
+requirement TTimer.c_on    needs S_pusher.Off;
+requirement TTimer.c_reset needs S_pusher.On;
+requirement A_elevator_up.c_off needs S_productheight.Off;
+requirement {A_elevator_down.c_on, A_elevator_up.c_off} needs A_pusher.Off and S_pusher.Off;
+requirement {A_elevator_down.c_off, A_elevator_up.c_on} needs A_pusher.Off and S_pusher.Off;
+
+//Workstation 5
+requirement A_turntable.c_on needs S_atexit.Off;
+requirement A_eject.c_off    needs S_product.Off;
+
+requirement Tester2:
+    location One:
+        initial; marked;
+        edge A_turntable.c_on when not S_attest.On;
+        edge A_tester.c_on    when One goto Two;
+    location Two:
+        edge A_tester.c_off   when Two goto Three;
+    location Three:
+        edge A_turntable.c_on when Three goto One;
+end
+
+requirement ClampDrill2:
+    location one:
+        initial; marked;
+        edge A_turntable.c_on  when not S_atdrill.On;
+        edge A_clamp.c_on      when one goto two;
+    location two:
+        edge A_drill.c_on      when two goto three;
+    location three:
+        edge A_drillup.c_off   when three goto four;
+    location four:
+        edge A_drilldown.c_on  when four goto five;
+    location five:
+        edge A_drilldown.c_off when five goto six;
+    location six:
+        edge A_drillup.c_on    when six goto seven;
+    location seven:
+        edge A_drill.c_off     when seven goto eight;
+    location eight:
+        edge A_clamp.c_off     when eight goto nine;
+    location nine:
+        edge A_turntable.c_on  when nine goto one;
+end
+
+//Workstation 6
+requirement A_gate1.c_on          needs S_slidefull.Off;
+requirement A_gate2.c_on          needs S_slidefull.Off;
+requirement A_stopperretract.c_on needs (S_gate1.Closed and S_optical.On and S_inductive.Off) or
+                                        (S_gate2.Closed and S_optical.On and S_inductive.On)  or
+                                        (S_optical.Off  and S_inductive.Off);

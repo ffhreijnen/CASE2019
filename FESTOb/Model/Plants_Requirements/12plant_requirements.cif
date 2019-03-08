@@ -1,0 +1,302 @@
+import "../Definitions/Definitions.cif";
+
+//DISTRIBUTING
+
+//Plant:
+//Sensors
+S_product1      : TwoStateSensor(false);
+S_product2      : TwoStateSensor(false);
+S_product3      : TwoStateSensor(false);
+
+plant S_pusher1:
+    uncontrollable u_in_on, u_in_off, u_out_on, u_out_off;
+    location In:
+        initial;
+        marked;
+        edge u_in_off  goto Between;
+    location Between:
+        edge u_in_on   goto In;
+        edge u_out_on  goto Out;
+    location Out:
+        edge u_out_off goto Between;
+end
+S_stack1_filled : TwoStateSensor(true);
+
+plant S_pusher2:
+    uncontrollable u_in_on, u_in_off, u_out_on, u_out_off;
+    location In:
+        initial;
+        marked;
+        edge u_in_off  goto Between;
+    location Between:
+        edge u_in_on   goto In;
+        edge u_out_on  goto Out;
+    location Out:
+        edge u_out_off goto Between;
+end
+S_stack2_filled : TwoStateSensor(true);
+
+plant S_pusher3:
+    uncontrollable u_in_on, u_in_off, u_out_on, u_out_off;
+    location In:
+        initial;
+        marked;
+        edge u_in_off  goto Between;
+    location Between:
+        edge u_in_on   goto In;
+        edge u_out_on  goto Out;
+    location Out:
+        edge u_out_off goto Between;
+end
+S_stack3_filled : TwoStateSensor(true);
+
+S_Dinitialized  : TwoStateSensor(false);
+
+//Actuators
+A_pusher1       : TwoStateActuator(false);
+A_pusher2       : TwoStateActuator(false);
+A_pusher3       : TwoStateActuator(false);
+
+//Requirements
+//Actuators are only allowed to actuate when the station is initialized
+requirement {A_pusher1.c_on, A_pusher1.c_off} needs S_Dinitialized.On;
+requirement {A_pusher2.c_on, A_pusher2.c_off} needs S_Dinitialized.On;
+requirement {A_pusher3.c_on, A_pusher3.c_off} needs S_Dinitialized.On;
+
+//The Pusher is only allowed to move backwards/out when it is completely in
+requirement A_pusher1.c_on  needs S_pusher1.In;
+requirement A_pusher2.c_on  needs S_pusher2.In;
+requirement A_pusher3.c_on  needs S_pusher3.In;
+
+//The Pusher is only allowed to move forwards/in when it is completely out
+requirement A_pusher1.c_off needs S_pusher1.Out;
+requirement A_pusher2.c_off needs S_pusher2.Out;
+requirement A_pusher3.c_off needs S_pusher3.Out;
+
+//The Pusher is only allowed to move backwards/out when the product has been removed.
+requirement A_pusher1.c_on  needs S_product1.Off;
+requirement A_pusher2.c_on  needs S_product2.Off;
+requirement A_pusher3.c_on  needs S_product3.Off;
+
+//The Pusher is only allowed to move forwards/in when there is a product in front of it.
+requirement A_pusher1.c_off needs S_stack1_filled.On;
+requirement A_pusher2.c_off needs S_stack2_filled.On;
+requirement A_pusher3.c_off needs S_stack3_filled.On;
+
+//The Pusher is only allowed to move forward when there is no product at the pickup position
+requirement A_pusher1.c_off needs S_product1.Off;
+requirement A_pusher2.c_off needs S_product2.Off;
+requirement A_pusher3.c_off needs S_product3.Off;
+
+
+//HANDLING
+
+//Plant:
+//Sensors
+S_product4           : TwoStateSensor(false);
+
+plant S_xpos:
+    uncontrollable u_at1_on, u_at1_off, u_at2_on, u_at2_off, u_at3_on, u_at3_off, u_atdrop_on, u_atdrop_off;
+    location Atdrop:
+        initial; marked;
+        edge u_atdrop_off goto Between;
+    location At1:
+        edge u_at1_off    goto Between;
+    location At2:
+        edge u_at2_off    goto Between;
+    location At3:
+        edge u_at3_off    goto Between;
+    location Between:
+        edge u_atdrop_on  goto Atdrop;
+        edge u_at1_on     goto At1;
+        edge u_at2_on     goto At2;
+        edge u_at3_on     goto At3;
+end
+
+plant S_zpos:
+    uncontrollable u_atup_on, u_atup_off, u_atdown_on, u_atdown_off;
+    location Atup:
+        initial;
+        marked;
+        edge u_atup_off  goto Between;
+    location Between:
+        edge u_atup_on   goto Atup;
+        edge u_atdown_on goto Atdown;
+    location Atdown:
+        edge u_atdown_off goto Between;
+end
+
+S_gripper            : TwoStateSensor(false);
+
+plant S_transfer:
+    uncontrollable u_atpickup_on, u_atpickup_off, u_atdrop_on, u_atdrop_off, u_athalfway_on, u_athalfway_off;
+    location Athalfway:
+        initial; marked;
+        edge u_athalfway_off goto Between;
+    location Atpickup:
+        edge u_atpickup_off  goto Between;
+    location Atdrop:
+        edge u_atdrop_off    goto Between;
+    location Between:
+        edge u_athalfway_on goto Athalfway;
+        edge u_atpickup_on  goto Atpickup;
+        edge u_atdrop_on    goto Atdrop;
+end
+
+S_vacuum             : TwoStateSensor(false);
+
+S_Hinitialized       : TwoStateSensor(false);
+
+//Actuators
+A_x2distributing     : TwoStateActuator(true);
+A_x2testing          : TwoStateActuator(true);
+
+A_zdown              : TwoStateActuator(false);
+
+A_gripperclose       : TwoStateActuator(false);
+
+A_transfer2pickpos   : TwoStateActuator2(false);
+A_transfer2droppos   : TwoStateActuator2(false);
+
+A_vacuum             : TwoStateActuator(false);
+A_ejectpulse         : TwoStateActuator(false);
+
+//Requirements
+//Actuators are only allowed to enable/disable when the station is initialized
+requirement {A_x2distributing.c_on, A_x2distributing.c_off, A_x2testing.c_on, A_x2testing.c_off,
+             A_zdown.c_on, A_zdown.c_off, A_gripperclose.c_on, A_gripperclose.c_off,
+             A_transfer2pickpos.c_on, A_transfer2pickpos.c_off, A_transfer2droppos.c_on, A_transfer2droppos.c_off,
+             A_vacuum.c_on, A_vacuum.c_off, A_ejectpulse.c_on, A_ejectpulse.c_off} needs S_Hinitialized.On;
+
+//Gripper Y position:
+
+//The gripper is only allowed to descend when it is fully ascended
+requirement A_zdown.c_on  needs S_zpos.Atup;
+
+//The gripper is only allowed to ascend when it is fully descended
+requirement A_zdown.c_off needs S_zpos.Atdown;
+
+//The gripper is only allowed to descend when the gripper is at stand-still
+requirement A_zdown.c_on  needs A_x2distributing.On and A_x2testing.On;
+
+//The gripper is only allowed to descend when:
+//  - Is at station 1 while station 1 is filled, and the gripper is empty
+//  - Is at station 2 while station 2 is filled, and the gripper is empty
+//  - Is at station 3 while station 3 is filled, and the gripper is empty
+//  - Is at station 4 while station 4 is empty,  and the gripper is filled.
+requirement A_zdown.c_on needs
+    (S_xpos.At1    and S_product1.On  and S_gripper.Off) or
+    (S_xpos.At2    and S_product2.On  and S_gripper.Off) or
+    (S_xpos.At3    and S_product3.On  and S_gripper.Off) or
+    (S_xpos.Atdrop and S_product4.Off and S_gripper.On);
+
+//The gripper is only allowed to ascend when:
+//  - Is at station 1 while the gripper is closed, and a product is detected
+//  - Is at station 2 while the gripper is closed, and a product is detected
+//  - Is at station 3 while the gripper is closed, and a product is detected
+//  - Is at station 4 while the gripper is open.
+requirement A_zdown.c_off needs
+    (S_xpos.At1    and A_gripperclose.On  and S_gripper.On) or //Not sure if product is not detected when gripper is open
+    (S_xpos.At2    and A_gripperclose.On  and S_gripper.On) or
+    (S_xpos.At3    and A_gripperclose.On  and S_gripper.On) or
+    (S_xpos.Atdrop and A_gripperclose.Off);
+
+//Griper Open/Close:
+//Gripper is only allowed to close/open when it is down
+requirement {A_gripperclose.c_on, A_gripperclose.c_off} needs S_zpos.Atdown;
+
+//Gripper is only allowed to close at station 1, 2 or 3;
+requirement A_gripperclose.c_on  needs S_xpos.At1 or S_xpos.At2 or S_xpos.At3;
+
+//Gripper is only allowed to open at station 4;
+requirement A_gripperclose.c_off needs S_xpos.Atdrop;
+
+
+//Gripper X position:
+//Gripper is only allowed to move in x when it is fully ascended
+requirement {A_x2distributing.c_off, A_x2testing.c_off} needs S_zpos.Atup;
+
+//Gripper is never allowed to have both actuators off, rest position is both on
+requirement A_x2distributing.c_off needs A_x2testing.On;
+requirement A_x2testing.c_off      needs A_x2distributing.On;
+
+//Control strategy:
+//  - Wait at drop until either 1, 2 or 3 is filled. Priority 3 > 2 > 1
+//Assumptions:
+//  - Products at 3, 2, and 1 are never removed
+//  - Whenever the gripper starts moving towards handling, it stops at the first filled position.
+//  - Lead time is not important, dropper does not have to move for the transfer unit
+
+//Gripper is allowed to move to the dist when
+//  - currently at drop with no product, (to make room for transfer).
+//  - currently at 3 with no product, 3 empty, and 2 or 3 filled
+//  - currently at 2 with no product, 2 empty, and 1 filled
+requirement A_x2testing.c_off needs
+    (S_xpos.Atdrop and S_gripper.Off)  or
+    (S_xpos.At3    and S_gripper.Off and (S_product1.On or S_product2.On) and S_product3.Off) or
+    (S_xpos.At2    and S_gripper.Off and S_product1.On and S_product2.Off);
+
+//Gripper is allowed to stop when moving to dist when
+//  - currently at 3 with 3 filled;
+//  - currently at 3 with 1 and 2 empty;
+//  - currently at 2 with 2 filled;
+//  - currently at 1; Moving beyond this point is dangerous!
+requirement A_x2testing.c_on needs
+    (S_xpos.At3 and S_product3.On) or
+    (S_xpos.At3 and S_product2.Off and S_product1.Off) or
+    (S_xpos.At2 and S_product2.On) or
+    (S_xpos.At1);
+
+//Gripper is allowed to move to test when
+//  - currently at 1 with a product
+//  - currently at 2 with a product
+//  - currently at 3 with a product and the transfer is in a safe position
+requirement A_x2distributing.c_off needs
+    (S_xpos.At1 and S_gripper.On) or
+    (S_xpos.At2 and S_gripper.On) or
+    (S_xpos.At3 and S_gripper.On and S_product4.Off and S_transfer.Athalfway);
+
+//Gripper is allowed to stop when moving to test when
+//  - currently at 3 while the transfer is at a dangerous position
+//  - currently at 3 while 4 is filled;
+//  - currently at drop; Moving beyond this point is dangerous!
+requirement A_x2distributing.c_on needs
+    (S_xpos.At3 and not S_transfer.Athalfway) or
+    (S_xpos.At3 and S_product4.On) or
+    (S_xpos.Atdrop);
+
+//Transfer  is never allowed to have both actuators on, rest position is both off.
+requirement A_transfer2pickpos.c_on needs A_transfer2droppos.Off;
+requirement A_transfer2droppos.c_on needs A_transfer2pickpos.Off;
+
+//Transfer towards pickpos only when empty, whereas transfer towards drop only when full
+requirement A_transfer2pickpos.c_on needs S_vacuum.Off;
+requirement A_transfer2droppos.c_on needs S_vacuum.On;
+
+//Transfer is allowed to move towards pickpos when
+//  - currently at testing station
+//  - currently at halfway, product at drop, gripper is in safe pos
+requirement A_transfer2pickpos.c_on needs
+    (S_transfer.Atdrop) or
+    (S_transfer.Athalfway and S_product4.On and S_xpos.At3);
+
+//Transfer is allowed to stop move towards pickpos when
+//  - Currently at pickpos
+//  - Currently at middle, no product at drop
+requirement A_transfer2pickpos.c_off needs
+    (S_transfer.Atpickup) or
+    (S_transfer.Athalfway and not S_product4.On);
+
+//Transfer to drop position is described in overlapping plant file
+
+//Vacuum is allowed to enable when at pickup
+requirement A_vacuum.c_on      needs S_transfer.Atpickup;
+
+//Vacuum is allowed to disable when at drop
+requirement A_vacuum.c_off     needs S_transfer.Atdrop;
+
+//Eject pulse is allowed to enable when at drop
+requirement A_ejectpulse.c_on  needs S_transfer.Atdrop and S_vacuum.On;
+
+//Eject pulse is allowed to disable when there is no product vacuumed
+requirement A_ejectpulse.c_off needs S_vacuum.Off;

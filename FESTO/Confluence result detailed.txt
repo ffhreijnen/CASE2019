@@ -1,0 +1,2650 @@
+Loading CIF specification "Model.cif"...
+Converting to internal representation...
+Checking for finite response...
+Iteration 1
+
+The following events have initially been encountered in a forcible-event loop of automaton A_pusher1
+* (A_pusher1.c_off A_pusher1.c_on)
+
+Warning: (A_pusher1.c_off A_pusher1.c_on) is not forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton A_pusher2
+* (A_pusher2.c_off A_pusher2.c_on)
+
+Warning: (A_pusher2.c_off A_pusher2.c_on) is not forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton A_pusher3
+* (A_pusher3.c_off A_pusher3.c_on)
+
+Warning: (A_pusher3.c_off A_pusher3.c_on) is not forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton A_x2distributing
+* (A_x2distributing.c_off A_x2distributing.c_on)
+
+Warning: (A_x2distributing.c_off A_x2distributing.c_on) is not forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton A_x2testing
+* (A_x2testing.c_off A_x2testing.c_on)
+
+Warning: (A_x2testing.c_off A_x2testing.c_on) is not forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton A_zdown
+* (A_zdown.c_off A_zdown.c_on)
+
+Warning: (A_zdown.c_off A_zdown.c_on) is not forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton A_gripperclose
+* (A_gripperclose.c_off A_gripperclose.c_on)
+
+Warning: (A_gripperclose.c_off A_gripperclose.c_on) is not forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton A_transfer2pickpos
+* (A_transfer2pickpos.c_off A_transfer2pickpos.c_on)
+
+Warning: (A_transfer2pickpos.c_off A_transfer2pickpos.c_on) is not forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton A_transfer2droppos
+* (A_transfer2droppos.c_off A_transfer2droppos.c_on)
+
+Warning: (A_transfer2droppos.c_off A_transfer2droppos.c_on) is not forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton A_vacuum
+* (A_vacuum.c_off A_vacuum.c_on)
+
+Warning: (A_vacuum.c_off A_vacuum.c_on) is not forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton A_ejectpulse
+* (A_ejectpulse.c_off A_ejectpulse.c_on)
+
+(A_ejectpulse.c_off A_ejectpulse.c_on) is forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton A_elevator_up
+* (A_elevator_up.c_off A_elevator_up.c_on)
+
+Warning: (A_elevator_up.c_off A_elevator_up.c_on) is not forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton A_elevator_down
+* (A_elevator_down.c_off A_elevator_down.c_on)
+
+Warning: (A_elevator_down.c_off A_elevator_down.c_on) is not forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton A_pusher
+* (A_pusher.c_off A_pusher.c_on)
+
+Warning: (A_pusher.c_off A_pusher.c_on) is not forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton A_airslide
+* (A_airslide.c_off A_airslide.c_on)
+
+Warning: (A_airslide.c_off A_airslide.c_on) is not forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton TTimer
+* (TTimer.c_on TTimer.c_reset)
+
+Warning: (TTimer.c_on TTimer.c_reset) is not forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton PusherLift
+* (A_elevator_down.c_off A_pusher.c_on A_pusher.c_off A_elevator_down.c_on)
+
+(A_elevator_down.c_off A_pusher.c_on A_pusher.c_off A_elevator_down.c_on) is forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton A_separator
+* (A_separator.c_off A_separator.c_on)
+
+(A_separator.c_off A_separator.c_on) is forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton A_conveyerB
+* (A_conveyerB.c_off A_conveyerB.c_on)
+
+Warning: (A_conveyerB.c_off A_conveyerB.c_on) is not forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton BTimer
+* (BTimer.c_on BTimer.c_reset)
+
+Warning: (BTimer.c_on BTimer.c_reset) is not forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton A_drill
+* (A_drill.c_off A_drill.c_on)
+
+Warning: (A_drill.c_off A_drill.c_on) is not forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton A_turntable
+* (A_turntable.c_off A_turntable.c_on)
+
+(A_turntable.c_off A_turntable.c_on) is forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton A_drilldown
+* (A_drilldown.c_off A_drilldown.c_on)
+
+Warning: (A_drilldown.c_off A_drilldown.c_on) is not forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton A_drillup
+* (A_drillup.c_off A_drillup.c_on)
+
+Warning: (A_drillup.c_off A_drillup.c_on) is not forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton A_clamp
+* (A_clamp.c_off A_clamp.c_on)
+
+Warning: (A_clamp.c_off A_clamp.c_on) is not forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton A_tester
+* (A_tester.c_off A_tester.c_on)
+
+Warning: (A_tester.c_off A_tester.c_on) is not forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton A_eject
+* (A_eject.c_off A_eject.c_on)
+
+(A_eject.c_off A_eject.c_on) is forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton PTimer
+* (PTimer.c_on PTimer.c_reset)
+
+(PTimer.c_on PTimer.c_reset) is forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton A_conveyer
+* (A_conveyer.c_off A_conveyer.c_on)
+
+Warning: (A_conveyer.c_off A_conveyer.c_on) is not forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton A_gate1
+* (A_gate1.c_off A_gate1.c_on)
+
+Warning: (A_gate1.c_off A_gate1.c_on) is not forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton A_gate2
+* (A_gate2.c_off A_gate2.c_on)
+
+Warning: (A_gate2.c_off A_gate2.c_on) is not forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton A_stopperretract
+* (A_stopperretract.c_off A_stopperretract.c_on)
+
+(A_stopperretract.c_off A_stopperretract.c_on) is forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton STimer
+* (STimer.c_on STimer.c_reset)
+
+Warning: (STimer.c_on STimer.c_reset) is not forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton RequirementStateEvtExcls
+* (A_elevator_up.c_on)
+* (A_transfer2droppos.c_on)
+* (A_transfer2droppos.c_off)
+* (A_airslide.c_on)
+* (A_pusher1.c_on)
+* (A_pusher1.c_off)
+* (A_pusher2.c_on)
+* (A_pusher2.c_off)
+* (A_pusher3.c_on)
+* (A_pusher3.c_off)
+* (A_x2distributing.c_on)
+* (A_x2distributing.c_off)
+* (A_x2testing.c_on)
+* (A_x2testing.c_off)
+* (A_zdown.c_on)
+* (A_zdown.c_off)
+* (A_gripperclose.c_on)
+* (A_gripperclose.c_off)
+* (A_transfer2pickpos.c_on)
+* (A_transfer2pickpos.c_off)
+* (A_vacuum.c_on)
+* (A_vacuum.c_off)
+* (A_elevator_up.c_off)
+* (A_airslide.c_off)
+* (TTimer.c_on)
+* (TTimer.c_reset)
+* (A_conveyerB.c_on)
+* (A_conveyerB.c_off)
+* (BTimer.c_on)
+* (BTimer.c_reset)
+* (A_conveyer.c_on)
+* (A_conveyer.c_off)
+* (A_gate1.c_on)
+* (A_gate1.c_off)
+* (A_gate2.c_on)
+* (A_gate2.c_off)
+* (STimer.c_on)
+* (STimer.c_reset)
+
+Warning: (A_elevator_up.c_on) is not forcible-unconnectable
+Warning: (A_transfer2droppos.c_on) is not forcible-unconnectable
+Warning: (A_transfer2droppos.c_off) is not forcible-unconnectable
+Warning: (A_airslide.c_on) is not forcible-unconnectable
+Warning: (A_pusher1.c_on) is not forcible-unconnectable
+Warning: (A_pusher1.c_off) is not forcible-unconnectable
+Warning: (A_pusher2.c_on) is not forcible-unconnectable
+Warning: (A_pusher2.c_off) is not forcible-unconnectable
+Warning: (A_pusher3.c_on) is not forcible-unconnectable
+Warning: (A_pusher3.c_off) is not forcible-unconnectable
+Warning: (A_x2distributing.c_on) is not forcible-unconnectable
+Warning: (A_x2distributing.c_off) is not forcible-unconnectable
+Warning: (A_x2testing.c_on) is not forcible-unconnectable
+Warning: (A_x2testing.c_off) is not forcible-unconnectable
+Warning: (A_zdown.c_on) is not forcible-unconnectable
+Warning: (A_zdown.c_off) is not forcible-unconnectable
+Warning: (A_gripperclose.c_on) is not forcible-unconnectable
+Warning: (A_gripperclose.c_off) is not forcible-unconnectable
+Warning: (A_transfer2pickpos.c_on) is not forcible-unconnectable
+Warning: (A_transfer2pickpos.c_off) is not forcible-unconnectable
+Warning: (A_vacuum.c_on) is not forcible-unconnectable
+Warning: (A_vacuum.c_off) is not forcible-unconnectable
+Warning: (A_elevator_up.c_off) is not forcible-unconnectable
+Warning: (A_airslide.c_off) is not forcible-unconnectable
+Warning: (TTimer.c_on) is not forcible-unconnectable
+Warning: (TTimer.c_reset) is not forcible-unconnectable
+Warning: (A_conveyerB.c_on) is not forcible-unconnectable
+Warning: (A_conveyerB.c_off) is not forcible-unconnectable
+Warning: (BTimer.c_on) is not forcible-unconnectable
+Warning: (BTimer.c_reset) is not forcible-unconnectable
+Warning: (A_conveyer.c_on) is not forcible-unconnectable
+Warning: (A_conveyer.c_off) is not forcible-unconnectable
+Warning: (A_gate1.c_on) is not forcible-unconnectable
+Warning: (A_gate1.c_off) is not forcible-unconnectable
+Warning: (A_gate2.c_on) is not forcible-unconnectable
+Warning: (A_gate2.c_off) is not forcible-unconnectable
+Warning: (STimer.c_on) is not forcible-unconnectable
+Warning: (STimer.c_reset) is not forcible-unconnectable
+Iteration 2
+
+The following events have initially been encountered in a forcible-event loop of automaton A_pusher1
+* (A_pusher1.c_off A_pusher1.c_on)
+
+Warning: (A_pusher1.c_off A_pusher1.c_on) is not forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton A_pusher2
+* (A_pusher2.c_off A_pusher2.c_on)
+
+Warning: (A_pusher2.c_off A_pusher2.c_on) is not forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton A_pusher3
+* (A_pusher3.c_off A_pusher3.c_on)
+
+Warning: (A_pusher3.c_off A_pusher3.c_on) is not forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton A_x2distributing
+* (A_x2distributing.c_off A_x2distributing.c_on)
+
+Warning: (A_x2distributing.c_off A_x2distributing.c_on) is not forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton A_x2testing
+* (A_x2testing.c_off A_x2testing.c_on)
+
+Warning: (A_x2testing.c_off A_x2testing.c_on) is not forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton A_zdown
+* (A_zdown.c_off A_zdown.c_on)
+
+Warning: (A_zdown.c_off A_zdown.c_on) is not forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton A_gripperclose
+* (A_gripperclose.c_off A_gripperclose.c_on)
+
+Warning: (A_gripperclose.c_off A_gripperclose.c_on) is not forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton A_transfer2pickpos
+* (A_transfer2pickpos.c_off A_transfer2pickpos.c_on)
+
+Warning: (A_transfer2pickpos.c_off A_transfer2pickpos.c_on) is not forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton A_transfer2droppos
+* (A_transfer2droppos.c_off A_transfer2droppos.c_on)
+
+Warning: (A_transfer2droppos.c_off A_transfer2droppos.c_on) is not forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton A_vacuum
+* (A_vacuum.c_off A_vacuum.c_on)
+
+Warning: (A_vacuum.c_off A_vacuum.c_on) is not forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton A_elevator_up
+* (A_elevator_up.c_off A_elevator_up.c_on)
+
+Warning: (A_elevator_up.c_off A_elevator_up.c_on) is not forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton A_airslide
+* (A_airslide.c_off A_airslide.c_on)
+
+Warning: (A_airslide.c_off A_airslide.c_on) is not forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton TTimer
+* (TTimer.c_on TTimer.c_reset)
+
+(TTimer.c_on TTimer.c_reset) is forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton A_conveyerB
+* (A_conveyerB.c_off A_conveyerB.c_on)
+
+Warning: (A_conveyerB.c_off A_conveyerB.c_on) is not forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton BTimer
+* (BTimer.c_on BTimer.c_reset)
+
+Warning: (BTimer.c_on BTimer.c_reset) is not forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton A_conveyer
+* (A_conveyer.c_off A_conveyer.c_on)
+
+Warning: (A_conveyer.c_off A_conveyer.c_on) is not forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton A_gate1
+* (A_gate1.c_off A_gate1.c_on)
+
+Warning: (A_gate1.c_off A_gate1.c_on) is not forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton A_gate2
+* (A_gate2.c_off A_gate2.c_on)
+
+Warning: (A_gate2.c_off A_gate2.c_on) is not forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton STimer
+* (STimer.c_on STimer.c_reset)
+
+Warning: (STimer.c_on STimer.c_reset) is not forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton RequirementStateEvtExcls
+* (A_elevator_up.c_on)
+* (A_transfer2droppos.c_on)
+* (A_transfer2droppos.c_off)
+* (A_airslide.c_on)
+* (A_pusher1.c_on)
+* (A_pusher1.c_off)
+* (A_pusher2.c_on)
+* (A_pusher2.c_off)
+* (A_pusher3.c_on)
+* (A_pusher3.c_off)
+* (A_x2distributing.c_on)
+* (A_x2distributing.c_off)
+* (A_x2testing.c_on)
+* (A_x2testing.c_off)
+* (A_zdown.c_on)
+* (A_zdown.c_off)
+* (A_gripperclose.c_on)
+* (A_gripperclose.c_off)
+* (A_transfer2pickpos.c_on)
+* (A_transfer2pickpos.c_off)
+* (A_vacuum.c_on)
+* (A_vacuum.c_off)
+* (A_elevator_up.c_off)
+* (A_airslide.c_off)
+* (A_conveyerB.c_on)
+* (A_conveyerB.c_off)
+* (BTimer.c_on)
+* (BTimer.c_reset)
+* (A_conveyer.c_on)
+* (A_conveyer.c_off)
+* (A_gate1.c_on)
+* (A_gate1.c_off)
+* (A_gate2.c_on)
+* (A_gate2.c_off)
+* (STimer.c_on)
+* (STimer.c_reset)
+
+Warning: (A_elevator_up.c_on) is not forcible-unconnectable
+Warning: (A_transfer2droppos.c_on) is not forcible-unconnectable
+Warning: (A_transfer2droppos.c_off) is not forcible-unconnectable
+Warning: (A_airslide.c_on) is not forcible-unconnectable
+Warning: (A_pusher1.c_on) is not forcible-unconnectable
+Warning: (A_pusher1.c_off) is not forcible-unconnectable
+Warning: (A_pusher2.c_on) is not forcible-unconnectable
+Warning: (A_pusher2.c_off) is not forcible-unconnectable
+Warning: (A_pusher3.c_on) is not forcible-unconnectable
+Warning: (A_pusher3.c_off) is not forcible-unconnectable
+Warning: (A_x2distributing.c_on) is not forcible-unconnectable
+Warning: (A_x2distributing.c_off) is not forcible-unconnectable
+Warning: (A_x2testing.c_on) is not forcible-unconnectable
+Warning: (A_x2testing.c_off) is not forcible-unconnectable
+Warning: (A_zdown.c_on) is not forcible-unconnectable
+Warning: (A_zdown.c_off) is not forcible-unconnectable
+Warning: (A_gripperclose.c_on) is not forcible-unconnectable
+Warning: (A_gripperclose.c_off) is not forcible-unconnectable
+Warning: (A_transfer2pickpos.c_on) is not forcible-unconnectable
+Warning: (A_transfer2pickpos.c_off) is not forcible-unconnectable
+Warning: (A_vacuum.c_on) is not forcible-unconnectable
+Warning: (A_vacuum.c_off) is not forcible-unconnectable
+Warning: (A_elevator_up.c_off) is not forcible-unconnectable
+Warning: (A_airslide.c_off) is not forcible-unconnectable
+Warning: (A_conveyerB.c_on) is not forcible-unconnectable
+Warning: (A_conveyerB.c_off) is not forcible-unconnectable
+Warning: (BTimer.c_on) is not forcible-unconnectable
+Warning: (BTimer.c_reset) is not forcible-unconnectable
+Warning: (A_conveyer.c_on) is not forcible-unconnectable
+Warning: (A_conveyer.c_off) is not forcible-unconnectable
+Warning: (A_gate1.c_on) is not forcible-unconnectable
+Warning: (A_gate1.c_off) is not forcible-unconnectable
+Warning: (A_gate2.c_on) is not forcible-unconnectable
+Warning: (A_gate2.c_off) is not forcible-unconnectable
+Warning: (STimer.c_on) is not forcible-unconnectable
+Warning: (STimer.c_reset) is not forcible-unconnectable
+Iteration 3
+
+The following events have initially been encountered in a forcible-event loop of automaton A_pusher1
+* (A_pusher1.c_off A_pusher1.c_on)
+
+Warning: (A_pusher1.c_off A_pusher1.c_on) is not forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton A_pusher2
+* (A_pusher2.c_off A_pusher2.c_on)
+
+Warning: (A_pusher2.c_off A_pusher2.c_on) is not forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton A_pusher3
+* (A_pusher3.c_off A_pusher3.c_on)
+
+Warning: (A_pusher3.c_off A_pusher3.c_on) is not forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton A_x2distributing
+* (A_x2distributing.c_off A_x2distributing.c_on)
+
+Warning: (A_x2distributing.c_off A_x2distributing.c_on) is not forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton A_x2testing
+* (A_x2testing.c_off A_x2testing.c_on)
+
+Warning: (A_x2testing.c_off A_x2testing.c_on) is not forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton A_zdown
+* (A_zdown.c_off A_zdown.c_on)
+
+Warning: (A_zdown.c_off A_zdown.c_on) is not forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton A_gripperclose
+* (A_gripperclose.c_off A_gripperclose.c_on)
+
+Warning: (A_gripperclose.c_off A_gripperclose.c_on) is not forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton A_transfer2pickpos
+* (A_transfer2pickpos.c_off A_transfer2pickpos.c_on)
+
+Warning: (A_transfer2pickpos.c_off A_transfer2pickpos.c_on) is not forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton A_transfer2droppos
+* (A_transfer2droppos.c_off A_transfer2droppos.c_on)
+
+Warning: (A_transfer2droppos.c_off A_transfer2droppos.c_on) is not forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton A_vacuum
+* (A_vacuum.c_off A_vacuum.c_on)
+
+Warning: (A_vacuum.c_off A_vacuum.c_on) is not forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton A_elevator_up
+* (A_elevator_up.c_off A_elevator_up.c_on)
+
+Warning: (A_elevator_up.c_off A_elevator_up.c_on) is not forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton A_airslide
+* (A_airslide.c_off A_airslide.c_on)
+
+Warning: (A_airslide.c_off A_airslide.c_on) is not forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton A_conveyerB
+* (A_conveyerB.c_off A_conveyerB.c_on)
+
+Warning: (A_conveyerB.c_off A_conveyerB.c_on) is not forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton BTimer
+* (BTimer.c_on BTimer.c_reset)
+
+Warning: (BTimer.c_on BTimer.c_reset) is not forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton A_conveyer
+* (A_conveyer.c_off A_conveyer.c_on)
+
+Warning: (A_conveyer.c_off A_conveyer.c_on) is not forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton A_gate1
+* (A_gate1.c_off A_gate1.c_on)
+
+Warning: (A_gate1.c_off A_gate1.c_on) is not forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton A_gate2
+* (A_gate2.c_off A_gate2.c_on)
+
+Warning: (A_gate2.c_off A_gate2.c_on) is not forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton STimer
+* (STimer.c_on STimer.c_reset)
+
+Warning: (STimer.c_on STimer.c_reset) is not forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton RequirementStateEvtExcls
+* (A_elevator_up.c_on)
+* (A_transfer2droppos.c_on)
+* (A_transfer2droppos.c_off)
+* (A_airslide.c_on)
+* (A_pusher1.c_on)
+* (A_pusher1.c_off)
+* (A_pusher2.c_on)
+* (A_pusher2.c_off)
+* (A_pusher3.c_on)
+* (A_pusher3.c_off)
+* (A_x2distributing.c_on)
+* (A_x2distributing.c_off)
+* (A_x2testing.c_on)
+* (A_x2testing.c_off)
+* (A_zdown.c_on)
+* (A_zdown.c_off)
+* (A_gripperclose.c_on)
+* (A_gripperclose.c_off)
+* (A_transfer2pickpos.c_on)
+* (A_transfer2pickpos.c_off)
+* (A_vacuum.c_on)
+* (A_vacuum.c_off)
+* (A_elevator_up.c_off)
+* (A_airslide.c_off)
+* (A_conveyerB.c_on)
+* (A_conveyerB.c_off)
+* (BTimer.c_on)
+* (BTimer.c_reset)
+* (A_conveyer.c_on)
+* (A_conveyer.c_off)
+* (A_gate1.c_on)
+* (A_gate1.c_off)
+* (A_gate2.c_on)
+* (A_gate2.c_off)
+* (STimer.c_on)
+* (STimer.c_reset)
+
+Warning: (A_elevator_up.c_on) is not forcible-unconnectable
+Warning: (A_transfer2droppos.c_on) is not forcible-unconnectable
+Warning: (A_transfer2droppos.c_off) is not forcible-unconnectable
+Warning: (A_airslide.c_on) is not forcible-unconnectable
+Warning: (A_pusher1.c_on) is not forcible-unconnectable
+Warning: (A_pusher1.c_off) is not forcible-unconnectable
+Warning: (A_pusher2.c_on) is not forcible-unconnectable
+Warning: (A_pusher2.c_off) is not forcible-unconnectable
+Warning: (A_pusher3.c_on) is not forcible-unconnectable
+Warning: (A_pusher3.c_off) is not forcible-unconnectable
+Warning: (A_x2distributing.c_on) is not forcible-unconnectable
+Warning: (A_x2distributing.c_off) is not forcible-unconnectable
+Warning: (A_x2testing.c_on) is not forcible-unconnectable
+Warning: (A_x2testing.c_off) is not forcible-unconnectable
+Warning: (A_zdown.c_on) is not forcible-unconnectable
+Warning: (A_zdown.c_off) is not forcible-unconnectable
+Warning: (A_gripperclose.c_on) is not forcible-unconnectable
+Warning: (A_gripperclose.c_off) is not forcible-unconnectable
+Warning: (A_transfer2pickpos.c_on) is not forcible-unconnectable
+Warning: (A_transfer2pickpos.c_off) is not forcible-unconnectable
+Warning: (A_vacuum.c_on) is not forcible-unconnectable
+Warning: (A_vacuum.c_off) is not forcible-unconnectable
+Warning: (A_elevator_up.c_off) is not forcible-unconnectable
+Warning: (A_airslide.c_off) is not forcible-unconnectable
+Warning: (A_conveyerB.c_on) is not forcible-unconnectable
+Warning: (A_conveyerB.c_off) is not forcible-unconnectable
+Warning: (BTimer.c_on) is not forcible-unconnectable
+Warning: (BTimer.c_reset) is not forcible-unconnectable
+Warning: (A_conveyer.c_on) is not forcible-unconnectable
+Warning: (A_conveyer.c_off) is not forcible-unconnectable
+Warning: (A_gate1.c_on) is not forcible-unconnectable
+Warning: (A_gate1.c_off) is not forcible-unconnectable
+Warning: (A_gate2.c_on) is not forcible-unconnectable
+Warning: (A_gate2.c_off) is not forcible-unconnectable
+Warning: (STimer.c_on) is not forcible-unconnectable
+Warning: (STimer.c_reset) is not forcible-unconnectable
+The specification does not have finite response, at least one forcible-event loop was found.
+The following events might still occur in a forcible loop.
+A_pusher1.c_off, 
+A_pusher1.c_on, 
+A_pusher2.c_off, 
+A_pusher2.c_on, 
+A_pusher3.c_off, 
+A_pusher3.c_on, 
+A_x2distributing.c_off, 
+A_x2distributing.c_on, 
+A_x2testing.c_off, 
+A_x2testing.c_on, 
+A_zdown.c_off, 
+A_zdown.c_on, 
+A_gripperclose.c_off, 
+A_gripperclose.c_on, 
+A_transfer2pickpos.c_off, 
+A_transfer2pickpos.c_on, 
+A_transfer2droppos.c_off, 
+A_transfer2droppos.c_on, 
+A_vacuum.c_off, 
+A_vacuum.c_on, 
+A_elevator_up.c_off, 
+A_elevator_up.c_on, 
+A_airslide.c_off, 
+A_airslide.c_on, 
+A_conveyerB.c_off, 
+A_conveyerB.c_on, 
+BTimer.c_on, 
+BTimer.c_reset, 
+A_conveyer.c_off, 
+A_conveyer.c_on, 
+A_gate1.c_off, 
+A_gate1.c_on, 
+A_gate2.c_off, 
+A_gate2.c_on, 
+STimer.c_on, 
+STimer.c_reset, 
+Checking for confluence...
+Event A_pusher1.c_off and event A_pusher1.c_on are mutually exclusive.
+Event A_pusher1.c_off and event A_pusher2.c_off are independent.
+Event A_pusher1.c_off and event A_pusher2.c_on are independent.
+Event A_pusher1.c_off and event A_pusher3.c_off are independent.
+Event A_pusher1.c_off and event A_pusher3.c_on are independent.
+Event A_pusher1.c_off and event A_x2distributing.c_off are independent.
+Event A_pusher1.c_off and event A_x2distributing.c_on are independent.
+Event A_pusher1.c_off and event A_x2testing.c_off are independent.
+Event A_pusher1.c_off and event A_x2testing.c_on are independent.
+Event A_pusher1.c_off and event A_zdown.c_off are independent.
+Event A_pusher1.c_off and event A_zdown.c_on are independent.
+Event A_pusher1.c_off and event A_gripperclose.c_off are independent.
+Event A_pusher1.c_off and event A_gripperclose.c_on are independent.
+Event A_pusher1.c_off and event A_transfer2pickpos.c_off are independent.
+Event A_pusher1.c_off and event A_transfer2pickpos.c_on are independent.
+Event A_pusher1.c_off and event A_transfer2droppos.c_off are independent.
+Event A_pusher1.c_off and event A_transfer2droppos.c_on are independent.
+Event A_pusher1.c_off and event A_vacuum.c_off are independent.
+Event A_pusher1.c_off and event A_vacuum.c_on are independent.
+Event A_pusher1.c_off and event A_ejectpulse.c_off are independent.
+Event A_pusher1.c_off and event A_ejectpulse.c_on are independent.
+Event A_pusher1.c_off and event A_elevator_up.c_off are independent.
+Event A_pusher1.c_off and event A_elevator_up.c_on are independent.
+Event A_pusher1.c_off and event A_elevator_down.c_off are independent.
+Event A_pusher1.c_off and event A_elevator_down.c_on are independent.
+Event A_pusher1.c_off and event A_pusher.c_off are independent.
+Event A_pusher1.c_off and event A_pusher.c_on are independent.
+Event A_pusher1.c_off and event A_airslide.c_off are independent.
+Event A_pusher1.c_off and event A_airslide.c_on are independent.
+Event A_pusher1.c_off and event TTimer.c_on are independent.
+Event A_pusher1.c_off and event TTimer.c_reset are independent.
+Event A_pusher1.c_off and event A_separator.c_off are independent.
+Event A_pusher1.c_off and event A_separator.c_on are independent.
+Event A_pusher1.c_off and event A_conveyerB.c_off are independent.
+Event A_pusher1.c_off and event A_conveyerB.c_on are independent.
+Event A_pusher1.c_off and event BTimer.c_on are independent.
+Event A_pusher1.c_off and event BTimer.c_reset are independent.
+Event A_pusher1.c_off and event A_drill.c_off are independent.
+Event A_pusher1.c_off and event A_drill.c_on are independent.
+Event A_pusher1.c_off and event A_turntable.c_off are independent.
+Event A_pusher1.c_off and event A_turntable.c_on are independent.
+Event A_pusher1.c_off and event A_drilldown.c_off are independent.
+Event A_pusher1.c_off and event A_drilldown.c_on are independent.
+Event A_pusher1.c_off and event A_drillup.c_off are independent.
+Event A_pusher1.c_off and event A_drillup.c_on are independent.
+Event A_pusher1.c_off and event A_clamp.c_off are independent.
+Event A_pusher1.c_off and event A_clamp.c_on are independent.
+Event A_pusher1.c_off and event A_tester.c_off are independent.
+Event A_pusher1.c_off and event A_tester.c_on are independent.
+Event A_pusher1.c_off and event A_eject.c_off are independent.
+Event A_pusher1.c_off and event A_eject.c_on are independent.
+Event A_pusher1.c_off and event PTimer.c_on are independent.
+Event A_pusher1.c_off and event PTimer.c_reset are independent.
+Event A_pusher1.c_off and event A_conveyer.c_off are independent.
+Event A_pusher1.c_off and event A_conveyer.c_on are independent.
+Event A_pusher1.c_off and event A_gate1.c_off are independent.
+Event A_pusher1.c_off and event A_gate1.c_on are independent.
+Event A_pusher1.c_off and event A_gate2.c_off are independent.
+Event A_pusher1.c_off and event A_gate2.c_on are independent.
+Event A_pusher1.c_off and event A_stopperretract.c_off are independent.
+Event A_pusher1.c_off and event A_stopperretract.c_on are independent.
+Event A_pusher1.c_off and event STimer.c_on are independent.
+Event A_pusher1.c_off and event STimer.c_reset are independent.
+Event A_pusher1.c_on and event A_pusher2.c_off are independent.
+Event A_pusher1.c_on and event A_pusher2.c_on are independent.
+Event A_pusher1.c_on and event A_pusher3.c_off are independent.
+Event A_pusher1.c_on and event A_pusher3.c_on are independent.
+Event A_pusher1.c_on and event A_x2distributing.c_off are independent.
+Event A_pusher1.c_on and event A_x2distributing.c_on are independent.
+Event A_pusher1.c_on and event A_x2testing.c_off are independent.
+Event A_pusher1.c_on and event A_x2testing.c_on are independent.
+Event A_pusher1.c_on and event A_zdown.c_off are independent.
+Event A_pusher1.c_on and event A_zdown.c_on are independent.
+Event A_pusher1.c_on and event A_gripperclose.c_off are independent.
+Event A_pusher1.c_on and event A_gripperclose.c_on are independent.
+Event A_pusher1.c_on and event A_transfer2pickpos.c_off are independent.
+Event A_pusher1.c_on and event A_transfer2pickpos.c_on are independent.
+Event A_pusher1.c_on and event A_transfer2droppos.c_off are independent.
+Event A_pusher1.c_on and event A_transfer2droppos.c_on are independent.
+Event A_pusher1.c_on and event A_vacuum.c_off are independent.
+Event A_pusher1.c_on and event A_vacuum.c_on are independent.
+Event A_pusher1.c_on and event A_ejectpulse.c_off are independent.
+Event A_pusher1.c_on and event A_ejectpulse.c_on are independent.
+Event A_pusher1.c_on and event A_elevator_up.c_off are independent.
+Event A_pusher1.c_on and event A_elevator_up.c_on are independent.
+Event A_pusher1.c_on and event A_elevator_down.c_off are independent.
+Event A_pusher1.c_on and event A_elevator_down.c_on are independent.
+Event A_pusher1.c_on and event A_pusher.c_off are independent.
+Event A_pusher1.c_on and event A_pusher.c_on are independent.
+Event A_pusher1.c_on and event A_airslide.c_off are independent.
+Event A_pusher1.c_on and event A_airslide.c_on are independent.
+Event A_pusher1.c_on and event TTimer.c_on are independent.
+Event A_pusher1.c_on and event TTimer.c_reset are independent.
+Event A_pusher1.c_on and event A_separator.c_off are independent.
+Event A_pusher1.c_on and event A_separator.c_on are independent.
+Event A_pusher1.c_on and event A_conveyerB.c_off are independent.
+Event A_pusher1.c_on and event A_conveyerB.c_on are independent.
+Event A_pusher1.c_on and event BTimer.c_on are independent.
+Event A_pusher1.c_on and event BTimer.c_reset are independent.
+Event A_pusher1.c_on and event A_drill.c_off are independent.
+Event A_pusher1.c_on and event A_drill.c_on are independent.
+Event A_pusher1.c_on and event A_turntable.c_off are independent.
+Event A_pusher1.c_on and event A_turntable.c_on are independent.
+Event A_pusher1.c_on and event A_drilldown.c_off are independent.
+Event A_pusher1.c_on and event A_drilldown.c_on are independent.
+Event A_pusher1.c_on and event A_drillup.c_off are independent.
+Event A_pusher1.c_on and event A_drillup.c_on are independent.
+Event A_pusher1.c_on and event A_clamp.c_off are independent.
+Event A_pusher1.c_on and event A_clamp.c_on are independent.
+Event A_pusher1.c_on and event A_tester.c_off are independent.
+Event A_pusher1.c_on and event A_tester.c_on are independent.
+Event A_pusher1.c_on and event A_eject.c_off are independent.
+Event A_pusher1.c_on and event A_eject.c_on are independent.
+Event A_pusher1.c_on and event PTimer.c_on are independent.
+Event A_pusher1.c_on and event PTimer.c_reset are independent.
+Event A_pusher1.c_on and event A_conveyer.c_off are independent.
+Event A_pusher1.c_on and event A_conveyer.c_on are independent.
+Event A_pusher1.c_on and event A_gate1.c_off are independent.
+Event A_pusher1.c_on and event A_gate1.c_on are independent.
+Event A_pusher1.c_on and event A_gate2.c_off are independent.
+Event A_pusher1.c_on and event A_gate2.c_on are independent.
+Event A_pusher1.c_on and event A_stopperretract.c_off are independent.
+Event A_pusher1.c_on and event A_stopperretract.c_on are independent.
+Event A_pusher1.c_on and event STimer.c_on are independent.
+Event A_pusher1.c_on and event STimer.c_reset are independent.
+Event A_pusher2.c_off and event A_pusher2.c_on are mutually exclusive.
+Event A_pusher2.c_off and event A_pusher3.c_off are independent.
+Event A_pusher2.c_off and event A_pusher3.c_on are independent.
+Event A_pusher2.c_off and event A_x2distributing.c_off are independent.
+Event A_pusher2.c_off and event A_x2distributing.c_on are independent.
+Event A_pusher2.c_off and event A_x2testing.c_off are independent.
+Event A_pusher2.c_off and event A_x2testing.c_on are independent.
+Event A_pusher2.c_off and event A_zdown.c_off are independent.
+Event A_pusher2.c_off and event A_zdown.c_on are independent.
+Event A_pusher2.c_off and event A_gripperclose.c_off are independent.
+Event A_pusher2.c_off and event A_gripperclose.c_on are independent.
+Event A_pusher2.c_off and event A_transfer2pickpos.c_off are independent.
+Event A_pusher2.c_off and event A_transfer2pickpos.c_on are independent.
+Event A_pusher2.c_off and event A_transfer2droppos.c_off are independent.
+Event A_pusher2.c_off and event A_transfer2droppos.c_on are independent.
+Event A_pusher2.c_off and event A_vacuum.c_off are independent.
+Event A_pusher2.c_off and event A_vacuum.c_on are independent.
+Event A_pusher2.c_off and event A_ejectpulse.c_off are independent.
+Event A_pusher2.c_off and event A_ejectpulse.c_on are independent.
+Event A_pusher2.c_off and event A_elevator_up.c_off are independent.
+Event A_pusher2.c_off and event A_elevator_up.c_on are independent.
+Event A_pusher2.c_off and event A_elevator_down.c_off are independent.
+Event A_pusher2.c_off and event A_elevator_down.c_on are independent.
+Event A_pusher2.c_off and event A_pusher.c_off are independent.
+Event A_pusher2.c_off and event A_pusher.c_on are independent.
+Event A_pusher2.c_off and event A_airslide.c_off are independent.
+Event A_pusher2.c_off and event A_airslide.c_on are independent.
+Event A_pusher2.c_off and event TTimer.c_on are independent.
+Event A_pusher2.c_off and event TTimer.c_reset are independent.
+Event A_pusher2.c_off and event A_separator.c_off are independent.
+Event A_pusher2.c_off and event A_separator.c_on are independent.
+Event A_pusher2.c_off and event A_conveyerB.c_off are independent.
+Event A_pusher2.c_off and event A_conveyerB.c_on are independent.
+Event A_pusher2.c_off and event BTimer.c_on are independent.
+Event A_pusher2.c_off and event BTimer.c_reset are independent.
+Event A_pusher2.c_off and event A_drill.c_off are independent.
+Event A_pusher2.c_off and event A_drill.c_on are independent.
+Event A_pusher2.c_off and event A_turntable.c_off are independent.
+Event A_pusher2.c_off and event A_turntable.c_on are independent.
+Event A_pusher2.c_off and event A_drilldown.c_off are independent.
+Event A_pusher2.c_off and event A_drilldown.c_on are independent.
+Event A_pusher2.c_off and event A_drillup.c_off are independent.
+Event A_pusher2.c_off and event A_drillup.c_on are independent.
+Event A_pusher2.c_off and event A_clamp.c_off are independent.
+Event A_pusher2.c_off and event A_clamp.c_on are independent.
+Event A_pusher2.c_off and event A_tester.c_off are independent.
+Event A_pusher2.c_off and event A_tester.c_on are independent.
+Event A_pusher2.c_off and event A_eject.c_off are independent.
+Event A_pusher2.c_off and event A_eject.c_on are independent.
+Event A_pusher2.c_off and event PTimer.c_on are independent.
+Event A_pusher2.c_off and event PTimer.c_reset are independent.
+Event A_pusher2.c_off and event A_conveyer.c_off are independent.
+Event A_pusher2.c_off and event A_conveyer.c_on are independent.
+Event A_pusher2.c_off and event A_gate1.c_off are independent.
+Event A_pusher2.c_off and event A_gate1.c_on are independent.
+Event A_pusher2.c_off and event A_gate2.c_off are independent.
+Event A_pusher2.c_off and event A_gate2.c_on are independent.
+Event A_pusher2.c_off and event A_stopperretract.c_off are independent.
+Event A_pusher2.c_off and event A_stopperretract.c_on are independent.
+Event A_pusher2.c_off and event STimer.c_on are independent.
+Event A_pusher2.c_off and event STimer.c_reset are independent.
+Event A_pusher2.c_on and event A_pusher3.c_off are independent.
+Event A_pusher2.c_on and event A_pusher3.c_on are independent.
+Event A_pusher2.c_on and event A_x2distributing.c_off are independent.
+Event A_pusher2.c_on and event A_x2distributing.c_on are independent.
+Event A_pusher2.c_on and event A_x2testing.c_off are independent.
+Event A_pusher2.c_on and event A_x2testing.c_on are independent.
+Event A_pusher2.c_on and event A_zdown.c_off are independent.
+Event A_pusher2.c_on and event A_zdown.c_on are independent.
+Event A_pusher2.c_on and event A_gripperclose.c_off are independent.
+Event A_pusher2.c_on and event A_gripperclose.c_on are independent.
+Event A_pusher2.c_on and event A_transfer2pickpos.c_off are independent.
+Event A_pusher2.c_on and event A_transfer2pickpos.c_on are independent.
+Event A_pusher2.c_on and event A_transfer2droppos.c_off are independent.
+Event A_pusher2.c_on and event A_transfer2droppos.c_on are independent.
+Event A_pusher2.c_on and event A_vacuum.c_off are independent.
+Event A_pusher2.c_on and event A_vacuum.c_on are independent.
+Event A_pusher2.c_on and event A_ejectpulse.c_off are independent.
+Event A_pusher2.c_on and event A_ejectpulse.c_on are independent.
+Event A_pusher2.c_on and event A_elevator_up.c_off are independent.
+Event A_pusher2.c_on and event A_elevator_up.c_on are independent.
+Event A_pusher2.c_on and event A_elevator_down.c_off are independent.
+Event A_pusher2.c_on and event A_elevator_down.c_on are independent.
+Event A_pusher2.c_on and event A_pusher.c_off are independent.
+Event A_pusher2.c_on and event A_pusher.c_on are independent.
+Event A_pusher2.c_on and event A_airslide.c_off are independent.
+Event A_pusher2.c_on and event A_airslide.c_on are independent.
+Event A_pusher2.c_on and event TTimer.c_on are independent.
+Event A_pusher2.c_on and event TTimer.c_reset are independent.
+Event A_pusher2.c_on and event A_separator.c_off are independent.
+Event A_pusher2.c_on and event A_separator.c_on are independent.
+Event A_pusher2.c_on and event A_conveyerB.c_off are independent.
+Event A_pusher2.c_on and event A_conveyerB.c_on are independent.
+Event A_pusher2.c_on and event BTimer.c_on are independent.
+Event A_pusher2.c_on and event BTimer.c_reset are independent.
+Event A_pusher2.c_on and event A_drill.c_off are independent.
+Event A_pusher2.c_on and event A_drill.c_on are independent.
+Event A_pusher2.c_on and event A_turntable.c_off are independent.
+Event A_pusher2.c_on and event A_turntable.c_on are independent.
+Event A_pusher2.c_on and event A_drilldown.c_off are independent.
+Event A_pusher2.c_on and event A_drilldown.c_on are independent.
+Event A_pusher2.c_on and event A_drillup.c_off are independent.
+Event A_pusher2.c_on and event A_drillup.c_on are independent.
+Event A_pusher2.c_on and event A_clamp.c_off are independent.
+Event A_pusher2.c_on and event A_clamp.c_on are independent.
+Event A_pusher2.c_on and event A_tester.c_off are independent.
+Event A_pusher2.c_on and event A_tester.c_on are independent.
+Event A_pusher2.c_on and event A_eject.c_off are independent.
+Event A_pusher2.c_on and event A_eject.c_on are independent.
+Event A_pusher2.c_on and event PTimer.c_on are independent.
+Event A_pusher2.c_on and event PTimer.c_reset are independent.
+Event A_pusher2.c_on and event A_conveyer.c_off are independent.
+Event A_pusher2.c_on and event A_conveyer.c_on are independent.
+Event A_pusher2.c_on and event A_gate1.c_off are independent.
+Event A_pusher2.c_on and event A_gate1.c_on are independent.
+Event A_pusher2.c_on and event A_gate2.c_off are independent.
+Event A_pusher2.c_on and event A_gate2.c_on are independent.
+Event A_pusher2.c_on and event A_stopperretract.c_off are independent.
+Event A_pusher2.c_on and event A_stopperretract.c_on are independent.
+Event A_pusher2.c_on and event STimer.c_on are independent.
+Event A_pusher2.c_on and event STimer.c_reset are independent.
+Event A_pusher3.c_off and event A_pusher3.c_on are mutually exclusive.
+Event A_pusher3.c_off and event A_x2distributing.c_off are independent.
+Event A_pusher3.c_off and event A_x2distributing.c_on are independent.
+Event A_pusher3.c_off and event A_x2testing.c_off are independent.
+Event A_pusher3.c_off and event A_x2testing.c_on are independent.
+Event A_pusher3.c_off and event A_zdown.c_off are independent.
+Event A_pusher3.c_off and event A_zdown.c_on are independent.
+Event A_pusher3.c_off and event A_gripperclose.c_off are independent.
+Event A_pusher3.c_off and event A_gripperclose.c_on are independent.
+Event A_pusher3.c_off and event A_transfer2pickpos.c_off are independent.
+Event A_pusher3.c_off and event A_transfer2pickpos.c_on are independent.
+Event A_pusher3.c_off and event A_transfer2droppos.c_off are independent.
+Event A_pusher3.c_off and event A_transfer2droppos.c_on are independent.
+Event A_pusher3.c_off and event A_vacuum.c_off are independent.
+Event A_pusher3.c_off and event A_vacuum.c_on are independent.
+Event A_pusher3.c_off and event A_ejectpulse.c_off are independent.
+Event A_pusher3.c_off and event A_ejectpulse.c_on are independent.
+Event A_pusher3.c_off and event A_elevator_up.c_off are independent.
+Event A_pusher3.c_off and event A_elevator_up.c_on are independent.
+Event A_pusher3.c_off and event A_elevator_down.c_off are independent.
+Event A_pusher3.c_off and event A_elevator_down.c_on are independent.
+Event A_pusher3.c_off and event A_pusher.c_off are independent.
+Event A_pusher3.c_off and event A_pusher.c_on are independent.
+Event A_pusher3.c_off and event A_airslide.c_off are independent.
+Event A_pusher3.c_off and event A_airslide.c_on are independent.
+Event A_pusher3.c_off and event TTimer.c_on are independent.
+Event A_pusher3.c_off and event TTimer.c_reset are independent.
+Event A_pusher3.c_off and event A_separator.c_off are independent.
+Event A_pusher3.c_off and event A_separator.c_on are independent.
+Event A_pusher3.c_off and event A_conveyerB.c_off are independent.
+Event A_pusher3.c_off and event A_conveyerB.c_on are independent.
+Event A_pusher3.c_off and event BTimer.c_on are independent.
+Event A_pusher3.c_off and event BTimer.c_reset are independent.
+Event A_pusher3.c_off and event A_drill.c_off are independent.
+Event A_pusher3.c_off and event A_drill.c_on are independent.
+Event A_pusher3.c_off and event A_turntable.c_off are independent.
+Event A_pusher3.c_off and event A_turntable.c_on are independent.
+Event A_pusher3.c_off and event A_drilldown.c_off are independent.
+Event A_pusher3.c_off and event A_drilldown.c_on are independent.
+Event A_pusher3.c_off and event A_drillup.c_off are independent.
+Event A_pusher3.c_off and event A_drillup.c_on are independent.
+Event A_pusher3.c_off and event A_clamp.c_off are independent.
+Event A_pusher3.c_off and event A_clamp.c_on are independent.
+Event A_pusher3.c_off and event A_tester.c_off are independent.
+Event A_pusher3.c_off and event A_tester.c_on are independent.
+Event A_pusher3.c_off and event A_eject.c_off are independent.
+Event A_pusher3.c_off and event A_eject.c_on are independent.
+Event A_pusher3.c_off and event PTimer.c_on are independent.
+Event A_pusher3.c_off and event PTimer.c_reset are independent.
+Event A_pusher3.c_off and event A_conveyer.c_off are independent.
+Event A_pusher3.c_off and event A_conveyer.c_on are independent.
+Event A_pusher3.c_off and event A_gate1.c_off are independent.
+Event A_pusher3.c_off and event A_gate1.c_on are independent.
+Event A_pusher3.c_off and event A_gate2.c_off are independent.
+Event A_pusher3.c_off and event A_gate2.c_on are independent.
+Event A_pusher3.c_off and event A_stopperretract.c_off are independent.
+Event A_pusher3.c_off and event A_stopperretract.c_on are independent.
+Event A_pusher3.c_off and event STimer.c_on are independent.
+Event A_pusher3.c_off and event STimer.c_reset are independent.
+Event A_pusher3.c_on and event A_x2distributing.c_off are independent.
+Event A_pusher3.c_on and event A_x2distributing.c_on are independent.
+Event A_pusher3.c_on and event A_x2testing.c_off are independent.
+Event A_pusher3.c_on and event A_x2testing.c_on are independent.
+Event A_pusher3.c_on and event A_zdown.c_off are independent.
+Event A_pusher3.c_on and event A_zdown.c_on are independent.
+Event A_pusher3.c_on and event A_gripperclose.c_off are independent.
+Event A_pusher3.c_on and event A_gripperclose.c_on are independent.
+Event A_pusher3.c_on and event A_transfer2pickpos.c_off are independent.
+Event A_pusher3.c_on and event A_transfer2pickpos.c_on are independent.
+Event A_pusher3.c_on and event A_transfer2droppos.c_off are independent.
+Event A_pusher3.c_on and event A_transfer2droppos.c_on are independent.
+Event A_pusher3.c_on and event A_vacuum.c_off are independent.
+Event A_pusher3.c_on and event A_vacuum.c_on are independent.
+Event A_pusher3.c_on and event A_ejectpulse.c_off are independent.
+Event A_pusher3.c_on and event A_ejectpulse.c_on are independent.
+Event A_pusher3.c_on and event A_elevator_up.c_off are independent.
+Event A_pusher3.c_on and event A_elevator_up.c_on are independent.
+Event A_pusher3.c_on and event A_elevator_down.c_off are independent.
+Event A_pusher3.c_on and event A_elevator_down.c_on are independent.
+Event A_pusher3.c_on and event A_pusher.c_off are independent.
+Event A_pusher3.c_on and event A_pusher.c_on are independent.
+Event A_pusher3.c_on and event A_airslide.c_off are independent.
+Event A_pusher3.c_on and event A_airslide.c_on are independent.
+Event A_pusher3.c_on and event TTimer.c_on are independent.
+Event A_pusher3.c_on and event TTimer.c_reset are independent.
+Event A_pusher3.c_on and event A_separator.c_off are independent.
+Event A_pusher3.c_on and event A_separator.c_on are independent.
+Event A_pusher3.c_on and event A_conveyerB.c_off are independent.
+Event A_pusher3.c_on and event A_conveyerB.c_on are independent.
+Event A_pusher3.c_on and event BTimer.c_on are independent.
+Event A_pusher3.c_on and event BTimer.c_reset are independent.
+Event A_pusher3.c_on and event A_drill.c_off are independent.
+Event A_pusher3.c_on and event A_drill.c_on are independent.
+Event A_pusher3.c_on and event A_turntable.c_off are independent.
+Event A_pusher3.c_on and event A_turntable.c_on are independent.
+Event A_pusher3.c_on and event A_drilldown.c_off are independent.
+Event A_pusher3.c_on and event A_drilldown.c_on are independent.
+Event A_pusher3.c_on and event A_drillup.c_off are independent.
+Event A_pusher3.c_on and event A_drillup.c_on are independent.
+Event A_pusher3.c_on and event A_clamp.c_off are independent.
+Event A_pusher3.c_on and event A_clamp.c_on are independent.
+Event A_pusher3.c_on and event A_tester.c_off are independent.
+Event A_pusher3.c_on and event A_tester.c_on are independent.
+Event A_pusher3.c_on and event A_eject.c_off are independent.
+Event A_pusher3.c_on and event A_eject.c_on are independent.
+Event A_pusher3.c_on and event PTimer.c_on are independent.
+Event A_pusher3.c_on and event PTimer.c_reset are independent.
+Event A_pusher3.c_on and event A_conveyer.c_off are independent.
+Event A_pusher3.c_on and event A_conveyer.c_on are independent.
+Event A_pusher3.c_on and event A_gate1.c_off are independent.
+Event A_pusher3.c_on and event A_gate1.c_on are independent.
+Event A_pusher3.c_on and event A_gate2.c_off are independent.
+Event A_pusher3.c_on and event A_gate2.c_on are independent.
+Event A_pusher3.c_on and event A_stopperretract.c_off are independent.
+Event A_pusher3.c_on and event A_stopperretract.c_on are independent.
+Event A_pusher3.c_on and event STimer.c_on are independent.
+Event A_pusher3.c_on and event STimer.c_reset are independent.
+Event A_x2distributing.c_off and event A_x2distributing.c_on are mutually exclusive.
+Event A_x2distributing.c_off and event A_x2testing.c_off are mutually exclusive.
+Event A_x2distributing.c_off and event A_x2testing.c_on are mutually exclusive.
+Event A_x2distributing.c_off and event A_zdown.c_off are independent.
+Event A_x2distributing.c_off and event A_zdown.c_on are undefined
+Event A_x2distributing.c_off and event A_gripperclose.c_off are independent.
+Event A_x2distributing.c_off and event A_gripperclose.c_on are independent.
+Event A_x2distributing.c_off and event A_transfer2pickpos.c_off are independent.
+Event A_x2distributing.c_off and event A_transfer2pickpos.c_on are independent.
+Event A_x2distributing.c_off and event A_transfer2droppos.c_off are independent.
+Event A_x2distributing.c_off and event A_transfer2droppos.c_on are independent.
+Event A_x2distributing.c_off and event A_vacuum.c_off are independent.
+Event A_x2distributing.c_off and event A_vacuum.c_on are independent.
+Event A_x2distributing.c_off and event A_ejectpulse.c_off are independent.
+Event A_x2distributing.c_off and event A_ejectpulse.c_on are independent.
+Event A_x2distributing.c_off and event A_elevator_up.c_off are independent.
+Event A_x2distributing.c_off and event A_elevator_up.c_on are independent.
+Event A_x2distributing.c_off and event A_elevator_down.c_off are independent.
+Event A_x2distributing.c_off and event A_elevator_down.c_on are independent.
+Event A_x2distributing.c_off and event A_pusher.c_off are independent.
+Event A_x2distributing.c_off and event A_pusher.c_on are independent.
+Event A_x2distributing.c_off and event A_airslide.c_off are independent.
+Event A_x2distributing.c_off and event A_airslide.c_on are independent.
+Event A_x2distributing.c_off and event TTimer.c_on are independent.
+Event A_x2distributing.c_off and event TTimer.c_reset are independent.
+Event A_x2distributing.c_off and event A_separator.c_off are independent.
+Event A_x2distributing.c_off and event A_separator.c_on are independent.
+Event A_x2distributing.c_off and event A_conveyerB.c_off are independent.
+Event A_x2distributing.c_off and event A_conveyerB.c_on are independent.
+Event A_x2distributing.c_off and event BTimer.c_on are independent.
+Event A_x2distributing.c_off and event BTimer.c_reset are independent.
+Event A_x2distributing.c_off and event A_drill.c_off are independent.
+Event A_x2distributing.c_off and event A_drill.c_on are independent.
+Event A_x2distributing.c_off and event A_turntable.c_off are independent.
+Event A_x2distributing.c_off and event A_turntable.c_on are independent.
+Event A_x2distributing.c_off and event A_drilldown.c_off are independent.
+Event A_x2distributing.c_off and event A_drilldown.c_on are independent.
+Event A_x2distributing.c_off and event A_drillup.c_off are independent.
+Event A_x2distributing.c_off and event A_drillup.c_on are independent.
+Event A_x2distributing.c_off and event A_clamp.c_off are independent.
+Event A_x2distributing.c_off and event A_clamp.c_on are independent.
+Event A_x2distributing.c_off and event A_tester.c_off are independent.
+Event A_x2distributing.c_off and event A_tester.c_on are independent.
+Event A_x2distributing.c_off and event A_eject.c_off are independent.
+Event A_x2distributing.c_off and event A_eject.c_on are independent.
+Event A_x2distributing.c_off and event PTimer.c_on are independent.
+Event A_x2distributing.c_off and event PTimer.c_reset are independent.
+Event A_x2distributing.c_off and event A_conveyer.c_off are independent.
+Event A_x2distributing.c_off and event A_conveyer.c_on are independent.
+Event A_x2distributing.c_off and event A_gate1.c_off are independent.
+Event A_x2distributing.c_off and event A_gate1.c_on are independent.
+Event A_x2distributing.c_off and event A_gate2.c_off are independent.
+Event A_x2distributing.c_off and event A_gate2.c_on are independent.
+Event A_x2distributing.c_off and event A_stopperretract.c_off are independent.
+Event A_x2distributing.c_off and event A_stopperretract.c_on are independent.
+Event A_x2distributing.c_off and event STimer.c_on are independent.
+Event A_x2distributing.c_off and event STimer.c_reset are independent.
+Event A_x2distributing.c_on and event A_x2testing.c_off are mutually exclusive.
+Event A_x2distributing.c_on and event A_x2testing.c_on are independent.
+Event A_x2distributing.c_on and event A_zdown.c_off are independent.
+Event A_x2distributing.c_on and event A_zdown.c_on are mutually exclusive.
+Event A_x2distributing.c_on and event A_gripperclose.c_off are independent.
+Event A_x2distributing.c_on and event A_gripperclose.c_on are independent.
+Event A_x2distributing.c_on and event A_transfer2pickpos.c_off are independent.
+Event A_x2distributing.c_on and event A_transfer2pickpos.c_on are independent.
+Event A_x2distributing.c_on and event A_transfer2droppos.c_off are independent.
+Event A_x2distributing.c_on and event A_transfer2droppos.c_on are independent.
+Event A_x2distributing.c_on and event A_vacuum.c_off are independent.
+Event A_x2distributing.c_on and event A_vacuum.c_on are independent.
+Event A_x2distributing.c_on and event A_ejectpulse.c_off are independent.
+Event A_x2distributing.c_on and event A_ejectpulse.c_on are independent.
+Event A_x2distributing.c_on and event A_elevator_up.c_off are independent.
+Event A_x2distributing.c_on and event A_elevator_up.c_on are independent.
+Event A_x2distributing.c_on and event A_elevator_down.c_off are independent.
+Event A_x2distributing.c_on and event A_elevator_down.c_on are independent.
+Event A_x2distributing.c_on and event A_pusher.c_off are independent.
+Event A_x2distributing.c_on and event A_pusher.c_on are independent.
+Event A_x2distributing.c_on and event A_airslide.c_off are independent.
+Event A_x2distributing.c_on and event A_airslide.c_on are independent.
+Event A_x2distributing.c_on and event TTimer.c_on are independent.
+Event A_x2distributing.c_on and event TTimer.c_reset are independent.
+Event A_x2distributing.c_on and event A_separator.c_off are independent.
+Event A_x2distributing.c_on and event A_separator.c_on are independent.
+Event A_x2distributing.c_on and event A_conveyerB.c_off are independent.
+Event A_x2distributing.c_on and event A_conveyerB.c_on are independent.
+Event A_x2distributing.c_on and event BTimer.c_on are independent.
+Event A_x2distributing.c_on and event BTimer.c_reset are independent.
+Event A_x2distributing.c_on and event A_drill.c_off are independent.
+Event A_x2distributing.c_on and event A_drill.c_on are independent.
+Event A_x2distributing.c_on and event A_turntable.c_off are independent.
+Event A_x2distributing.c_on and event A_turntable.c_on are independent.
+Event A_x2distributing.c_on and event A_drilldown.c_off are independent.
+Event A_x2distributing.c_on and event A_drilldown.c_on are independent.
+Event A_x2distributing.c_on and event A_drillup.c_off are independent.
+Event A_x2distributing.c_on and event A_drillup.c_on are independent.
+Event A_x2distributing.c_on and event A_clamp.c_off are independent.
+Event A_x2distributing.c_on and event A_clamp.c_on are independent.
+Event A_x2distributing.c_on and event A_tester.c_off are independent.
+Event A_x2distributing.c_on and event A_tester.c_on are independent.
+Event A_x2distributing.c_on and event A_eject.c_off are independent.
+Event A_x2distributing.c_on and event A_eject.c_on are independent.
+Event A_x2distributing.c_on and event PTimer.c_on are independent.
+Event A_x2distributing.c_on and event PTimer.c_reset are independent.
+Event A_x2distributing.c_on and event A_conveyer.c_off are independent.
+Event A_x2distributing.c_on and event A_conveyer.c_on are independent.
+Event A_x2distributing.c_on and event A_gate1.c_off are independent.
+Event A_x2distributing.c_on and event A_gate1.c_on are independent.
+Event A_x2distributing.c_on and event A_gate2.c_off are independent.
+Event A_x2distributing.c_on and event A_gate2.c_on are independent.
+Event A_x2distributing.c_on and event A_stopperretract.c_off are independent.
+Event A_x2distributing.c_on and event A_stopperretract.c_on are independent.
+Event A_x2distributing.c_on and event STimer.c_on are independent.
+Event A_x2distributing.c_on and event STimer.c_reset are independent.
+Event A_x2testing.c_off and event A_x2testing.c_on are mutually exclusive.
+Event A_x2testing.c_off and event A_zdown.c_off are independent.
+Event A_x2testing.c_off and event A_zdown.c_on are undefined
+Event A_x2testing.c_off and event A_gripperclose.c_off are independent.
+Event A_x2testing.c_off and event A_gripperclose.c_on are independent.
+Event A_x2testing.c_off and event A_transfer2pickpos.c_off are independent.
+Event A_x2testing.c_off and event A_transfer2pickpos.c_on are independent.
+Event A_x2testing.c_off and event A_transfer2droppos.c_off are independent.
+Event A_x2testing.c_off and event A_transfer2droppos.c_on are independent.
+Event A_x2testing.c_off and event A_vacuum.c_off are independent.
+Event A_x2testing.c_off and event A_vacuum.c_on are independent.
+Event A_x2testing.c_off and event A_ejectpulse.c_off are independent.
+Event A_x2testing.c_off and event A_ejectpulse.c_on are independent.
+Event A_x2testing.c_off and event A_elevator_up.c_off are independent.
+Event A_x2testing.c_off and event A_elevator_up.c_on are independent.
+Event A_x2testing.c_off and event A_elevator_down.c_off are independent.
+Event A_x2testing.c_off and event A_elevator_down.c_on are independent.
+Event A_x2testing.c_off and event A_pusher.c_off are independent.
+Event A_x2testing.c_off and event A_pusher.c_on are independent.
+Event A_x2testing.c_off and event A_airslide.c_off are independent.
+Event A_x2testing.c_off and event A_airslide.c_on are independent.
+Event A_x2testing.c_off and event TTimer.c_on are independent.
+Event A_x2testing.c_off and event TTimer.c_reset are independent.
+Event A_x2testing.c_off and event A_separator.c_off are independent.
+Event A_x2testing.c_off and event A_separator.c_on are independent.
+Event A_x2testing.c_off and event A_conveyerB.c_off are independent.
+Event A_x2testing.c_off and event A_conveyerB.c_on are independent.
+Event A_x2testing.c_off and event BTimer.c_on are independent.
+Event A_x2testing.c_off and event BTimer.c_reset are independent.
+Event A_x2testing.c_off and event A_drill.c_off are independent.
+Event A_x2testing.c_off and event A_drill.c_on are independent.
+Event A_x2testing.c_off and event A_turntable.c_off are independent.
+Event A_x2testing.c_off and event A_turntable.c_on are independent.
+Event A_x2testing.c_off and event A_drilldown.c_off are independent.
+Event A_x2testing.c_off and event A_drilldown.c_on are independent.
+Event A_x2testing.c_off and event A_drillup.c_off are independent.
+Event A_x2testing.c_off and event A_drillup.c_on are independent.
+Event A_x2testing.c_off and event A_clamp.c_off are independent.
+Event A_x2testing.c_off and event A_clamp.c_on are independent.
+Event A_x2testing.c_off and event A_tester.c_off are independent.
+Event A_x2testing.c_off and event A_tester.c_on are independent.
+Event A_x2testing.c_off and event A_eject.c_off are independent.
+Event A_x2testing.c_off and event A_eject.c_on are independent.
+Event A_x2testing.c_off and event PTimer.c_on are independent.
+Event A_x2testing.c_off and event PTimer.c_reset are independent.
+Event A_x2testing.c_off and event A_conveyer.c_off are independent.
+Event A_x2testing.c_off and event A_conveyer.c_on are independent.
+Event A_x2testing.c_off and event A_gate1.c_off are independent.
+Event A_x2testing.c_off and event A_gate1.c_on are independent.
+Event A_x2testing.c_off and event A_gate2.c_off are independent.
+Event A_x2testing.c_off and event A_gate2.c_on are independent.
+Event A_x2testing.c_off and event A_stopperretract.c_off are independent.
+Event A_x2testing.c_off and event A_stopperretract.c_on are independent.
+Event A_x2testing.c_off and event STimer.c_on are independent.
+Event A_x2testing.c_off and event STimer.c_reset are independent.
+Event A_x2testing.c_on and event A_zdown.c_off are independent.
+Event A_x2testing.c_on and event A_zdown.c_on are mutually exclusive.
+Event A_x2testing.c_on and event A_gripperclose.c_off are independent.
+Event A_x2testing.c_on and event A_gripperclose.c_on are independent.
+Event A_x2testing.c_on and event A_transfer2pickpos.c_off are independent.
+Event A_x2testing.c_on and event A_transfer2pickpos.c_on are independent.
+Event A_x2testing.c_on and event A_transfer2droppos.c_off are independent.
+Event A_x2testing.c_on and event A_transfer2droppos.c_on are independent.
+Event A_x2testing.c_on and event A_vacuum.c_off are independent.
+Event A_x2testing.c_on and event A_vacuum.c_on are independent.
+Event A_x2testing.c_on and event A_ejectpulse.c_off are independent.
+Event A_x2testing.c_on and event A_ejectpulse.c_on are independent.
+Event A_x2testing.c_on and event A_elevator_up.c_off are independent.
+Event A_x2testing.c_on and event A_elevator_up.c_on are independent.
+Event A_x2testing.c_on and event A_elevator_down.c_off are independent.
+Event A_x2testing.c_on and event A_elevator_down.c_on are independent.
+Event A_x2testing.c_on and event A_pusher.c_off are independent.
+Event A_x2testing.c_on and event A_pusher.c_on are independent.
+Event A_x2testing.c_on and event A_airslide.c_off are independent.
+Event A_x2testing.c_on and event A_airslide.c_on are independent.
+Event A_x2testing.c_on and event TTimer.c_on are independent.
+Event A_x2testing.c_on and event TTimer.c_reset are independent.
+Event A_x2testing.c_on and event A_separator.c_off are independent.
+Event A_x2testing.c_on and event A_separator.c_on are independent.
+Event A_x2testing.c_on and event A_conveyerB.c_off are independent.
+Event A_x2testing.c_on and event A_conveyerB.c_on are independent.
+Event A_x2testing.c_on and event BTimer.c_on are independent.
+Event A_x2testing.c_on and event BTimer.c_reset are independent.
+Event A_x2testing.c_on and event A_drill.c_off are independent.
+Event A_x2testing.c_on and event A_drill.c_on are independent.
+Event A_x2testing.c_on and event A_turntable.c_off are independent.
+Event A_x2testing.c_on and event A_turntable.c_on are independent.
+Event A_x2testing.c_on and event A_drilldown.c_off are independent.
+Event A_x2testing.c_on and event A_drilldown.c_on are independent.
+Event A_x2testing.c_on and event A_drillup.c_off are independent.
+Event A_x2testing.c_on and event A_drillup.c_on are independent.
+Event A_x2testing.c_on and event A_clamp.c_off are independent.
+Event A_x2testing.c_on and event A_clamp.c_on are independent.
+Event A_x2testing.c_on and event A_tester.c_off are independent.
+Event A_x2testing.c_on and event A_tester.c_on are independent.
+Event A_x2testing.c_on and event A_eject.c_off are independent.
+Event A_x2testing.c_on and event A_eject.c_on are independent.
+Event A_x2testing.c_on and event PTimer.c_on are independent.
+Event A_x2testing.c_on and event PTimer.c_reset are independent.
+Event A_x2testing.c_on and event A_conveyer.c_off are independent.
+Event A_x2testing.c_on and event A_conveyer.c_on are independent.
+Event A_x2testing.c_on and event A_gate1.c_off are independent.
+Event A_x2testing.c_on and event A_gate1.c_on are independent.
+Event A_x2testing.c_on and event A_gate2.c_off are independent.
+Event A_x2testing.c_on and event A_gate2.c_on are independent.
+Event A_x2testing.c_on and event A_stopperretract.c_off are independent.
+Event A_x2testing.c_on and event A_stopperretract.c_on are independent.
+Event A_x2testing.c_on and event STimer.c_on are independent.
+Event A_x2testing.c_on and event STimer.c_reset are independent.
+Event A_zdown.c_off and event A_zdown.c_on are mutually exclusive.
+Event A_zdown.c_off and event A_gripperclose.c_off are independent.
+Event A_zdown.c_off and event A_gripperclose.c_on are undefined
+Event A_zdown.c_off and event A_transfer2pickpos.c_off are independent.
+Event A_zdown.c_off and event A_transfer2pickpos.c_on are independent.
+Event A_zdown.c_off and event A_transfer2droppos.c_off are independent.
+Event A_zdown.c_off and event A_transfer2droppos.c_on are independent.
+Event A_zdown.c_off and event A_vacuum.c_off are independent.
+Event A_zdown.c_off and event A_vacuum.c_on are independent.
+Event A_zdown.c_off and event A_ejectpulse.c_off are independent.
+Event A_zdown.c_off and event A_ejectpulse.c_on are independent.
+Event A_zdown.c_off and event A_elevator_up.c_off are independent.
+Event A_zdown.c_off and event A_elevator_up.c_on are independent.
+Event A_zdown.c_off and event A_elevator_down.c_off are independent.
+Event A_zdown.c_off and event A_elevator_down.c_on are independent.
+Event A_zdown.c_off and event A_pusher.c_off are independent.
+Event A_zdown.c_off and event A_pusher.c_on are independent.
+Event A_zdown.c_off and event A_airslide.c_off are independent.
+Event A_zdown.c_off and event A_airslide.c_on are independent.
+Event A_zdown.c_off and event TTimer.c_on are independent.
+Event A_zdown.c_off and event TTimer.c_reset are independent.
+Event A_zdown.c_off and event A_separator.c_off are independent.
+Event A_zdown.c_off and event A_separator.c_on are independent.
+Event A_zdown.c_off and event A_conveyerB.c_off are independent.
+Event A_zdown.c_off and event A_conveyerB.c_on are independent.
+Event A_zdown.c_off and event BTimer.c_on are independent.
+Event A_zdown.c_off and event BTimer.c_reset are independent.
+Event A_zdown.c_off and event A_drill.c_off are independent.
+Event A_zdown.c_off and event A_drill.c_on are independent.
+Event A_zdown.c_off and event A_turntable.c_off are independent.
+Event A_zdown.c_off and event A_turntable.c_on are independent.
+Event A_zdown.c_off and event A_drilldown.c_off are independent.
+Event A_zdown.c_off and event A_drilldown.c_on are independent.
+Event A_zdown.c_off and event A_drillup.c_off are independent.
+Event A_zdown.c_off and event A_drillup.c_on are independent.
+Event A_zdown.c_off and event A_clamp.c_off are independent.
+Event A_zdown.c_off and event A_clamp.c_on are independent.
+Event A_zdown.c_off and event A_tester.c_off are independent.
+Event A_zdown.c_off and event A_tester.c_on are independent.
+Event A_zdown.c_off and event A_eject.c_off are independent.
+Event A_zdown.c_off and event A_eject.c_on are independent.
+Event A_zdown.c_off and event PTimer.c_on are independent.
+Event A_zdown.c_off and event PTimer.c_reset are independent.
+Event A_zdown.c_off and event A_conveyer.c_off are independent.
+Event A_zdown.c_off and event A_conveyer.c_on are independent.
+Event A_zdown.c_off and event A_gate1.c_off are independent.
+Event A_zdown.c_off and event A_gate1.c_on are independent.
+Event A_zdown.c_off and event A_gate2.c_off are independent.
+Event A_zdown.c_off and event A_gate2.c_on are independent.
+Event A_zdown.c_off and event A_stopperretract.c_off are independent.
+Event A_zdown.c_off and event A_stopperretract.c_on are independent.
+Event A_zdown.c_off and event STimer.c_on are independent.
+Event A_zdown.c_off and event STimer.c_reset are independent.
+Event A_zdown.c_on and event A_gripperclose.c_off are independent.
+Event A_zdown.c_on and event A_gripperclose.c_on are independent.
+Event A_zdown.c_on and event A_transfer2pickpos.c_off are independent.
+Event A_zdown.c_on and event A_transfer2pickpos.c_on are independent.
+Event A_zdown.c_on and event A_transfer2droppos.c_off are independent.
+Event A_zdown.c_on and event A_transfer2droppos.c_on are independent.
+Event A_zdown.c_on and event A_vacuum.c_off are independent.
+Event A_zdown.c_on and event A_vacuum.c_on are independent.
+Event A_zdown.c_on and event A_ejectpulse.c_off are independent.
+Event A_zdown.c_on and event A_ejectpulse.c_on are independent.
+Event A_zdown.c_on and event A_elevator_up.c_off are independent.
+Event A_zdown.c_on and event A_elevator_up.c_on are independent.
+Event A_zdown.c_on and event A_elevator_down.c_off are independent.
+Event A_zdown.c_on and event A_elevator_down.c_on are independent.
+Event A_zdown.c_on and event A_pusher.c_off are independent.
+Event A_zdown.c_on and event A_pusher.c_on are independent.
+Event A_zdown.c_on and event A_airslide.c_off are independent.
+Event A_zdown.c_on and event A_airslide.c_on are independent.
+Event A_zdown.c_on and event TTimer.c_on are independent.
+Event A_zdown.c_on and event TTimer.c_reset are independent.
+Event A_zdown.c_on and event A_separator.c_off are independent.
+Event A_zdown.c_on and event A_separator.c_on are independent.
+Event A_zdown.c_on and event A_conveyerB.c_off are independent.
+Event A_zdown.c_on and event A_conveyerB.c_on are independent.
+Event A_zdown.c_on and event BTimer.c_on are independent.
+Event A_zdown.c_on and event BTimer.c_reset are independent.
+Event A_zdown.c_on and event A_drill.c_off are independent.
+Event A_zdown.c_on and event A_drill.c_on are independent.
+Event A_zdown.c_on and event A_turntable.c_off are independent.
+Event A_zdown.c_on and event A_turntable.c_on are independent.
+Event A_zdown.c_on and event A_drilldown.c_off are independent.
+Event A_zdown.c_on and event A_drilldown.c_on are independent.
+Event A_zdown.c_on and event A_drillup.c_off are independent.
+Event A_zdown.c_on and event A_drillup.c_on are independent.
+Event A_zdown.c_on and event A_clamp.c_off are independent.
+Event A_zdown.c_on and event A_clamp.c_on are independent.
+Event A_zdown.c_on and event A_tester.c_off are independent.
+Event A_zdown.c_on and event A_tester.c_on are independent.
+Event A_zdown.c_on and event A_eject.c_off are independent.
+Event A_zdown.c_on and event A_eject.c_on are independent.
+Event A_zdown.c_on and event PTimer.c_on are independent.
+Event A_zdown.c_on and event PTimer.c_reset are independent.
+Event A_zdown.c_on and event A_conveyer.c_off are independent.
+Event A_zdown.c_on and event A_conveyer.c_on are independent.
+Event A_zdown.c_on and event A_gate1.c_off are independent.
+Event A_zdown.c_on and event A_gate1.c_on are independent.
+Event A_zdown.c_on and event A_gate2.c_off are independent.
+Event A_zdown.c_on and event A_gate2.c_on are independent.
+Event A_zdown.c_on and event A_stopperretract.c_off are independent.
+Event A_zdown.c_on and event A_stopperretract.c_on are independent.
+Event A_zdown.c_on and event STimer.c_on are independent.
+Event A_zdown.c_on and event STimer.c_reset are independent.
+Event A_gripperclose.c_off and event A_gripperclose.c_on are mutually exclusive.
+Event A_gripperclose.c_off and event A_transfer2pickpos.c_off are independent.
+Event A_gripperclose.c_off and event A_transfer2pickpos.c_on are independent.
+Event A_gripperclose.c_off and event A_transfer2droppos.c_off are independent.
+Event A_gripperclose.c_off and event A_transfer2droppos.c_on are independent.
+Event A_gripperclose.c_off and event A_vacuum.c_off are independent.
+Event A_gripperclose.c_off and event A_vacuum.c_on are independent.
+Event A_gripperclose.c_off and event A_ejectpulse.c_off are independent.
+Event A_gripperclose.c_off and event A_ejectpulse.c_on are independent.
+Event A_gripperclose.c_off and event A_elevator_up.c_off are independent.
+Event A_gripperclose.c_off and event A_elevator_up.c_on are independent.
+Event A_gripperclose.c_off and event A_elevator_down.c_off are independent.
+Event A_gripperclose.c_off and event A_elevator_down.c_on are independent.
+Event A_gripperclose.c_off and event A_pusher.c_off are independent.
+Event A_gripperclose.c_off and event A_pusher.c_on are independent.
+Event A_gripperclose.c_off and event A_airslide.c_off are independent.
+Event A_gripperclose.c_off and event A_airslide.c_on are independent.
+Event A_gripperclose.c_off and event TTimer.c_on are independent.
+Event A_gripperclose.c_off and event TTimer.c_reset are independent.
+Event A_gripperclose.c_off and event A_separator.c_off are independent.
+Event A_gripperclose.c_off and event A_separator.c_on are independent.
+Event A_gripperclose.c_off and event A_conveyerB.c_off are independent.
+Event A_gripperclose.c_off and event A_conveyerB.c_on are independent.
+Event A_gripperclose.c_off and event BTimer.c_on are independent.
+Event A_gripperclose.c_off and event BTimer.c_reset are independent.
+Event A_gripperclose.c_off and event A_drill.c_off are independent.
+Event A_gripperclose.c_off and event A_drill.c_on are independent.
+Event A_gripperclose.c_off and event A_turntable.c_off are independent.
+Event A_gripperclose.c_off and event A_turntable.c_on are independent.
+Event A_gripperclose.c_off and event A_drilldown.c_off are independent.
+Event A_gripperclose.c_off and event A_drilldown.c_on are independent.
+Event A_gripperclose.c_off and event A_drillup.c_off are independent.
+Event A_gripperclose.c_off and event A_drillup.c_on are independent.
+Event A_gripperclose.c_off and event A_clamp.c_off are independent.
+Event A_gripperclose.c_off and event A_clamp.c_on are independent.
+Event A_gripperclose.c_off and event A_tester.c_off are independent.
+Event A_gripperclose.c_off and event A_tester.c_on are independent.
+Event A_gripperclose.c_off and event A_eject.c_off are independent.
+Event A_gripperclose.c_off and event A_eject.c_on are independent.
+Event A_gripperclose.c_off and event PTimer.c_on are independent.
+Event A_gripperclose.c_off and event PTimer.c_reset are independent.
+Event A_gripperclose.c_off and event A_conveyer.c_off are independent.
+Event A_gripperclose.c_off and event A_conveyer.c_on are independent.
+Event A_gripperclose.c_off and event A_gate1.c_off are independent.
+Event A_gripperclose.c_off and event A_gate1.c_on are independent.
+Event A_gripperclose.c_off and event A_gate2.c_off are independent.
+Event A_gripperclose.c_off and event A_gate2.c_on are independent.
+Event A_gripperclose.c_off and event A_stopperretract.c_off are independent.
+Event A_gripperclose.c_off and event A_stopperretract.c_on are independent.
+Event A_gripperclose.c_off and event STimer.c_on are independent.
+Event A_gripperclose.c_off and event STimer.c_reset are independent.
+Event A_gripperclose.c_on and event A_transfer2pickpos.c_off are independent.
+Event A_gripperclose.c_on and event A_transfer2pickpos.c_on are independent.
+Event A_gripperclose.c_on and event A_transfer2droppos.c_off are independent.
+Event A_gripperclose.c_on and event A_transfer2droppos.c_on are independent.
+Event A_gripperclose.c_on and event A_vacuum.c_off are independent.
+Event A_gripperclose.c_on and event A_vacuum.c_on are independent.
+Event A_gripperclose.c_on and event A_ejectpulse.c_off are independent.
+Event A_gripperclose.c_on and event A_ejectpulse.c_on are independent.
+Event A_gripperclose.c_on and event A_elevator_up.c_off are independent.
+Event A_gripperclose.c_on and event A_elevator_up.c_on are independent.
+Event A_gripperclose.c_on and event A_elevator_down.c_off are independent.
+Event A_gripperclose.c_on and event A_elevator_down.c_on are independent.
+Event A_gripperclose.c_on and event A_pusher.c_off are independent.
+Event A_gripperclose.c_on and event A_pusher.c_on are independent.
+Event A_gripperclose.c_on and event A_airslide.c_off are independent.
+Event A_gripperclose.c_on and event A_airslide.c_on are independent.
+Event A_gripperclose.c_on and event TTimer.c_on are independent.
+Event A_gripperclose.c_on and event TTimer.c_reset are independent.
+Event A_gripperclose.c_on and event A_separator.c_off are independent.
+Event A_gripperclose.c_on and event A_separator.c_on are independent.
+Event A_gripperclose.c_on and event A_conveyerB.c_off are independent.
+Event A_gripperclose.c_on and event A_conveyerB.c_on are independent.
+Event A_gripperclose.c_on and event BTimer.c_on are independent.
+Event A_gripperclose.c_on and event BTimer.c_reset are independent.
+Event A_gripperclose.c_on and event A_drill.c_off are independent.
+Event A_gripperclose.c_on and event A_drill.c_on are independent.
+Event A_gripperclose.c_on and event A_turntable.c_off are independent.
+Event A_gripperclose.c_on and event A_turntable.c_on are independent.
+Event A_gripperclose.c_on and event A_drilldown.c_off are independent.
+Event A_gripperclose.c_on and event A_drilldown.c_on are independent.
+Event A_gripperclose.c_on and event A_drillup.c_off are independent.
+Event A_gripperclose.c_on and event A_drillup.c_on are independent.
+Event A_gripperclose.c_on and event A_clamp.c_off are independent.
+Event A_gripperclose.c_on and event A_clamp.c_on are independent.
+Event A_gripperclose.c_on and event A_tester.c_off are independent.
+Event A_gripperclose.c_on and event A_tester.c_on are independent.
+Event A_gripperclose.c_on and event A_eject.c_off are independent.
+Event A_gripperclose.c_on and event A_eject.c_on are independent.
+Event A_gripperclose.c_on and event PTimer.c_on are independent.
+Event A_gripperclose.c_on and event PTimer.c_reset are independent.
+Event A_gripperclose.c_on and event A_conveyer.c_off are independent.
+Event A_gripperclose.c_on and event A_conveyer.c_on are independent.
+Event A_gripperclose.c_on and event A_gate1.c_off are independent.
+Event A_gripperclose.c_on and event A_gate1.c_on are independent.
+Event A_gripperclose.c_on and event A_gate2.c_off are independent.
+Event A_gripperclose.c_on and event A_gate2.c_on are independent.
+Event A_gripperclose.c_on and event A_stopperretract.c_off are independent.
+Event A_gripperclose.c_on and event A_stopperretract.c_on are independent.
+Event A_gripperclose.c_on and event STimer.c_on are independent.
+Event A_gripperclose.c_on and event STimer.c_reset are independent.
+Event A_transfer2pickpos.c_off and event A_transfer2pickpos.c_on are mutually exclusive.
+Event A_transfer2pickpos.c_off and event A_transfer2droppos.c_off are independent.
+Event A_transfer2pickpos.c_off and event A_transfer2droppos.c_on are mutually exclusive.
+Event A_transfer2pickpos.c_off and event A_vacuum.c_off are independent.
+Event A_transfer2pickpos.c_off and event A_vacuum.c_on are independent.
+Event A_transfer2pickpos.c_off and event A_ejectpulse.c_off are independent.
+Event A_transfer2pickpos.c_off and event A_ejectpulse.c_on are independent.
+Event A_transfer2pickpos.c_off and event A_elevator_up.c_off are independent.
+Event A_transfer2pickpos.c_off and event A_elevator_up.c_on are independent.
+Event A_transfer2pickpos.c_off and event A_elevator_down.c_off are independent.
+Event A_transfer2pickpos.c_off and event A_elevator_down.c_on are independent.
+Event A_transfer2pickpos.c_off and event A_pusher.c_off are independent.
+Event A_transfer2pickpos.c_off and event A_pusher.c_on are independent.
+Event A_transfer2pickpos.c_off and event A_airslide.c_off are independent.
+Event A_transfer2pickpos.c_off and event A_airslide.c_on are independent.
+Event A_transfer2pickpos.c_off and event TTimer.c_on are independent.
+Event A_transfer2pickpos.c_off and event TTimer.c_reset are independent.
+Event A_transfer2pickpos.c_off and event A_separator.c_off are independent.
+Event A_transfer2pickpos.c_off and event A_separator.c_on are independent.
+Event A_transfer2pickpos.c_off and event A_conveyerB.c_off are independent.
+Event A_transfer2pickpos.c_off and event A_conveyerB.c_on are independent.
+Event A_transfer2pickpos.c_off and event BTimer.c_on are independent.
+Event A_transfer2pickpos.c_off and event BTimer.c_reset are independent.
+Event A_transfer2pickpos.c_off and event A_drill.c_off are independent.
+Event A_transfer2pickpos.c_off and event A_drill.c_on are independent.
+Event A_transfer2pickpos.c_off and event A_turntable.c_off are independent.
+Event A_transfer2pickpos.c_off and event A_turntable.c_on are independent.
+Event A_transfer2pickpos.c_off and event A_drilldown.c_off are independent.
+Event A_transfer2pickpos.c_off and event A_drilldown.c_on are independent.
+Event A_transfer2pickpos.c_off and event A_drillup.c_off are independent.
+Event A_transfer2pickpos.c_off and event A_drillup.c_on are independent.
+Event A_transfer2pickpos.c_off and event A_clamp.c_off are independent.
+Event A_transfer2pickpos.c_off and event A_clamp.c_on are independent.
+Event A_transfer2pickpos.c_off and event A_tester.c_off are independent.
+Event A_transfer2pickpos.c_off and event A_tester.c_on are independent.
+Event A_transfer2pickpos.c_off and event A_eject.c_off are independent.
+Event A_transfer2pickpos.c_off and event A_eject.c_on are independent.
+Event A_transfer2pickpos.c_off and event PTimer.c_on are independent.
+Event A_transfer2pickpos.c_off and event PTimer.c_reset are independent.
+Event A_transfer2pickpos.c_off and event A_conveyer.c_off are independent.
+Event A_transfer2pickpos.c_off and event A_conveyer.c_on are independent.
+Event A_transfer2pickpos.c_off and event A_gate1.c_off are independent.
+Event A_transfer2pickpos.c_off and event A_gate1.c_on are independent.
+Event A_transfer2pickpos.c_off and event A_gate2.c_off are independent.
+Event A_transfer2pickpos.c_off and event A_gate2.c_on are independent.
+Event A_transfer2pickpos.c_off and event A_stopperretract.c_off are independent.
+Event A_transfer2pickpos.c_off and event A_stopperretract.c_on are independent.
+Event A_transfer2pickpos.c_off and event STimer.c_on are independent.
+Event A_transfer2pickpos.c_off and event STimer.c_reset are independent.
+Event A_transfer2pickpos.c_on and event A_transfer2droppos.c_off are mutually exclusive.
+Event A_transfer2pickpos.c_on and event A_transfer2droppos.c_on are mutually exclusive.
+Event A_transfer2pickpos.c_on and event A_vacuum.c_off are independent.
+Event A_transfer2pickpos.c_on and event A_vacuum.c_on are independent.
+Event A_transfer2pickpos.c_on and event A_ejectpulse.c_off are independent.
+Event A_transfer2pickpos.c_on and event A_ejectpulse.c_on are mutually exclusive.
+Event A_transfer2pickpos.c_on and event A_elevator_up.c_off are independent.
+Event A_transfer2pickpos.c_on and event A_elevator_up.c_on are independent.
+Event A_transfer2pickpos.c_on and event A_elevator_down.c_off are independent.
+Event A_transfer2pickpos.c_on and event A_elevator_down.c_on are independent.
+Event A_transfer2pickpos.c_on and event A_pusher.c_off are independent.
+Event A_transfer2pickpos.c_on and event A_pusher.c_on are independent.
+Event A_transfer2pickpos.c_on and event A_airslide.c_off are independent.
+Event A_transfer2pickpos.c_on and event A_airslide.c_on are independent.
+Event A_transfer2pickpos.c_on and event TTimer.c_on are independent.
+Event A_transfer2pickpos.c_on and event TTimer.c_reset are independent.
+Event A_transfer2pickpos.c_on and event A_separator.c_off are independent.
+Event A_transfer2pickpos.c_on and event A_separator.c_on are independent.
+Event A_transfer2pickpos.c_on and event A_conveyerB.c_off are independent.
+Event A_transfer2pickpos.c_on and event A_conveyerB.c_on are independent.
+Event A_transfer2pickpos.c_on and event BTimer.c_on are independent.
+Event A_transfer2pickpos.c_on and event BTimer.c_reset are independent.
+Event A_transfer2pickpos.c_on and event A_drill.c_off are independent.
+Event A_transfer2pickpos.c_on and event A_drill.c_on are independent.
+Event A_transfer2pickpos.c_on and event A_turntable.c_off are independent.
+Event A_transfer2pickpos.c_on and event A_turntable.c_on are independent.
+Event A_transfer2pickpos.c_on and event A_drilldown.c_off are independent.
+Event A_transfer2pickpos.c_on and event A_drilldown.c_on are independent.
+Event A_transfer2pickpos.c_on and event A_drillup.c_off are independent.
+Event A_transfer2pickpos.c_on and event A_drillup.c_on are independent.
+Event A_transfer2pickpos.c_on and event A_clamp.c_off are independent.
+Event A_transfer2pickpos.c_on and event A_clamp.c_on are independent.
+Event A_transfer2pickpos.c_on and event A_tester.c_off are independent.
+Event A_transfer2pickpos.c_on and event A_tester.c_on are independent.
+Event A_transfer2pickpos.c_on and event A_eject.c_off are independent.
+Event A_transfer2pickpos.c_on and event A_eject.c_on are independent.
+Event A_transfer2pickpos.c_on and event PTimer.c_on are independent.
+Event A_transfer2pickpos.c_on and event PTimer.c_reset are independent.
+Event A_transfer2pickpos.c_on and event A_conveyer.c_off are independent.
+Event A_transfer2pickpos.c_on and event A_conveyer.c_on are independent.
+Event A_transfer2pickpos.c_on and event A_gate1.c_off are independent.
+Event A_transfer2pickpos.c_on and event A_gate1.c_on are independent.
+Event A_transfer2pickpos.c_on and event A_gate2.c_off are independent.
+Event A_transfer2pickpos.c_on and event A_gate2.c_on are independent.
+Event A_transfer2pickpos.c_on and event A_stopperretract.c_off are independent.
+Event A_transfer2pickpos.c_on and event A_stopperretract.c_on are independent.
+Event A_transfer2pickpos.c_on and event STimer.c_on are independent.
+Event A_transfer2pickpos.c_on and event STimer.c_reset are independent.
+Event A_transfer2droppos.c_off and event A_transfer2droppos.c_on are mutually exclusive.
+Event A_transfer2droppos.c_off and event A_vacuum.c_off are independent.
+Event A_transfer2droppos.c_off and event A_vacuum.c_on are independent.
+Event A_transfer2droppos.c_off and event A_ejectpulse.c_off are independent.
+Event A_transfer2droppos.c_off and event A_ejectpulse.c_on are independent.
+Event A_transfer2droppos.c_off and event A_elevator_up.c_off are independent.
+Event A_transfer2droppos.c_off and event A_elevator_up.c_on are independent.
+Event A_transfer2droppos.c_off and event A_elevator_down.c_off are independent.
+Event A_transfer2droppos.c_off and event A_elevator_down.c_on are independent.
+Event A_transfer2droppos.c_off and event A_pusher.c_off are independent.
+Event A_transfer2droppos.c_off and event A_pusher.c_on are independent.
+Event A_transfer2droppos.c_off and event A_airslide.c_off are independent.
+Event A_transfer2droppos.c_off and event A_airslide.c_on are independent.
+Event A_transfer2droppos.c_off and event TTimer.c_on are independent.
+Event A_transfer2droppos.c_off and event TTimer.c_reset are independent.
+Event A_transfer2droppos.c_off and event A_separator.c_off are independent.
+Event A_transfer2droppos.c_off and event A_separator.c_on are independent.
+Event A_transfer2droppos.c_off and event A_conveyerB.c_off are independent.
+Event A_transfer2droppos.c_off and event A_conveyerB.c_on are independent.
+Event A_transfer2droppos.c_off and event BTimer.c_on are independent.
+Event A_transfer2droppos.c_off and event BTimer.c_reset are independent.
+Event A_transfer2droppos.c_off and event A_drill.c_off are independent.
+Event A_transfer2droppos.c_off and event A_drill.c_on are independent.
+Event A_transfer2droppos.c_off and event A_turntable.c_off are independent.
+Event A_transfer2droppos.c_off and event A_turntable.c_on are independent.
+Event A_transfer2droppos.c_off and event A_drilldown.c_off are independent.
+Event A_transfer2droppos.c_off and event A_drilldown.c_on are independent.
+Event A_transfer2droppos.c_off and event A_drillup.c_off are independent.
+Event A_transfer2droppos.c_off and event A_drillup.c_on are independent.
+Event A_transfer2droppos.c_off and event A_clamp.c_off are independent.
+Event A_transfer2droppos.c_off and event A_clamp.c_on are independent.
+Event A_transfer2droppos.c_off and event A_tester.c_off are independent.
+Event A_transfer2droppos.c_off and event A_tester.c_on are independent.
+Event A_transfer2droppos.c_off and event A_eject.c_off are independent.
+Event A_transfer2droppos.c_off and event A_eject.c_on are independent.
+Event A_transfer2droppos.c_off and event PTimer.c_on are independent.
+Event A_transfer2droppos.c_off and event PTimer.c_reset are independent.
+Event A_transfer2droppos.c_off and event A_conveyer.c_off are independent.
+Event A_transfer2droppos.c_off and event A_conveyer.c_on are independent.
+Event A_transfer2droppos.c_off and event A_gate1.c_off are independent.
+Event A_transfer2droppos.c_off and event A_gate1.c_on are independent.
+Event A_transfer2droppos.c_off and event A_gate2.c_off are independent.
+Event A_transfer2droppos.c_off and event A_gate2.c_on are independent.
+Event A_transfer2droppos.c_off and event A_stopperretract.c_off are independent.
+Event A_transfer2droppos.c_off and event A_stopperretract.c_on are independent.
+Event A_transfer2droppos.c_off and event STimer.c_on are independent.
+Event A_transfer2droppos.c_off and event STimer.c_reset are independent.
+Event A_transfer2droppos.c_on and event A_vacuum.c_off are independent.
+Event A_transfer2droppos.c_on and event A_vacuum.c_on are independent.
+Event A_transfer2droppos.c_on and event A_ejectpulse.c_off are mutually exclusive.
+Event A_transfer2droppos.c_on and event A_ejectpulse.c_on are independent.
+Event A_transfer2droppos.c_on and event A_elevator_up.c_off are independent.
+Event A_transfer2droppos.c_on and event A_elevator_up.c_on are independent.
+Event A_transfer2droppos.c_on and event A_elevator_down.c_off are independent.
+Event A_transfer2droppos.c_on and event A_elevator_down.c_on are independent.
+Event A_transfer2droppos.c_on and event A_pusher.c_off are independent.
+Event A_transfer2droppos.c_on and event A_pusher.c_on are independent.
+Event A_transfer2droppos.c_on and event A_airslide.c_off are independent.
+Event A_transfer2droppos.c_on and event A_airslide.c_on are independent.
+Event A_transfer2droppos.c_on and event TTimer.c_on are independent.
+Event A_transfer2droppos.c_on and event TTimer.c_reset are independent.
+Event A_transfer2droppos.c_on and event A_separator.c_off are independent.
+Event A_transfer2droppos.c_on and event A_separator.c_on are independent.
+Event A_transfer2droppos.c_on and event A_conveyerB.c_off are independent.
+Event A_transfer2droppos.c_on and event A_conveyerB.c_on are independent.
+Event A_transfer2droppos.c_on and event BTimer.c_on are independent.
+Event A_transfer2droppos.c_on and event BTimer.c_reset are independent.
+Event A_transfer2droppos.c_on and event A_drill.c_off are independent.
+Event A_transfer2droppos.c_on and event A_drill.c_on are independent.
+Event A_transfer2droppos.c_on and event A_turntable.c_off are independent.
+Event A_transfer2droppos.c_on and event A_turntable.c_on are independent.
+Event A_transfer2droppos.c_on and event A_drilldown.c_off are independent.
+Event A_transfer2droppos.c_on and event A_drilldown.c_on are independent.
+Event A_transfer2droppos.c_on and event A_drillup.c_off are independent.
+Event A_transfer2droppos.c_on and event A_drillup.c_on are independent.
+Event A_transfer2droppos.c_on and event A_clamp.c_off are independent.
+Event A_transfer2droppos.c_on and event A_clamp.c_on are independent.
+Event A_transfer2droppos.c_on and event A_tester.c_off are independent.
+Event A_transfer2droppos.c_on and event A_tester.c_on are independent.
+Event A_transfer2droppos.c_on and event A_eject.c_off are independent.
+Event A_transfer2droppos.c_on and event A_eject.c_on are independent.
+Event A_transfer2droppos.c_on and event PTimer.c_on are independent.
+Event A_transfer2droppos.c_on and event PTimer.c_reset are independent.
+Event A_transfer2droppos.c_on and event A_conveyer.c_off are independent.
+Event A_transfer2droppos.c_on and event A_conveyer.c_on are independent.
+Event A_transfer2droppos.c_on and event A_gate1.c_off are independent.
+Event A_transfer2droppos.c_on and event A_gate1.c_on are independent.
+Event A_transfer2droppos.c_on and event A_gate2.c_off are independent.
+Event A_transfer2droppos.c_on and event A_gate2.c_on are independent.
+Event A_transfer2droppos.c_on and event A_stopperretract.c_off are independent.
+Event A_transfer2droppos.c_on and event A_stopperretract.c_on are independent.
+Event A_transfer2droppos.c_on and event STimer.c_on are independent.
+Event A_transfer2droppos.c_on and event STimer.c_reset are independent.
+Event A_vacuum.c_off and event A_vacuum.c_on are mutually exclusive.
+Event A_vacuum.c_off and event A_ejectpulse.c_off are independent.
+Event A_vacuum.c_off and event A_ejectpulse.c_on are independent.
+Event A_vacuum.c_off and event A_elevator_up.c_off are independent.
+Event A_vacuum.c_off and event A_elevator_up.c_on are independent.
+Event A_vacuum.c_off and event A_elevator_down.c_off are independent.
+Event A_vacuum.c_off and event A_elevator_down.c_on are independent.
+Event A_vacuum.c_off and event A_pusher.c_off are independent.
+Event A_vacuum.c_off and event A_pusher.c_on are independent.
+Event A_vacuum.c_off and event A_airslide.c_off are independent.
+Event A_vacuum.c_off and event A_airslide.c_on are independent.
+Event A_vacuum.c_off and event TTimer.c_on are independent.
+Event A_vacuum.c_off and event TTimer.c_reset are independent.
+Event A_vacuum.c_off and event A_separator.c_off are independent.
+Event A_vacuum.c_off and event A_separator.c_on are independent.
+Event A_vacuum.c_off and event A_conveyerB.c_off are independent.
+Event A_vacuum.c_off and event A_conveyerB.c_on are independent.
+Event A_vacuum.c_off and event BTimer.c_on are independent.
+Event A_vacuum.c_off and event BTimer.c_reset are independent.
+Event A_vacuum.c_off and event A_drill.c_off are independent.
+Event A_vacuum.c_off and event A_drill.c_on are independent.
+Event A_vacuum.c_off and event A_turntable.c_off are independent.
+Event A_vacuum.c_off and event A_turntable.c_on are independent.
+Event A_vacuum.c_off and event A_drilldown.c_off are independent.
+Event A_vacuum.c_off and event A_drilldown.c_on are independent.
+Event A_vacuum.c_off and event A_drillup.c_off are independent.
+Event A_vacuum.c_off and event A_drillup.c_on are independent.
+Event A_vacuum.c_off and event A_clamp.c_off are independent.
+Event A_vacuum.c_off and event A_clamp.c_on are independent.
+Event A_vacuum.c_off and event A_tester.c_off are independent.
+Event A_vacuum.c_off and event A_tester.c_on are independent.
+Event A_vacuum.c_off and event A_eject.c_off are independent.
+Event A_vacuum.c_off and event A_eject.c_on are independent.
+Event A_vacuum.c_off and event PTimer.c_on are independent.
+Event A_vacuum.c_off and event PTimer.c_reset are independent.
+Event A_vacuum.c_off and event A_conveyer.c_off are independent.
+Event A_vacuum.c_off and event A_conveyer.c_on are independent.
+Event A_vacuum.c_off and event A_gate1.c_off are independent.
+Event A_vacuum.c_off and event A_gate1.c_on are independent.
+Event A_vacuum.c_off and event A_gate2.c_off are independent.
+Event A_vacuum.c_off and event A_gate2.c_on are independent.
+Event A_vacuum.c_off and event A_stopperretract.c_off are independent.
+Event A_vacuum.c_off and event A_stopperretract.c_on are independent.
+Event A_vacuum.c_off and event STimer.c_on are independent.
+Event A_vacuum.c_off and event STimer.c_reset are independent.
+Event A_vacuum.c_on and event A_ejectpulse.c_off are independent.
+Event A_vacuum.c_on and event A_ejectpulse.c_on are independent.
+Event A_vacuum.c_on and event A_elevator_up.c_off are independent.
+Event A_vacuum.c_on and event A_elevator_up.c_on are independent.
+Event A_vacuum.c_on and event A_elevator_down.c_off are independent.
+Event A_vacuum.c_on and event A_elevator_down.c_on are independent.
+Event A_vacuum.c_on and event A_pusher.c_off are independent.
+Event A_vacuum.c_on and event A_pusher.c_on are independent.
+Event A_vacuum.c_on and event A_airslide.c_off are independent.
+Event A_vacuum.c_on and event A_airslide.c_on are independent.
+Event A_vacuum.c_on and event TTimer.c_on are independent.
+Event A_vacuum.c_on and event TTimer.c_reset are independent.
+Event A_vacuum.c_on and event A_separator.c_off are independent.
+Event A_vacuum.c_on and event A_separator.c_on are independent.
+Event A_vacuum.c_on and event A_conveyerB.c_off are independent.
+Event A_vacuum.c_on and event A_conveyerB.c_on are independent.
+Event A_vacuum.c_on and event BTimer.c_on are independent.
+Event A_vacuum.c_on and event BTimer.c_reset are independent.
+Event A_vacuum.c_on and event A_drill.c_off are independent.
+Event A_vacuum.c_on and event A_drill.c_on are independent.
+Event A_vacuum.c_on and event A_turntable.c_off are independent.
+Event A_vacuum.c_on and event A_turntable.c_on are independent.
+Event A_vacuum.c_on and event A_drilldown.c_off are independent.
+Event A_vacuum.c_on and event A_drilldown.c_on are independent.
+Event A_vacuum.c_on and event A_drillup.c_off are independent.
+Event A_vacuum.c_on and event A_drillup.c_on are independent.
+Event A_vacuum.c_on and event A_clamp.c_off are independent.
+Event A_vacuum.c_on and event A_clamp.c_on are independent.
+Event A_vacuum.c_on and event A_tester.c_off are independent.
+Event A_vacuum.c_on and event A_tester.c_on are independent.
+Event A_vacuum.c_on and event A_eject.c_off are independent.
+Event A_vacuum.c_on and event A_eject.c_on are independent.
+Event A_vacuum.c_on and event PTimer.c_on are independent.
+Event A_vacuum.c_on and event PTimer.c_reset are independent.
+Event A_vacuum.c_on and event A_conveyer.c_off are independent.
+Event A_vacuum.c_on and event A_conveyer.c_on are independent.
+Event A_vacuum.c_on and event A_gate1.c_off are independent.
+Event A_vacuum.c_on and event A_gate1.c_on are independent.
+Event A_vacuum.c_on and event A_gate2.c_off are independent.
+Event A_vacuum.c_on and event A_gate2.c_on are independent.
+Event A_vacuum.c_on and event A_stopperretract.c_off are independent.
+Event A_vacuum.c_on and event A_stopperretract.c_on are independent.
+Event A_vacuum.c_on and event STimer.c_on are independent.
+Event A_vacuum.c_on and event STimer.c_reset are independent.
+Event A_ejectpulse.c_off and event A_ejectpulse.c_on are mutually exclusive.
+Event A_ejectpulse.c_off and event A_elevator_up.c_off are independent.
+Event A_ejectpulse.c_off and event A_elevator_up.c_on are independent.
+Event A_ejectpulse.c_off and event A_elevator_down.c_off are independent.
+Event A_ejectpulse.c_off and event A_elevator_down.c_on are independent.
+Event A_ejectpulse.c_off and event A_pusher.c_off are independent.
+Event A_ejectpulse.c_off and event A_pusher.c_on are independent.
+Event A_ejectpulse.c_off and event A_airslide.c_off are independent.
+Event A_ejectpulse.c_off and event A_airslide.c_on are independent.
+Event A_ejectpulse.c_off and event TTimer.c_on are independent.
+Event A_ejectpulse.c_off and event TTimer.c_reset are independent.
+Event A_ejectpulse.c_off and event A_separator.c_off are independent.
+Event A_ejectpulse.c_off and event A_separator.c_on are independent.
+Event A_ejectpulse.c_off and event A_conveyerB.c_off are independent.
+Event A_ejectpulse.c_off and event A_conveyerB.c_on are independent.
+Event A_ejectpulse.c_off and event BTimer.c_on are independent.
+Event A_ejectpulse.c_off and event BTimer.c_reset are independent.
+Event A_ejectpulse.c_off and event A_drill.c_off are independent.
+Event A_ejectpulse.c_off and event A_drill.c_on are independent.
+Event A_ejectpulse.c_off and event A_turntable.c_off are independent.
+Event A_ejectpulse.c_off and event A_turntable.c_on are independent.
+Event A_ejectpulse.c_off and event A_drilldown.c_off are independent.
+Event A_ejectpulse.c_off and event A_drilldown.c_on are independent.
+Event A_ejectpulse.c_off and event A_drillup.c_off are independent.
+Event A_ejectpulse.c_off and event A_drillup.c_on are independent.
+Event A_ejectpulse.c_off and event A_clamp.c_off are independent.
+Event A_ejectpulse.c_off and event A_clamp.c_on are independent.
+Event A_ejectpulse.c_off and event A_tester.c_off are independent.
+Event A_ejectpulse.c_off and event A_tester.c_on are independent.
+Event A_ejectpulse.c_off and event A_eject.c_off are independent.
+Event A_ejectpulse.c_off and event A_eject.c_on are independent.
+Event A_ejectpulse.c_off and event PTimer.c_on are independent.
+Event A_ejectpulse.c_off and event PTimer.c_reset are independent.
+Event A_ejectpulse.c_off and event A_conveyer.c_off are independent.
+Event A_ejectpulse.c_off and event A_conveyer.c_on are independent.
+Event A_ejectpulse.c_off and event A_gate1.c_off are independent.
+Event A_ejectpulse.c_off and event A_gate1.c_on are independent.
+Event A_ejectpulse.c_off and event A_gate2.c_off are independent.
+Event A_ejectpulse.c_off and event A_gate2.c_on are independent.
+Event A_ejectpulse.c_off and event A_stopperretract.c_off are independent.
+Event A_ejectpulse.c_off and event A_stopperretract.c_on are independent.
+Event A_ejectpulse.c_off and event STimer.c_on are independent.
+Event A_ejectpulse.c_off and event STimer.c_reset are independent.
+Event A_ejectpulse.c_on and event A_elevator_up.c_off are independent.
+Event A_ejectpulse.c_on and event A_elevator_up.c_on are independent.
+Event A_ejectpulse.c_on and event A_elevator_down.c_off are independent.
+Event A_ejectpulse.c_on and event A_elevator_down.c_on are independent.
+Event A_ejectpulse.c_on and event A_pusher.c_off are independent.
+Event A_ejectpulse.c_on and event A_pusher.c_on are independent.
+Event A_ejectpulse.c_on and event A_airslide.c_off are independent.
+Event A_ejectpulse.c_on and event A_airslide.c_on are independent.
+Event A_ejectpulse.c_on and event TTimer.c_on are independent.
+Event A_ejectpulse.c_on and event TTimer.c_reset are independent.
+Event A_ejectpulse.c_on and event A_separator.c_off are independent.
+Event A_ejectpulse.c_on and event A_separator.c_on are independent.
+Event A_ejectpulse.c_on and event A_conveyerB.c_off are independent.
+Event A_ejectpulse.c_on and event A_conveyerB.c_on are independent.
+Event A_ejectpulse.c_on and event BTimer.c_on are independent.
+Event A_ejectpulse.c_on and event BTimer.c_reset are independent.
+Event A_ejectpulse.c_on and event A_drill.c_off are independent.
+Event A_ejectpulse.c_on and event A_drill.c_on are independent.
+Event A_ejectpulse.c_on and event A_turntable.c_off are independent.
+Event A_ejectpulse.c_on and event A_turntable.c_on are independent.
+Event A_ejectpulse.c_on and event A_drilldown.c_off are independent.
+Event A_ejectpulse.c_on and event A_drilldown.c_on are independent.
+Event A_ejectpulse.c_on and event A_drillup.c_off are independent.
+Event A_ejectpulse.c_on and event A_drillup.c_on are independent.
+Event A_ejectpulse.c_on and event A_clamp.c_off are independent.
+Event A_ejectpulse.c_on and event A_clamp.c_on are independent.
+Event A_ejectpulse.c_on and event A_tester.c_off are independent.
+Event A_ejectpulse.c_on and event A_tester.c_on are independent.
+Event A_ejectpulse.c_on and event A_eject.c_off are independent.
+Event A_ejectpulse.c_on and event A_eject.c_on are independent.
+Event A_ejectpulse.c_on and event PTimer.c_on are independent.
+Event A_ejectpulse.c_on and event PTimer.c_reset are independent.
+Event A_ejectpulse.c_on and event A_conveyer.c_off are independent.
+Event A_ejectpulse.c_on and event A_conveyer.c_on are independent.
+Event A_ejectpulse.c_on and event A_gate1.c_off are independent.
+Event A_ejectpulse.c_on and event A_gate1.c_on are independent.
+Event A_ejectpulse.c_on and event A_gate2.c_off are independent.
+Event A_ejectpulse.c_on and event A_gate2.c_on are independent.
+Event A_ejectpulse.c_on and event A_stopperretract.c_off are independent.
+Event A_ejectpulse.c_on and event A_stopperretract.c_on are independent.
+Event A_ejectpulse.c_on and event STimer.c_on are independent.
+Event A_ejectpulse.c_on and event STimer.c_reset are independent.
+Event A_elevator_up.c_off and event A_elevator_up.c_on are mutually exclusive.
+Event A_elevator_up.c_off and event A_elevator_down.c_off are independent.
+Event A_elevator_up.c_off and event A_elevator_down.c_on are mutually exclusive.
+Event A_elevator_up.c_off and event A_pusher.c_off are mutually exclusive.
+Event A_elevator_up.c_off and event A_pusher.c_on are independent.
+Event A_elevator_up.c_off and event A_airslide.c_off are independent.
+Event A_elevator_up.c_off and event A_airslide.c_on are mutually exclusive.
+Event A_elevator_up.c_off and event TTimer.c_on are mutually exclusive.
+Event A_elevator_up.c_off and event TTimer.c_reset are undefined
+Event A_elevator_up.c_off and event A_separator.c_off are independent.
+Event A_elevator_up.c_off and event A_separator.c_on are independent.
+Event A_elevator_up.c_off and event A_conveyerB.c_off are independent.
+Event A_elevator_up.c_off and event A_conveyerB.c_on are independent.
+Event A_elevator_up.c_off and event BTimer.c_on are independent.
+Event A_elevator_up.c_off and event BTimer.c_reset are independent.
+Event A_elevator_up.c_off and event A_drill.c_off are independent.
+Event A_elevator_up.c_off and event A_drill.c_on are independent.
+Event A_elevator_up.c_off and event A_turntable.c_off are independent.
+Event A_elevator_up.c_off and event A_turntable.c_on are independent.
+Event A_elevator_up.c_off and event A_drilldown.c_off are independent.
+Event A_elevator_up.c_off and event A_drilldown.c_on are independent.
+Event A_elevator_up.c_off and event A_drillup.c_off are independent.
+Event A_elevator_up.c_off and event A_drillup.c_on are independent.
+Event A_elevator_up.c_off and event A_clamp.c_off are independent.
+Event A_elevator_up.c_off and event A_clamp.c_on are independent.
+Event A_elevator_up.c_off and event A_tester.c_off are independent.
+Event A_elevator_up.c_off and event A_tester.c_on are independent.
+Event A_elevator_up.c_off and event A_eject.c_off are independent.
+Event A_elevator_up.c_off and event A_eject.c_on are independent.
+Event A_elevator_up.c_off and event PTimer.c_on are independent.
+Event A_elevator_up.c_off and event PTimer.c_reset are independent.
+Event A_elevator_up.c_off and event A_conveyer.c_off are independent.
+Event A_elevator_up.c_off and event A_conveyer.c_on are independent.
+Event A_elevator_up.c_off and event A_gate1.c_off are independent.
+Event A_elevator_up.c_off and event A_gate1.c_on are independent.
+Event A_elevator_up.c_off and event A_gate2.c_off are independent.
+Event A_elevator_up.c_off and event A_gate2.c_on are independent.
+Event A_elevator_up.c_off and event A_stopperretract.c_off are independent.
+Event A_elevator_up.c_off and event A_stopperretract.c_on are independent.
+Event A_elevator_up.c_off and event STimer.c_on are independent.
+Event A_elevator_up.c_off and event STimer.c_reset are independent.
+Event A_elevator_up.c_on and event A_elevator_down.c_off are mutually exclusive.
+Event A_elevator_up.c_on and event A_elevator_down.c_on are undefined
+Event A_elevator_up.c_on and event A_pusher.c_off are mutually exclusive.
+Event A_elevator_up.c_on and event A_pusher.c_on are independent.
+Event A_elevator_up.c_on and event A_airslide.c_off are independent.
+Event A_elevator_up.c_on and event A_airslide.c_on are mutually exclusive.
+Event A_elevator_up.c_on and event TTimer.c_on are mutually exclusive.
+Event A_elevator_up.c_on and event TTimer.c_reset are undefined
+Event A_elevator_up.c_on and event A_separator.c_off are independent.
+Event A_elevator_up.c_on and event A_separator.c_on are independent.
+Event A_elevator_up.c_on and event A_conveyerB.c_off are independent.
+Event A_elevator_up.c_on and event A_conveyerB.c_on are independent.
+Event A_elevator_up.c_on and event BTimer.c_on are independent.
+Event A_elevator_up.c_on and event BTimer.c_reset are independent.
+Event A_elevator_up.c_on and event A_drill.c_off are independent.
+Event A_elevator_up.c_on and event A_drill.c_on are independent.
+Event A_elevator_up.c_on and event A_turntable.c_off are independent.
+Event A_elevator_up.c_on and event A_turntable.c_on are independent.
+Event A_elevator_up.c_on and event A_drilldown.c_off are independent.
+Event A_elevator_up.c_on and event A_drilldown.c_on are independent.
+Event A_elevator_up.c_on and event A_drillup.c_off are independent.
+Event A_elevator_up.c_on and event A_drillup.c_on are independent.
+Event A_elevator_up.c_on and event A_clamp.c_off are independent.
+Event A_elevator_up.c_on and event A_clamp.c_on are independent.
+Event A_elevator_up.c_on and event A_tester.c_off are independent.
+Event A_elevator_up.c_on and event A_tester.c_on are independent.
+Event A_elevator_up.c_on and event A_eject.c_off are independent.
+Event A_elevator_up.c_on and event A_eject.c_on are independent.
+Event A_elevator_up.c_on and event PTimer.c_on are independent.
+Event A_elevator_up.c_on and event PTimer.c_reset are independent.
+Event A_elevator_up.c_on and event A_conveyer.c_off are independent.
+Event A_elevator_up.c_on and event A_conveyer.c_on are independent.
+Event A_elevator_up.c_on and event A_gate1.c_off are independent.
+Event A_elevator_up.c_on and event A_gate1.c_on are independent.
+Event A_elevator_up.c_on and event A_gate2.c_off are independent.
+Event A_elevator_up.c_on and event A_gate2.c_on are independent.
+Event A_elevator_up.c_on and event A_stopperretract.c_off are independent.
+Event A_elevator_up.c_on and event A_stopperretract.c_on are independent.
+Event A_elevator_up.c_on and event STimer.c_on are independent.
+Event A_elevator_up.c_on and event STimer.c_reset are independent.
+Event A_elevator_down.c_off and event A_elevator_down.c_on are mutually exclusive.
+Event A_elevator_down.c_off and event A_pusher.c_off are mutually exclusive.
+Event A_elevator_down.c_off and event A_pusher.c_on are mutually exclusive.
+Event A_elevator_down.c_off and event A_airslide.c_off are independent.
+Event A_elevator_down.c_off and event A_airslide.c_on are mutually exclusive.
+Event A_elevator_down.c_off and event TTimer.c_on are mutually exclusive.
+Event A_elevator_down.c_off and event TTimer.c_reset are undefined
+Event A_elevator_down.c_off and event A_separator.c_off are independent.
+Event A_elevator_down.c_off and event A_separator.c_on are independent.
+Event A_elevator_down.c_off and event A_conveyerB.c_off are independent.
+Event A_elevator_down.c_off and event A_conveyerB.c_on are independent.
+Event A_elevator_down.c_off and event BTimer.c_on are independent.
+Event A_elevator_down.c_off and event BTimer.c_reset are independent.
+Event A_elevator_down.c_off and event A_drill.c_off are independent.
+Event A_elevator_down.c_off and event A_drill.c_on are independent.
+Event A_elevator_down.c_off and event A_turntable.c_off are independent.
+Event A_elevator_down.c_off and event A_turntable.c_on are independent.
+Event A_elevator_down.c_off and event A_drilldown.c_off are independent.
+Event A_elevator_down.c_off and event A_drilldown.c_on are independent.
+Event A_elevator_down.c_off and event A_drillup.c_off are independent.
+Event A_elevator_down.c_off and event A_drillup.c_on are independent.
+Event A_elevator_down.c_off and event A_clamp.c_off are independent.
+Event A_elevator_down.c_off and event A_clamp.c_on are independent.
+Event A_elevator_down.c_off and event A_tester.c_off are independent.
+Event A_elevator_down.c_off and event A_tester.c_on are independent.
+Event A_elevator_down.c_off and event A_eject.c_off are independent.
+Event A_elevator_down.c_off and event A_eject.c_on are independent.
+Event A_elevator_down.c_off and event PTimer.c_on are independent.
+Event A_elevator_down.c_off and event PTimer.c_reset are independent.
+Event A_elevator_down.c_off and event A_conveyer.c_off are independent.
+Event A_elevator_down.c_off and event A_conveyer.c_on are independent.
+Event A_elevator_down.c_off and event A_gate1.c_off are independent.
+Event A_elevator_down.c_off and event A_gate1.c_on are independent.
+Event A_elevator_down.c_off and event A_gate2.c_off are independent.
+Event A_elevator_down.c_off and event A_gate2.c_on are independent.
+Event A_elevator_down.c_off and event A_stopperretract.c_off are independent.
+Event A_elevator_down.c_off and event A_stopperretract.c_on are independent.
+Event A_elevator_down.c_off and event STimer.c_on are independent.
+Event A_elevator_down.c_off and event STimer.c_reset are independent.
+Event A_elevator_down.c_on and event A_pusher.c_off are mutually exclusive.
+Event A_elevator_down.c_on and event A_pusher.c_on are mutually exclusive.
+Event A_elevator_down.c_on and event A_airslide.c_off are independent.
+Event A_elevator_down.c_on and event A_airslide.c_on are mutually exclusive.
+Event A_elevator_down.c_on and event TTimer.c_on are mutually exclusive.
+Event A_elevator_down.c_on and event TTimer.c_reset are undefined
+Event A_elevator_down.c_on and event A_separator.c_off are independent.
+Event A_elevator_down.c_on and event A_separator.c_on are independent.
+Event A_elevator_down.c_on and event A_conveyerB.c_off are independent.
+Event A_elevator_down.c_on and event A_conveyerB.c_on are independent.
+Event A_elevator_down.c_on and event BTimer.c_on are independent.
+Event A_elevator_down.c_on and event BTimer.c_reset are independent.
+Event A_elevator_down.c_on and event A_drill.c_off are independent.
+Event A_elevator_down.c_on and event A_drill.c_on are independent.
+Event A_elevator_down.c_on and event A_turntable.c_off are independent.
+Event A_elevator_down.c_on and event A_turntable.c_on are independent.
+Event A_elevator_down.c_on and event A_drilldown.c_off are independent.
+Event A_elevator_down.c_on and event A_drilldown.c_on are independent.
+Event A_elevator_down.c_on and event A_drillup.c_off are independent.
+Event A_elevator_down.c_on and event A_drillup.c_on are independent.
+Event A_elevator_down.c_on and event A_clamp.c_off are independent.
+Event A_elevator_down.c_on and event A_clamp.c_on are independent.
+Event A_elevator_down.c_on and event A_tester.c_off are independent.
+Event A_elevator_down.c_on and event A_tester.c_on are independent.
+Event A_elevator_down.c_on and event A_eject.c_off are independent.
+Event A_elevator_down.c_on and event A_eject.c_on are independent.
+Event A_elevator_down.c_on and event PTimer.c_on are independent.
+Event A_elevator_down.c_on and event PTimer.c_reset are independent.
+Event A_elevator_down.c_on and event A_conveyer.c_off are independent.
+Event A_elevator_down.c_on and event A_conveyer.c_on are independent.
+Event A_elevator_down.c_on and event A_gate1.c_off are independent.
+Event A_elevator_down.c_on and event A_gate1.c_on are independent.
+Event A_elevator_down.c_on and event A_gate2.c_off are independent.
+Event A_elevator_down.c_on and event A_gate2.c_on are independent.
+Event A_elevator_down.c_on and event A_stopperretract.c_off are independent.
+Event A_elevator_down.c_on and event A_stopperretract.c_on are independent.
+Event A_elevator_down.c_on and event STimer.c_on are independent.
+Event A_elevator_down.c_on and event STimer.c_reset are independent.
+Event A_pusher.c_off and event A_pusher.c_on are mutually exclusive.
+Event A_pusher.c_off and event A_airslide.c_off are independent.
+Event A_pusher.c_off and event A_airslide.c_on are independent.
+Event A_pusher.c_off and event TTimer.c_on are mutually exclusive.
+Event A_pusher.c_off and event TTimer.c_reset are undefined
+Event A_pusher.c_off and event A_separator.c_off are independent.
+Event A_pusher.c_off and event A_separator.c_on are independent.
+Event A_pusher.c_off and event A_conveyerB.c_off are independent.
+Event A_pusher.c_off and event A_conveyerB.c_on are independent.
+Event A_pusher.c_off and event BTimer.c_on are independent.
+Event A_pusher.c_off and event BTimer.c_reset are independent.
+Event A_pusher.c_off and event A_drill.c_off are independent.
+Event A_pusher.c_off and event A_drill.c_on are independent.
+Event A_pusher.c_off and event A_turntable.c_off are independent.
+Event A_pusher.c_off and event A_turntable.c_on are independent.
+Event A_pusher.c_off and event A_drilldown.c_off are independent.
+Event A_pusher.c_off and event A_drilldown.c_on are independent.
+Event A_pusher.c_off and event A_drillup.c_off are independent.
+Event A_pusher.c_off and event A_drillup.c_on are independent.
+Event A_pusher.c_off and event A_clamp.c_off are independent.
+Event A_pusher.c_off and event A_clamp.c_on are independent.
+Event A_pusher.c_off and event A_tester.c_off are independent.
+Event A_pusher.c_off and event A_tester.c_on are independent.
+Event A_pusher.c_off and event A_eject.c_off are independent.
+Event A_pusher.c_off and event A_eject.c_on are independent.
+Event A_pusher.c_off and event PTimer.c_on are independent.
+Event A_pusher.c_off and event PTimer.c_reset are independent.
+Event A_pusher.c_off and event A_conveyer.c_off are independent.
+Event A_pusher.c_off and event A_conveyer.c_on are independent.
+Event A_pusher.c_off and event A_gate1.c_off are independent.
+Event A_pusher.c_off and event A_gate1.c_on are independent.
+Event A_pusher.c_off and event A_gate2.c_off are independent.
+Event A_pusher.c_off and event A_gate2.c_on are independent.
+Event A_pusher.c_off and event A_stopperretract.c_off are independent.
+Event A_pusher.c_off and event A_stopperretract.c_on are independent.
+Event A_pusher.c_off and event STimer.c_on are independent.
+Event A_pusher.c_off and event STimer.c_reset are independent.
+Event A_pusher.c_on and event A_airslide.c_off are independent.
+Event A_pusher.c_on and event A_airslide.c_on are independent.
+Event A_pusher.c_on and event TTimer.c_on are reversible, with reversible event TTimer.c_reset.
+Event A_pusher.c_on and event TTimer.c_reset are mutually exclusive.
+Event A_pusher.c_on and event A_separator.c_off are independent.
+Event A_pusher.c_on and event A_separator.c_on are independent.
+Event A_pusher.c_on and event A_conveyerB.c_off are independent.
+Event A_pusher.c_on and event A_conveyerB.c_on are independent.
+Event A_pusher.c_on and event BTimer.c_on are independent.
+Event A_pusher.c_on and event BTimer.c_reset are independent.
+Event A_pusher.c_on and event A_drill.c_off are independent.
+Event A_pusher.c_on and event A_drill.c_on are independent.
+Event A_pusher.c_on and event A_turntable.c_off are independent.
+Event A_pusher.c_on and event A_turntable.c_on are independent.
+Event A_pusher.c_on and event A_drilldown.c_off are independent.
+Event A_pusher.c_on and event A_drilldown.c_on are independent.
+Event A_pusher.c_on and event A_drillup.c_off are independent.
+Event A_pusher.c_on and event A_drillup.c_on are independent.
+Event A_pusher.c_on and event A_clamp.c_off are independent.
+Event A_pusher.c_on and event A_clamp.c_on are independent.
+Event A_pusher.c_on and event A_tester.c_off are independent.
+Event A_pusher.c_on and event A_tester.c_on are independent.
+Event A_pusher.c_on and event A_eject.c_off are independent.
+Event A_pusher.c_on and event A_eject.c_on are independent.
+Event A_pusher.c_on and event PTimer.c_on are independent.
+Event A_pusher.c_on and event PTimer.c_reset are independent.
+Event A_pusher.c_on and event A_conveyer.c_off are independent.
+Event A_pusher.c_on and event A_conveyer.c_on are independent.
+Event A_pusher.c_on and event A_gate1.c_off are independent.
+Event A_pusher.c_on and event A_gate1.c_on are independent.
+Event A_pusher.c_on and event A_gate2.c_off are independent.
+Event A_pusher.c_on and event A_gate2.c_on are independent.
+Event A_pusher.c_on and event A_stopperretract.c_off are independent.
+Event A_pusher.c_on and event A_stopperretract.c_on are independent.
+Event A_pusher.c_on and event STimer.c_on are independent.
+Event A_pusher.c_on and event STimer.c_reset are independent.
+Event A_airslide.c_off and event A_airslide.c_on are mutually exclusive.
+Event A_airslide.c_off and event TTimer.c_on are independent.
+Event A_airslide.c_off and event TTimer.c_reset are independent.
+Event A_airslide.c_off and event A_separator.c_off are independent.
+Event A_airslide.c_off and event A_separator.c_on are independent.
+Event A_airslide.c_off and event A_conveyerB.c_off are independent.
+Event A_airslide.c_off and event A_conveyerB.c_on are independent.
+Event A_airslide.c_off and event BTimer.c_on are independent.
+Event A_airslide.c_off and event BTimer.c_reset are independent.
+Event A_airslide.c_off and event A_drill.c_off are independent.
+Event A_airslide.c_off and event A_drill.c_on are independent.
+Event A_airslide.c_off and event A_turntable.c_off are independent.
+Event A_airslide.c_off and event A_turntable.c_on are independent.
+Event A_airslide.c_off and event A_drilldown.c_off are independent.
+Event A_airslide.c_off and event A_drilldown.c_on are independent.
+Event A_airslide.c_off and event A_drillup.c_off are independent.
+Event A_airslide.c_off and event A_drillup.c_on are independent.
+Event A_airslide.c_off and event A_clamp.c_off are independent.
+Event A_airslide.c_off and event A_clamp.c_on are independent.
+Event A_airslide.c_off and event A_tester.c_off are independent.
+Event A_airslide.c_off and event A_tester.c_on are independent.
+Event A_airslide.c_off and event A_eject.c_off are independent.
+Event A_airslide.c_off and event A_eject.c_on are independent.
+Event A_airslide.c_off and event PTimer.c_on are independent.
+Event A_airslide.c_off and event PTimer.c_reset are independent.
+Event A_airslide.c_off and event A_conveyer.c_off are independent.
+Event A_airslide.c_off and event A_conveyer.c_on are independent.
+Event A_airslide.c_off and event A_gate1.c_off are independent.
+Event A_airslide.c_off and event A_gate1.c_on are independent.
+Event A_airslide.c_off and event A_gate2.c_off are independent.
+Event A_airslide.c_off and event A_gate2.c_on are independent.
+Event A_airslide.c_off and event A_stopperretract.c_off are independent.
+Event A_airslide.c_off and event A_stopperretract.c_on are independent.
+Event A_airslide.c_off and event STimer.c_on are independent.
+Event A_airslide.c_off and event STimer.c_reset are independent.
+Event A_airslide.c_on and event TTimer.c_on are independent.
+Event A_airslide.c_on and event TTimer.c_reset are independent.
+Event A_airslide.c_on and event A_separator.c_off are independent.
+Event A_airslide.c_on and event A_separator.c_on are independent.
+Event A_airslide.c_on and event A_conveyerB.c_off are independent.
+Event A_airslide.c_on and event A_conveyerB.c_on are mutually exclusive.
+Event A_airslide.c_on and event BTimer.c_on are independent.
+Event A_airslide.c_on and event BTimer.c_reset are independent.
+Event A_airslide.c_on and event A_drill.c_off are independent.
+Event A_airslide.c_on and event A_drill.c_on are independent.
+Event A_airslide.c_on and event A_turntable.c_off are independent.
+Event A_airslide.c_on and event A_turntable.c_on are independent.
+Event A_airslide.c_on and event A_drilldown.c_off are independent.
+Event A_airslide.c_on and event A_drilldown.c_on are independent.
+Event A_airslide.c_on and event A_drillup.c_off are independent.
+Event A_airslide.c_on and event A_drillup.c_on are independent.
+Event A_airslide.c_on and event A_clamp.c_off are independent.
+Event A_airslide.c_on and event A_clamp.c_on are independent.
+Event A_airslide.c_on and event A_tester.c_off are independent.
+Event A_airslide.c_on and event A_tester.c_on are independent.
+Event A_airslide.c_on and event A_eject.c_off are independent.
+Event A_airslide.c_on and event A_eject.c_on are independent.
+Event A_airslide.c_on and event PTimer.c_on are independent.
+Event A_airslide.c_on and event PTimer.c_reset are independent.
+Event A_airslide.c_on and event A_conveyer.c_off are independent.
+Event A_airslide.c_on and event A_conveyer.c_on are independent.
+Event A_airslide.c_on and event A_gate1.c_off are independent.
+Event A_airslide.c_on and event A_gate1.c_on are independent.
+Event A_airslide.c_on and event A_gate2.c_off are independent.
+Event A_airslide.c_on and event A_gate2.c_on are independent.
+Event A_airslide.c_on and event A_stopperretract.c_off are independent.
+Event A_airslide.c_on and event A_stopperretract.c_on are independent.
+Event A_airslide.c_on and event STimer.c_on are independent.
+Event A_airslide.c_on and event STimer.c_reset are independent.
+Event TTimer.c_on and event TTimer.c_reset are mutually exclusive.
+Event TTimer.c_on and event A_separator.c_off are independent.
+Event TTimer.c_on and event A_separator.c_on are independent.
+Event TTimer.c_on and event A_conveyerB.c_off are independent.
+Event TTimer.c_on and event A_conveyerB.c_on are independent.
+Event TTimer.c_on and event BTimer.c_on are independent.
+Event TTimer.c_on and event BTimer.c_reset are independent.
+Event TTimer.c_on and event A_drill.c_off are independent.
+Event TTimer.c_on and event A_drill.c_on are independent.
+Event TTimer.c_on and event A_turntable.c_off are independent.
+Event TTimer.c_on and event A_turntable.c_on are independent.
+Event TTimer.c_on and event A_drilldown.c_off are independent.
+Event TTimer.c_on and event A_drilldown.c_on are independent.
+Event TTimer.c_on and event A_drillup.c_off are independent.
+Event TTimer.c_on and event A_drillup.c_on are independent.
+Event TTimer.c_on and event A_clamp.c_off are independent.
+Event TTimer.c_on and event A_clamp.c_on are independent.
+Event TTimer.c_on and event A_tester.c_off are independent.
+Event TTimer.c_on and event A_tester.c_on are independent.
+Event TTimer.c_on and event A_eject.c_off are independent.
+Event TTimer.c_on and event A_eject.c_on are independent.
+Event TTimer.c_on and event PTimer.c_on are independent.
+Event TTimer.c_on and event PTimer.c_reset are independent.
+Event TTimer.c_on and event A_conveyer.c_off are independent.
+Event TTimer.c_on and event A_conveyer.c_on are independent.
+Event TTimer.c_on and event A_gate1.c_off are independent.
+Event TTimer.c_on and event A_gate1.c_on are independent.
+Event TTimer.c_on and event A_gate2.c_off are independent.
+Event TTimer.c_on and event A_gate2.c_on are independent.
+Event TTimer.c_on and event A_stopperretract.c_off are independent.
+Event TTimer.c_on and event A_stopperretract.c_on are independent.
+Event TTimer.c_on and event STimer.c_on are independent.
+Event TTimer.c_on and event STimer.c_reset are independent.
+Event TTimer.c_reset and event A_separator.c_off are independent.
+Event TTimer.c_reset and event A_separator.c_on are independent.
+Event TTimer.c_reset and event A_conveyerB.c_off are independent.
+Event TTimer.c_reset and event A_conveyerB.c_on are independent.
+Event TTimer.c_reset and event BTimer.c_on are independent.
+Event TTimer.c_reset and event BTimer.c_reset are independent.
+Event TTimer.c_reset and event A_drill.c_off are independent.
+Event TTimer.c_reset and event A_drill.c_on are independent.
+Event TTimer.c_reset and event A_turntable.c_off are independent.
+Event TTimer.c_reset and event A_turntable.c_on are independent.
+Event TTimer.c_reset and event A_drilldown.c_off are independent.
+Event TTimer.c_reset and event A_drilldown.c_on are independent.
+Event TTimer.c_reset and event A_drillup.c_off are independent.
+Event TTimer.c_reset and event A_drillup.c_on are independent.
+Event TTimer.c_reset and event A_clamp.c_off are independent.
+Event TTimer.c_reset and event A_clamp.c_on are independent.
+Event TTimer.c_reset and event A_tester.c_off are independent.
+Event TTimer.c_reset and event A_tester.c_on are independent.
+Event TTimer.c_reset and event A_eject.c_off are independent.
+Event TTimer.c_reset and event A_eject.c_on are independent.
+Event TTimer.c_reset and event PTimer.c_on are independent.
+Event TTimer.c_reset and event PTimer.c_reset are independent.
+Event TTimer.c_reset and event A_conveyer.c_off are independent.
+Event TTimer.c_reset and event A_conveyer.c_on are independent.
+Event TTimer.c_reset and event A_gate1.c_off are independent.
+Event TTimer.c_reset and event A_gate1.c_on are independent.
+Event TTimer.c_reset and event A_gate2.c_off are independent.
+Event TTimer.c_reset and event A_gate2.c_on are independent.
+Event TTimer.c_reset and event A_stopperretract.c_off are independent.
+Event TTimer.c_reset and event A_stopperretract.c_on are independent.
+Event TTimer.c_reset and event STimer.c_on are independent.
+Event TTimer.c_reset and event STimer.c_reset are independent.
+Event A_separator.c_off and event A_separator.c_on are mutually exclusive.
+Event A_separator.c_off and event A_conveyerB.c_off are independent.
+Event A_separator.c_off and event A_conveyerB.c_on are independent.
+Event A_separator.c_off and event BTimer.c_on are independent.
+Event A_separator.c_off and event BTimer.c_reset are independent.
+Event A_separator.c_off and event A_drill.c_off are independent.
+Event A_separator.c_off and event A_drill.c_on are independent.
+Event A_separator.c_off and event A_turntable.c_off are mutually exclusive.
+Event A_separator.c_off and event A_turntable.c_on are mutually exclusive.
+Event A_separator.c_off and event A_drilldown.c_off are independent.
+Event A_separator.c_off and event A_drilldown.c_on are independent.
+Event A_separator.c_off and event A_drillup.c_off are independent.
+Event A_separator.c_off and event A_drillup.c_on are independent.
+Event A_separator.c_off and event A_clamp.c_off are independent.
+Event A_separator.c_off and event A_clamp.c_on are independent.
+Event A_separator.c_off and event A_tester.c_off are independent.
+Event A_separator.c_off and event A_tester.c_on are independent.
+Event A_separator.c_off and event A_eject.c_off are independent.
+Event A_separator.c_off and event A_eject.c_on are independent.
+Event A_separator.c_off and event PTimer.c_on are independent.
+Event A_separator.c_off and event PTimer.c_reset are mutually exclusive.
+Event A_separator.c_off and event A_conveyer.c_off are independent.
+Event A_separator.c_off and event A_conveyer.c_on are independent.
+Event A_separator.c_off and event A_gate1.c_off are independent.
+Event A_separator.c_off and event A_gate1.c_on are independent.
+Event A_separator.c_off and event A_gate2.c_off are independent.
+Event A_separator.c_off and event A_gate2.c_on are independent.
+Event A_separator.c_off and event A_stopperretract.c_off are independent.
+Event A_separator.c_off and event A_stopperretract.c_on are independent.
+Event A_separator.c_off and event STimer.c_on are independent.
+Event A_separator.c_off and event STimer.c_reset are independent.
+Event A_separator.c_on and event A_conveyerB.c_off are independent.
+Event A_separator.c_on and event A_conveyerB.c_on are independent.
+Event A_separator.c_on and event BTimer.c_on are independent.
+Event A_separator.c_on and event BTimer.c_reset are independent.
+Event A_separator.c_on and event A_drill.c_off are independent.
+Event A_separator.c_on and event A_drill.c_on are independent.
+Event A_separator.c_on and event A_turntable.c_off are independent.
+Event A_separator.c_on and event A_turntable.c_on are independent.
+Event A_separator.c_on and event A_drilldown.c_off are independent.
+Event A_separator.c_on and event A_drilldown.c_on are independent.
+Event A_separator.c_on and event A_drillup.c_off are independent.
+Event A_separator.c_on and event A_drillup.c_on are independent.
+Event A_separator.c_on and event A_clamp.c_off are independent.
+Event A_separator.c_on and event A_clamp.c_on are independent.
+Event A_separator.c_on and event A_tester.c_off are independent.
+Event A_separator.c_on and event A_tester.c_on are independent.
+Event A_separator.c_on and event A_eject.c_off are independent.
+Event A_separator.c_on and event A_eject.c_on are independent.
+Event A_separator.c_on and event PTimer.c_on are independent.
+Event A_separator.c_on and event PTimer.c_reset are independent.
+Event A_separator.c_on and event A_conveyer.c_off are independent.
+Event A_separator.c_on and event A_conveyer.c_on are independent.
+Event A_separator.c_on and event A_gate1.c_off are independent.
+Event A_separator.c_on and event A_gate1.c_on are independent.
+Event A_separator.c_on and event A_gate2.c_off are independent.
+Event A_separator.c_on and event A_gate2.c_on are independent.
+Event A_separator.c_on and event A_stopperretract.c_off are independent.
+Event A_separator.c_on and event A_stopperretract.c_on are independent.
+Event A_separator.c_on and event STimer.c_on are independent.
+Event A_separator.c_on and event STimer.c_reset are independent.
+Event A_conveyerB.c_off and event A_conveyerB.c_on are mutually exclusive.
+Event A_conveyerB.c_off and event BTimer.c_on are mutually exclusive.
+Event A_conveyerB.c_off and event BTimer.c_reset are reversible, with reversible event A_conveyerB.c_on.
+Event A_conveyerB.c_off and event A_drill.c_off are independent.
+Event A_conveyerB.c_off and event A_drill.c_on are independent.
+Event A_conveyerB.c_off and event A_turntable.c_off are independent.
+Event A_conveyerB.c_off and event A_turntable.c_on are independent.
+Event A_conveyerB.c_off and event A_drilldown.c_off are independent.
+Event A_conveyerB.c_off and event A_drilldown.c_on are independent.
+Event A_conveyerB.c_off and event A_drillup.c_off are independent.
+Event A_conveyerB.c_off and event A_drillup.c_on are independent.
+Event A_conveyerB.c_off and event A_clamp.c_off are independent.
+Event A_conveyerB.c_off and event A_clamp.c_on are independent.
+Event A_conveyerB.c_off and event A_tester.c_off are independent.
+Event A_conveyerB.c_off and event A_tester.c_on are independent.
+Event A_conveyerB.c_off and event A_eject.c_off are independent.
+Event A_conveyerB.c_off and event A_eject.c_on are independent.
+Event A_conveyerB.c_off and event PTimer.c_on are independent.
+Event A_conveyerB.c_off and event PTimer.c_reset are independent.
+Event A_conveyerB.c_off and event A_conveyer.c_off are independent.
+Event A_conveyerB.c_off and event A_conveyer.c_on are independent.
+Event A_conveyerB.c_off and event A_gate1.c_off are independent.
+Event A_conveyerB.c_off and event A_gate1.c_on are independent.
+Event A_conveyerB.c_off and event A_gate2.c_off are independent.
+Event A_conveyerB.c_off and event A_gate2.c_on are independent.
+Event A_conveyerB.c_off and event A_stopperretract.c_off are independent.
+Event A_conveyerB.c_off and event A_stopperretract.c_on are independent.
+Event A_conveyerB.c_off and event STimer.c_on are independent.
+Event A_conveyerB.c_off and event STimer.c_reset are independent.
+Event A_conveyerB.c_on and event BTimer.c_on are independent.
+Event A_conveyerB.c_on and event BTimer.c_reset are independent.
+Event A_conveyerB.c_on and event A_drill.c_off are independent.
+Event A_conveyerB.c_on and event A_drill.c_on are independent.
+Event A_conveyerB.c_on and event A_turntable.c_off are independent.
+Event A_conveyerB.c_on and event A_turntable.c_on are independent.
+Event A_conveyerB.c_on and event A_drilldown.c_off are independent.
+Event A_conveyerB.c_on and event A_drilldown.c_on are independent.
+Event A_conveyerB.c_on and event A_drillup.c_off are independent.
+Event A_conveyerB.c_on and event A_drillup.c_on are independent.
+Event A_conveyerB.c_on and event A_clamp.c_off are independent.
+Event A_conveyerB.c_on and event A_clamp.c_on are independent.
+Event A_conveyerB.c_on and event A_tester.c_off are independent.
+Event A_conveyerB.c_on and event A_tester.c_on are independent.
+Event A_conveyerB.c_on and event A_eject.c_off are independent.
+Event A_conveyerB.c_on and event A_eject.c_on are independent.
+Event A_conveyerB.c_on and event PTimer.c_on are independent.
+Event A_conveyerB.c_on and event PTimer.c_reset are independent.
+Event A_conveyerB.c_on and event A_conveyer.c_off are independent.
+Event A_conveyerB.c_on and event A_conveyer.c_on are independent.
+Event A_conveyerB.c_on and event A_gate1.c_off are independent.
+Event A_conveyerB.c_on and event A_gate1.c_on are independent.
+Event A_conveyerB.c_on and event A_gate2.c_off are independent.
+Event A_conveyerB.c_on and event A_gate2.c_on are independent.
+Event A_conveyerB.c_on and event A_stopperretract.c_off are independent.
+Event A_conveyerB.c_on and event A_stopperretract.c_on are independent.
+Event A_conveyerB.c_on and event STimer.c_on are independent.
+Event A_conveyerB.c_on and event STimer.c_reset are independent.
+Event BTimer.c_on and event BTimer.c_reset are mutually exclusive.
+Event BTimer.c_on and event A_drill.c_off are independent.
+Event BTimer.c_on and event A_drill.c_on are independent.
+Event BTimer.c_on and event A_turntable.c_off are independent.
+Event BTimer.c_on and event A_turntable.c_on are independent.
+Event BTimer.c_on and event A_drilldown.c_off are independent.
+Event BTimer.c_on and event A_drilldown.c_on are independent.
+Event BTimer.c_on and event A_drillup.c_off are independent.
+Event BTimer.c_on and event A_drillup.c_on are independent.
+Event BTimer.c_on and event A_clamp.c_off are independent.
+Event BTimer.c_on and event A_clamp.c_on are independent.
+Event BTimer.c_on and event A_tester.c_off are independent.
+Event BTimer.c_on and event A_tester.c_on are independent.
+Event BTimer.c_on and event A_eject.c_off are independent.
+Event BTimer.c_on and event A_eject.c_on are independent.
+Event BTimer.c_on and event PTimer.c_on are independent.
+Event BTimer.c_on and event PTimer.c_reset are independent.
+Event BTimer.c_on and event A_conveyer.c_off are independent.
+Event BTimer.c_on and event A_conveyer.c_on are independent.
+Event BTimer.c_on and event A_gate1.c_off are independent.
+Event BTimer.c_on and event A_gate1.c_on are independent.
+Event BTimer.c_on and event A_gate2.c_off are independent.
+Event BTimer.c_on and event A_gate2.c_on are independent.
+Event BTimer.c_on and event A_stopperretract.c_off are independent.
+Event BTimer.c_on and event A_stopperretract.c_on are independent.
+Event BTimer.c_on and event STimer.c_on are independent.
+Event BTimer.c_on and event STimer.c_reset are independent.
+Event BTimer.c_reset and event A_drill.c_off are independent.
+Event BTimer.c_reset and event A_drill.c_on are independent.
+Event BTimer.c_reset and event A_turntable.c_off are independent.
+Event BTimer.c_reset and event A_turntable.c_on are independent.
+Event BTimer.c_reset and event A_drilldown.c_off are independent.
+Event BTimer.c_reset and event A_drilldown.c_on are independent.
+Event BTimer.c_reset and event A_drillup.c_off are independent.
+Event BTimer.c_reset and event A_drillup.c_on are independent.
+Event BTimer.c_reset and event A_clamp.c_off are independent.
+Event BTimer.c_reset and event A_clamp.c_on are independent.
+Event BTimer.c_reset and event A_tester.c_off are independent.
+Event BTimer.c_reset and event A_tester.c_on are independent.
+Event BTimer.c_reset and event A_eject.c_off are independent.
+Event BTimer.c_reset and event A_eject.c_on are independent.
+Event BTimer.c_reset and event PTimer.c_on are independent.
+Event BTimer.c_reset and event PTimer.c_reset are independent.
+Event BTimer.c_reset and event A_conveyer.c_off are independent.
+Event BTimer.c_reset and event A_conveyer.c_on are independent.
+Event BTimer.c_reset and event A_gate1.c_off are independent.
+Event BTimer.c_reset and event A_gate1.c_on are independent.
+Event BTimer.c_reset and event A_gate2.c_off are independent.
+Event BTimer.c_reset and event A_gate2.c_on are independent.
+Event BTimer.c_reset and event A_stopperretract.c_off are independent.
+Event BTimer.c_reset and event A_stopperretract.c_on are independent.
+Event BTimer.c_reset and event STimer.c_on are independent.
+Event BTimer.c_reset and event STimer.c_reset are independent.
+Event A_drill.c_off and event A_drill.c_on are mutually exclusive.
+Event A_drill.c_off and event A_turntable.c_off are independent.
+Event A_drill.c_off and event A_turntable.c_on are mutually exclusive.
+Event A_drill.c_off and event A_drilldown.c_off are mutually exclusive.
+Event A_drill.c_off and event A_drilldown.c_on are mutually exclusive.
+Event A_drill.c_off and event A_drillup.c_off are mutually exclusive.
+Event A_drill.c_off and event A_drillup.c_on are mutually exclusive.
+Event A_drill.c_off and event A_clamp.c_off are mutually exclusive.
+Event A_drill.c_off and event A_clamp.c_on are mutually exclusive.
+Event A_drill.c_off and event A_tester.c_off are independent.
+Event A_drill.c_off and event A_tester.c_on are independent.
+Event A_drill.c_off and event A_eject.c_off are independent.
+Event A_drill.c_off and event A_eject.c_on are independent.
+Event A_drill.c_off and event PTimer.c_on are independent.
+Event A_drill.c_off and event PTimer.c_reset are independent.
+Event A_drill.c_off and event A_conveyer.c_off are independent.
+Event A_drill.c_off and event A_conveyer.c_on are independent.
+Event A_drill.c_off and event A_gate1.c_off are independent.
+Event A_drill.c_off and event A_gate1.c_on are independent.
+Event A_drill.c_off and event A_gate2.c_off are independent.
+Event A_drill.c_off and event A_gate2.c_on are independent.
+Event A_drill.c_off and event A_stopperretract.c_off are independent.
+Event A_drill.c_off and event A_stopperretract.c_on are independent.
+Event A_drill.c_off and event STimer.c_on are independent.
+Event A_drill.c_off and event STimer.c_reset are independent.
+Event A_drill.c_on and event A_turntable.c_off are independent.
+Event A_drill.c_on and event A_turntable.c_on are mutually exclusive.
+Event A_drill.c_on and event A_drilldown.c_off are mutually exclusive.
+Event A_drill.c_on and event A_drilldown.c_on are mutually exclusive.
+Event A_drill.c_on and event A_drillup.c_off are mutually exclusive.
+Event A_drill.c_on and event A_drillup.c_on are mutually exclusive.
+Event A_drill.c_on and event A_clamp.c_off are mutually exclusive.
+Event A_drill.c_on and event A_clamp.c_on are mutually exclusive.
+Event A_drill.c_on and event A_tester.c_off are independent.
+Event A_drill.c_on and event A_tester.c_on are independent.
+Event A_drill.c_on and event A_eject.c_off are independent.
+Event A_drill.c_on and event A_eject.c_on are independent.
+Event A_drill.c_on and event PTimer.c_on are independent.
+Event A_drill.c_on and event PTimer.c_reset are independent.
+Event A_drill.c_on and event A_conveyer.c_off are independent.
+Event A_drill.c_on and event A_conveyer.c_on are independent.
+Event A_drill.c_on and event A_gate1.c_off are independent.
+Event A_drill.c_on and event A_gate1.c_on are independent.
+Event A_drill.c_on and event A_gate2.c_off are independent.
+Event A_drill.c_on and event A_gate2.c_on are independent.
+Event A_drill.c_on and event A_stopperretract.c_off are independent.
+Event A_drill.c_on and event A_stopperretract.c_on are independent.
+Event A_drill.c_on and event STimer.c_on are independent.
+Event A_drill.c_on and event STimer.c_reset are independent.
+Event A_turntable.c_off and event A_turntable.c_on are mutually exclusive.
+Event A_turntable.c_off and event A_drilldown.c_off are independent.
+Event A_turntable.c_off and event A_drilldown.c_on are independent.
+Event A_turntable.c_off and event A_drillup.c_off are independent.
+Event A_turntable.c_off and event A_drillup.c_on are independent.
+Event A_turntable.c_off and event A_clamp.c_off are independent.
+Event A_turntable.c_off and event A_clamp.c_on are mutually exclusive.
+Event A_turntable.c_off and event A_tester.c_off are independent.
+Event A_turntable.c_off and event A_tester.c_on are mutually exclusive.
+Event A_turntable.c_off and event A_eject.c_off are independent.
+Event A_turntable.c_off and event A_eject.c_on are mutually exclusive.
+Event A_turntable.c_off and event PTimer.c_on are mutually exclusive.
+Event A_turntable.c_off and event PTimer.c_reset are independent.
+Event A_turntable.c_off and event A_conveyer.c_off are independent.
+Event A_turntable.c_off and event A_conveyer.c_on are independent.
+Event A_turntable.c_off and event A_gate1.c_off are independent.
+Event A_turntable.c_off and event A_gate1.c_on are independent.
+Event A_turntable.c_off and event A_gate2.c_off are independent.
+Event A_turntable.c_off and event A_gate2.c_on are independent.
+Event A_turntable.c_off and event A_stopperretract.c_off are independent.
+Event A_turntable.c_off and event A_stopperretract.c_on are independent.
+Event A_turntable.c_off and event STimer.c_on are independent.
+Event A_turntable.c_off and event STimer.c_reset are independent.
+Event A_turntable.c_on and event A_drilldown.c_off are mutually exclusive.
+Event A_turntable.c_on and event A_drilldown.c_on are mutually exclusive.
+Event A_turntable.c_on and event A_drillup.c_off are mutually exclusive.
+Event A_turntable.c_on and event A_drillup.c_on are mutually exclusive.
+Event A_turntable.c_on and event A_clamp.c_off are mutually exclusive.
+Event A_turntable.c_on and event A_clamp.c_on are undefined
+Event A_turntable.c_on and event A_tester.c_off are mutually exclusive.
+Event A_turntable.c_on and event A_tester.c_on are undefined
+Event A_turntable.c_on and event A_eject.c_off are mutually exclusive.
+Event A_turntable.c_on and event A_eject.c_on are undefined
+Event A_turntable.c_on and event PTimer.c_on are mutually exclusive.
+Event A_turntable.c_on and event PTimer.c_reset are mutually exclusive.
+Event A_turntable.c_on and event A_conveyer.c_off are independent.
+Event A_turntable.c_on and event A_conveyer.c_on are independent.
+Event A_turntable.c_on and event A_gate1.c_off are independent.
+Event A_turntable.c_on and event A_gate1.c_on are independent.
+Event A_turntable.c_on and event A_gate2.c_off are independent.
+Event A_turntable.c_on and event A_gate2.c_on are independent.
+Event A_turntable.c_on and event A_stopperretract.c_off are independent.
+Event A_turntable.c_on and event A_stopperretract.c_on are independent.
+Event A_turntable.c_on and event STimer.c_on are independent.
+Event A_turntable.c_on and event STimer.c_reset are independent.
+Event A_drilldown.c_off and event A_drilldown.c_on are mutually exclusive.
+Event A_drilldown.c_off and event A_drillup.c_off are mutually exclusive.
+Event A_drilldown.c_off and event A_drillup.c_on are mutually exclusive.
+Event A_drilldown.c_off and event A_clamp.c_off are mutually exclusive.
+Event A_drilldown.c_off and event A_clamp.c_on are mutually exclusive.
+Event A_drilldown.c_off and event A_tester.c_off are independent.
+Event A_drilldown.c_off and event A_tester.c_on are independent.
+Event A_drilldown.c_off and event A_eject.c_off are independent.
+Event A_drilldown.c_off and event A_eject.c_on are independent.
+Event A_drilldown.c_off and event PTimer.c_on are independent.
+Event A_drilldown.c_off and event PTimer.c_reset are independent.
+Event A_drilldown.c_off and event A_conveyer.c_off are independent.
+Event A_drilldown.c_off and event A_conveyer.c_on are independent.
+Event A_drilldown.c_off and event A_gate1.c_off are independent.
+Event A_drilldown.c_off and event A_gate1.c_on are independent.
+Event A_drilldown.c_off and event A_gate2.c_off are independent.
+Event A_drilldown.c_off and event A_gate2.c_on are independent.
+Event A_drilldown.c_off and event A_stopperretract.c_off are independent.
+Event A_drilldown.c_off and event A_stopperretract.c_on are independent.
+Event A_drilldown.c_off and event STimer.c_on are independent.
+Event A_drilldown.c_off and event STimer.c_reset are independent.
+Event A_drilldown.c_on and event A_drillup.c_off are mutually exclusive.
+Event A_drilldown.c_on and event A_drillup.c_on are mutually exclusive.
+Event A_drilldown.c_on and event A_clamp.c_off are mutually exclusive.
+Event A_drilldown.c_on and event A_clamp.c_on are mutually exclusive.
+Event A_drilldown.c_on and event A_tester.c_off are independent.
+Event A_drilldown.c_on and event A_tester.c_on are independent.
+Event A_drilldown.c_on and event A_eject.c_off are independent.
+Event A_drilldown.c_on and event A_eject.c_on are independent.
+Event A_drilldown.c_on and event PTimer.c_on are independent.
+Event A_drilldown.c_on and event PTimer.c_reset are independent.
+Event A_drilldown.c_on and event A_conveyer.c_off are independent.
+Event A_drilldown.c_on and event A_conveyer.c_on are independent.
+Event A_drilldown.c_on and event A_gate1.c_off are independent.
+Event A_drilldown.c_on and event A_gate1.c_on are independent.
+Event A_drilldown.c_on and event A_gate2.c_off are independent.
+Event A_drilldown.c_on and event A_gate2.c_on are independent.
+Event A_drilldown.c_on and event A_stopperretract.c_off are independent.
+Event A_drilldown.c_on and event A_stopperretract.c_on are independent.
+Event A_drilldown.c_on and event STimer.c_on are independent.
+Event A_drilldown.c_on and event STimer.c_reset are independent.
+Event A_drillup.c_off and event A_drillup.c_on are mutually exclusive.
+Event A_drillup.c_off and event A_clamp.c_off are mutually exclusive.
+Event A_drillup.c_off and event A_clamp.c_on are mutually exclusive.
+Event A_drillup.c_off and event A_tester.c_off are independent.
+Event A_drillup.c_off and event A_tester.c_on are independent.
+Event A_drillup.c_off and event A_eject.c_off are independent.
+Event A_drillup.c_off and event A_eject.c_on are independent.
+Event A_drillup.c_off and event PTimer.c_on are independent.
+Event A_drillup.c_off and event PTimer.c_reset are independent.
+Event A_drillup.c_off and event A_conveyer.c_off are independent.
+Event A_drillup.c_off and event A_conveyer.c_on are independent.
+Event A_drillup.c_off and event A_gate1.c_off are independent.
+Event A_drillup.c_off and event A_gate1.c_on are independent.
+Event A_drillup.c_off and event A_gate2.c_off are independent.
+Event A_drillup.c_off and event A_gate2.c_on are independent.
+Event A_drillup.c_off and event A_stopperretract.c_off are independent.
+Event A_drillup.c_off and event A_stopperretract.c_on are independent.
+Event A_drillup.c_off and event STimer.c_on are independent.
+Event A_drillup.c_off and event STimer.c_reset are independent.
+Event A_drillup.c_on and event A_clamp.c_off are mutually exclusive.
+Event A_drillup.c_on and event A_clamp.c_on are mutually exclusive.
+Event A_drillup.c_on and event A_tester.c_off are independent.
+Event A_drillup.c_on and event A_tester.c_on are independent.
+Event A_drillup.c_on and event A_eject.c_off are independent.
+Event A_drillup.c_on and event A_eject.c_on are independent.
+Event A_drillup.c_on and event PTimer.c_on are independent.
+Event A_drillup.c_on and event PTimer.c_reset are independent.
+Event A_drillup.c_on and event A_conveyer.c_off are independent.
+Event A_drillup.c_on and event A_conveyer.c_on are independent.
+Event A_drillup.c_on and event A_gate1.c_off are independent.
+Event A_drillup.c_on and event A_gate1.c_on are independent.
+Event A_drillup.c_on and event A_gate2.c_off are independent.
+Event A_drillup.c_on and event A_gate2.c_on are independent.
+Event A_drillup.c_on and event A_stopperretract.c_off are independent.
+Event A_drillup.c_on and event A_stopperretract.c_on are independent.
+Event A_drillup.c_on and event STimer.c_on are independent.
+Event A_drillup.c_on and event STimer.c_reset are independent.
+Event A_clamp.c_off and event A_clamp.c_on are mutually exclusive.
+Event A_clamp.c_off and event A_tester.c_off are independent.
+Event A_clamp.c_off and event A_tester.c_on are independent.
+Event A_clamp.c_off and event A_eject.c_off are independent.
+Event A_clamp.c_off and event A_eject.c_on are independent.
+Event A_clamp.c_off and event PTimer.c_on are independent.
+Event A_clamp.c_off and event PTimer.c_reset are independent.
+Event A_clamp.c_off and event A_conveyer.c_off are independent.
+Event A_clamp.c_off and event A_conveyer.c_on are independent.
+Event A_clamp.c_off and event A_gate1.c_off are independent.
+Event A_clamp.c_off and event A_gate1.c_on are independent.
+Event A_clamp.c_off and event A_gate2.c_off are independent.
+Event A_clamp.c_off and event A_gate2.c_on are independent.
+Event A_clamp.c_off and event A_stopperretract.c_off are independent.
+Event A_clamp.c_off and event A_stopperretract.c_on are independent.
+Event A_clamp.c_off and event STimer.c_on are independent.
+Event A_clamp.c_off and event STimer.c_reset are independent.
+Event A_clamp.c_on and event A_tester.c_off are independent.
+Event A_clamp.c_on and event A_tester.c_on are independent.
+Event A_clamp.c_on and event A_eject.c_off are independent.
+Event A_clamp.c_on and event A_eject.c_on are independent.
+Event A_clamp.c_on and event PTimer.c_on are mutually exclusive.
+Event A_clamp.c_on and event PTimer.c_reset are mutually exclusive.
+Event A_clamp.c_on and event A_conveyer.c_off are independent.
+Event A_clamp.c_on and event A_conveyer.c_on are independent.
+Event A_clamp.c_on and event A_gate1.c_off are independent.
+Event A_clamp.c_on and event A_gate1.c_on are independent.
+Event A_clamp.c_on and event A_gate2.c_off are independent.
+Event A_clamp.c_on and event A_gate2.c_on are independent.
+Event A_clamp.c_on and event A_stopperretract.c_off are independent.
+Event A_clamp.c_on and event A_stopperretract.c_on are independent.
+Event A_clamp.c_on and event STimer.c_on are independent.
+Event A_clamp.c_on and event STimer.c_reset are independent.
+Event A_tester.c_off and event A_tester.c_on are mutually exclusive.
+Event A_tester.c_off and event A_eject.c_off are independent.
+Event A_tester.c_off and event A_eject.c_on are independent.
+Event A_tester.c_off and event PTimer.c_on are independent.
+Event A_tester.c_off and event PTimer.c_reset are independent.
+Event A_tester.c_off and event A_conveyer.c_off are independent.
+Event A_tester.c_off and event A_conveyer.c_on are independent.
+Event A_tester.c_off and event A_gate1.c_off are independent.
+Event A_tester.c_off and event A_gate1.c_on are independent.
+Event A_tester.c_off and event A_gate2.c_off are independent.
+Event A_tester.c_off and event A_gate2.c_on are independent.
+Event A_tester.c_off and event A_stopperretract.c_off are independent.
+Event A_tester.c_off and event A_stopperretract.c_on are independent.
+Event A_tester.c_off and event STimer.c_on are independent.
+Event A_tester.c_off and event STimer.c_reset are independent.
+Event A_tester.c_on and event A_eject.c_off are independent.
+Event A_tester.c_on and event A_eject.c_on are independent.
+Event A_tester.c_on and event PTimer.c_on are mutually exclusive.
+Event A_tester.c_on and event PTimer.c_reset are mutually exclusive.
+Event A_tester.c_on and event A_conveyer.c_off are independent.
+Event A_tester.c_on and event A_conveyer.c_on are independent.
+Event A_tester.c_on and event A_gate1.c_off are independent.
+Event A_tester.c_on and event A_gate1.c_on are independent.
+Event A_tester.c_on and event A_gate2.c_off are independent.
+Event A_tester.c_on and event A_gate2.c_on are independent.
+Event A_tester.c_on and event A_stopperretract.c_off are independent.
+Event A_tester.c_on and event A_stopperretract.c_on are independent.
+Event A_tester.c_on and event STimer.c_on are independent.
+Event A_tester.c_on and event STimer.c_reset are independent.
+Event A_eject.c_off and event A_eject.c_on are mutually exclusive.
+Event A_eject.c_off and event PTimer.c_on are independent.
+Event A_eject.c_off and event PTimer.c_reset are independent.
+Event A_eject.c_off and event A_conveyer.c_off are mutually exclusive.
+Event A_eject.c_off and event A_conveyer.c_on are undefined
+Event A_eject.c_off and event A_gate1.c_off are independent.
+Event A_eject.c_off and event A_gate1.c_on are independent.
+Event A_eject.c_off and event A_gate2.c_off are independent.
+Event A_eject.c_off and event A_gate2.c_on are independent.
+Event A_eject.c_off and event A_stopperretract.c_off are independent.
+Event A_eject.c_off and event A_stopperretract.c_on are independent.
+Event A_eject.c_off and event STimer.c_on are independent.
+Event A_eject.c_off and event STimer.c_reset are independent.
+Event A_eject.c_on and event PTimer.c_on are mutually exclusive.
+Event A_eject.c_on and event PTimer.c_reset are mutually exclusive.
+Event A_eject.c_on and event A_conveyer.c_off are independent.
+Event A_eject.c_on and event A_conveyer.c_on are independent.
+Event A_eject.c_on and event A_gate1.c_off are independent.
+Event A_eject.c_on and event A_gate1.c_on are independent.
+Event A_eject.c_on and event A_gate2.c_off are independent.
+Event A_eject.c_on and event A_gate2.c_on are independent.
+Event A_eject.c_on and event A_stopperretract.c_off are independent.
+Event A_eject.c_on and event A_stopperretract.c_on are independent.
+Event A_eject.c_on and event STimer.c_on are independent.
+Event A_eject.c_on and event STimer.c_reset are independent.
+Event PTimer.c_on and event PTimer.c_reset are mutually exclusive.
+Event PTimer.c_on and event A_conveyer.c_off are independent.
+Event PTimer.c_on and event A_conveyer.c_on are independent.
+Event PTimer.c_on and event A_gate1.c_off are independent.
+Event PTimer.c_on and event A_gate1.c_on are independent.
+Event PTimer.c_on and event A_gate2.c_off are independent.
+Event PTimer.c_on and event A_gate2.c_on are independent.
+Event PTimer.c_on and event A_stopperretract.c_off are independent.
+Event PTimer.c_on and event A_stopperretract.c_on are independent.
+Event PTimer.c_on and event STimer.c_on are independent.
+Event PTimer.c_on and event STimer.c_reset are independent.
+Event PTimer.c_reset and event A_conveyer.c_off are independent.
+Event PTimer.c_reset and event A_conveyer.c_on are independent.
+Event PTimer.c_reset and event A_gate1.c_off are independent.
+Event PTimer.c_reset and event A_gate1.c_on are independent.
+Event PTimer.c_reset and event A_gate2.c_off are independent.
+Event PTimer.c_reset and event A_gate2.c_on are independent.
+Event PTimer.c_reset and event A_stopperretract.c_off are independent.
+Event PTimer.c_reset and event A_stopperretract.c_on are independent.
+Event PTimer.c_reset and event STimer.c_on are independent.
+Event PTimer.c_reset and event STimer.c_reset are independent.
+Event A_conveyer.c_off and event A_conveyer.c_on are mutually exclusive.
+Event A_conveyer.c_off and event A_gate1.c_off are independent.
+Event A_conveyer.c_off and event A_gate1.c_on are independent.
+Event A_conveyer.c_off and event A_gate2.c_off are independent.
+Event A_conveyer.c_off and event A_gate2.c_on are independent.
+Event A_conveyer.c_off and event A_stopperretract.c_off are independent.
+Event A_conveyer.c_off and event A_stopperretract.c_on are mutually exclusive.
+Event A_conveyer.c_off and event STimer.c_on are independent.
+Event A_conveyer.c_off and event STimer.c_reset are independent.
+Event A_conveyer.c_on and event A_gate1.c_off are independent.
+Event A_conveyer.c_on and event A_gate1.c_on are independent.
+Event A_conveyer.c_on and event A_gate2.c_off are independent.
+Event A_conveyer.c_on and event A_gate2.c_on are independent.
+Event A_conveyer.c_on and event A_stopperretract.c_off are independent.
+Event A_conveyer.c_on and event A_stopperretract.c_on are independent.
+Event A_conveyer.c_on and event STimer.c_on are independent.
+Event A_conveyer.c_on and event STimer.c_reset are independent.
+Event A_gate1.c_off and event A_gate1.c_on are mutually exclusive.
+Event A_gate1.c_off and event A_gate2.c_off are independent.
+Event A_gate1.c_off and event A_gate2.c_on are independent.
+Event A_gate1.c_off and event A_stopperretract.c_off are mutually exclusive.
+Event A_gate1.c_off and event A_stopperretract.c_on are mutually exclusive.
+Event A_gate1.c_off and event STimer.c_on are independent.
+Event A_gate1.c_off and event STimer.c_reset are independent.
+Event A_gate1.c_on and event A_gate2.c_off are independent.
+Event A_gate1.c_on and event A_gate2.c_on are mutually exclusive.
+Event A_gate1.c_on and event A_stopperretract.c_off are mutually exclusive.
+Event A_gate1.c_on and event A_stopperretract.c_on are undefined
+Event A_gate1.c_on and event STimer.c_on are mutually exclusive.
+Event A_gate1.c_on and event STimer.c_reset are undefined
+Event A_gate2.c_off and event A_gate2.c_on are mutually exclusive.
+Event A_gate2.c_off and event A_stopperretract.c_off are mutually exclusive.
+Event A_gate2.c_off and event A_stopperretract.c_on are mutually exclusive.
+Event A_gate2.c_off and event STimer.c_on are independent.
+Event A_gate2.c_off and event STimer.c_reset are independent.
+Event A_gate2.c_on and event A_stopperretract.c_off are mutually exclusive.
+Event A_gate2.c_on and event A_stopperretract.c_on are undefined
+Event A_gate2.c_on and event STimer.c_on are mutually exclusive.
+Event A_gate2.c_on and event STimer.c_reset are undefined
+Event A_stopperretract.c_off and event A_stopperretract.c_on are mutually exclusive.
+Event A_stopperretract.c_off and event STimer.c_on are independent.
+Event A_stopperretract.c_off and event STimer.c_reset are independent.
+Event A_stopperretract.c_on and event STimer.c_on are mutually exclusive.
+Event A_stopperretract.c_on and event STimer.c_reset are mutually exclusive.
+Event STimer.c_on and event STimer.c_reset are mutually exclusive.
+
+123 forcible-event combinations are mutually exclusive.
+1874 forcible-event combinations are independent.
+0 forcible-event combinations are update equivalent.
+0 forcible-event combinations are skippable.
+2 forcible-event combinations are reversible.
+0 forcible-event combinations are confluent after explicit check.
+Warning: 17 forcible-event combinations are undefined.
+
+The specification is not confluent.

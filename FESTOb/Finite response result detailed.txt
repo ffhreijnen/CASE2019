@@ -1,0 +1,161 @@
+Loading CIF specification "ExtraReq.cif"...
+Converting to internal representation...
+Checking for finite response...
+Iteration 1
+
+The following events have initially been encountered in a forcible-event loop of automaton Tester2
+* (A_turntable.c_on)
+* (A_tester.c_on A_tester.c_off A_turntable.c_on)
+
+Warning: (A_turntable.c_on) is not forcible-unconnectable
+Warning: (A_tester.c_on A_tester.c_off A_turntable.c_on) is not forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton ClampDrill2
+* (A_turntable.c_on)
+* (A_clamp.c_on A_drill.c_on A_drillup.c_off A_drilldown.c_on A_drilldown.c_off A_drillup.c_on A_drill.c_off A_clamp.c_off A_turntable.c_on)
+
+Warning: (A_turntable.c_on) is not forcible-unconnectable
+(A_clamp.c_on A_drill.c_on A_drillup.c_off A_drilldown.c_on A_drilldown.c_off A_drillup.c_on A_drill.c_off A_clamp.c_off A_turntable.c_on) is forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton A_pusher1
+* (A_pusher1.c_off A_pusher1.c_on)
+
+(A_pusher1.c_off A_pusher1.c_on) is forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton A_pusher2
+* (A_pusher2.c_off A_pusher2.c_on)
+
+(A_pusher2.c_off A_pusher2.c_on) is forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton A_pusher3
+* (A_pusher3.c_off A_pusher3.c_on)
+
+(A_pusher3.c_off A_pusher3.c_on) is forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton A_x2distributing
+* (A_x2distributing.c_off A_x2distributing.c_on)
+
+(A_x2distributing.c_off A_x2distributing.c_on) is forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton A_x2testing
+* (A_x2testing.c_off A_x2testing.c_on)
+
+(A_x2testing.c_off A_x2testing.c_on) is forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton A_zdown
+* (A_zdown.c_off A_zdown.c_on)
+
+(A_zdown.c_off A_zdown.c_on) is forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton A_gripperclose
+* (A_gripperclose.c_off A_gripperclose.c_on)
+
+(A_gripperclose.c_off A_gripperclose.c_on) is forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton A_transfer2pickpos
+* (A_transfer2pickpos.c_off A_transfer2pickpos.c_on)
+
+(A_transfer2pickpos.c_off A_transfer2pickpos.c_on) is forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton A_transfer2droppos
+* (A_transfer2droppos.c_off A_transfer2droppos.c_on)
+
+(A_transfer2droppos.c_off A_transfer2droppos.c_on) is forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton A_vacuum
+* (A_vacuum.c_off A_vacuum.c_on)
+
+(A_vacuum.c_off A_vacuum.c_on) is forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton A_ejectpulse
+* (A_ejectpulse.c_off A_ejectpulse.c_on)
+
+(A_ejectpulse.c_off A_ejectpulse.c_on) is forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton A_elevator_up
+* (A_elevator_up.c_off A_elevator_up.c_on)
+
+(A_elevator_up.c_off A_elevator_up.c_on) is forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton A_elevator_down
+* (A_elevator_down.c_off A_elevator_down.c_on)
+
+(A_elevator_down.c_off A_elevator_down.c_on) is forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton A_pusher
+* (A_pusher.c_off A_pusher.c_on)
+
+Warning: (A_pusher.c_off A_pusher.c_on) is not forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton A_airslide
+* (A_airslide.c_off A_airslide.c_on)
+
+(A_airslide.c_off A_airslide.c_on) is forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton TTimer
+* (TTimer.c_on TTimer.c_reset)
+
+(TTimer.c_on TTimer.c_reset) is forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton A_separator
+* (A_separator.c_off A_separator.c_on)
+
+(A_separator.c_off A_separator.c_on) is forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton A_conveyerB
+* (A_conveyerB.c_off A_conveyerB.c_on)
+
+(A_conveyerB.c_off A_conveyerB.c_on) is forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton BTimer
+* (BTimer.c_on BTimer.c_reset)
+
+(BTimer.c_on BTimer.c_reset) is forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton A_turntable
+* (A_turntable.c_off A_turntable.c_on)
+
+(A_turntable.c_off A_turntable.c_on) is forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton A_tester
+* (A_tester.c_off A_tester.c_on)
+
+Warning: (A_tester.c_off A_tester.c_on) is not forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton A_eject
+* (A_eject.c_off A_eject.c_on)
+
+(A_eject.c_off A_eject.c_on) is forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton PTimer
+* (PTimer.c_on PTimer.c_reset)
+
+(PTimer.c_on PTimer.c_reset) is forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton A_conveyer
+* (A_conveyer.c_off A_conveyer.c_on)
+
+(A_conveyer.c_off A_conveyer.c_on) is forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton A_gate1
+* (A_gate1.c_off A_gate1.c_on)
+
+(A_gate1.c_off A_gate1.c_on) is forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton A_gate2
+* (A_gate2.c_off A_gate2.c_on)
+
+(A_gate2.c_off A_gate2.c_on) is forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton A_stopperretract
+* (A_stopperretract.c_off A_stopperretract.c_on)
+
+(A_stopperretract.c_off A_stopperretract.c_on) is forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton STimer
+* (STimer.c_on STimer.c_reset)
+
+(STimer.c_on STimer.c_reset) is forcible-unconnectable
+Iteration 2
+
+The specification has finite response.

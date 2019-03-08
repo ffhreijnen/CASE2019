@@ -1,0 +1,21 @@
+In order to introduce location pointers, on every edge, a condition is added that refers to the current location as follows:
+
+plant TwoStateActuator:
+    controllable c_on, c_off;
+    location On:
+		initial;
+        edge c_off goto Off;
+    location Off:
+        edge c_on  goto On;
+end
+
+Changed to:
+
+plant TwoStateActuator:
+    controllable c_on, c_off;
+    location On:
+		initial;
+        edge c_off when On goto Off;
+    location Off:
+        edge c_on  when Off goto On;
+end

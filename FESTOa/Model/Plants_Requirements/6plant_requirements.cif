@@ -1,0 +1,99 @@
+import "../Definitions/Definitions.cif";
+
+//Plant:
+//Sensors
+S_product        : TwoStateSensor(false);
+S_inductive      : TwoStateSensor(false);
+S_optical        : TwoStateSensor(false);
+S_slidefull      : TwoStateSensor(false);
+plant S_gate1:
+    uncontrollable u_closed_on, u_closed_off, u_open_on, u_open_off;
+    location Closed:
+        edge u_closed_off goto Between;
+    location Between:
+        edge u_closed_on  goto Closed;
+        edge u_open_on    goto Open;
+    location Open:
+        initial; marked;
+        edge u_open_off   goto Between;
+end
+plant S_gate2:
+    uncontrollable u_closed_on, u_closed_off, u_open_on, u_open_off;
+    location Closed:
+        edge u_closed_off goto Between;
+    location Between:
+        edge u_closed_on  goto Closed;
+        edge u_open_on    goto Open;
+    location Open:
+        initial; marked;
+        edge u_open_off   goto Between;
+end
+S_Sinitialized   : TwoStateSensor(false);
+
+//Actuators
+A_conveyer       : TwoStateActuator(false);
+A_gate1          : TwoStateActuator(false);
+A_gate2          : TwoStateActuator(false);
+A_stopperretract : TwoStateActuator(false);
+
+STimer: Timer();
+
+//Requirements
+//Initialization
+//Actuators are only allowed to enable/disable when the station is initialized
+requirement {A_conveyer.c_on, A_conveyer.c_off, A_gate1.c_on, A_gate1.c_off,
+             A_gate2.c_on, A_gate2.c_off, A_stopperretract.c_on, A_stopperretract.c_off}
+      needs S_Sinitialized.On;
+
+//Timer that time out after x seconds, to make sure that a product is identified.
+requirement STimer.c_on    needs S_product.On;
+requirement STimer.c_reset needs S_slidefull.On;
+
+//Conveyer
+//Conveyer is allowed to enable when there is a product
+requirement A_conveyer.c_on  needs S_product.On;
+
+//Conveyer is allowed to disable when product is in the slide
+requirement A_conveyer.c_off needs S_slidefull.On;
+
+
+//Stopper
+//Stopper is allowed to retract when:
+//  - There is a product that has been identified (Timeout)
+//  - The slide is not full
+
+requirement A_stopperretract.c_on  needs STimer.Timeout;
+requirement A_stopperretract.c_on  needs S_slidefull.Off;
+
+//Stopper is allowed to extend when the product entered the buffer
+requirement A_stopperretract.c_off needs S_slidefull.On;
+
+//Gates
+//The gates are only allowed to close when they are fully open
+requirement A_gate1.c_on needs S_gate1.Open;
+requirement A_gate2.c_on needs S_gate2.Open;
+
+//The gates are only allowed to open when they are fully closed
+requirement A_gate1.c_off needs S_gate1.Closed;
+requirement A_gate2.c_off needs S_gate2.Closed;
+
+//Gate1 is only allowed to close when there is a plastic product before the stopper
+requirement A_gate1.c_on needs S_optical.On;
+requirement A_gate1.c_on needs S_inductive.Off;
+requirement A_gate1.c_on needs STimer.Timeout;
+
+//Gate1 is only allowed to open when product entered the buffer
+requirement A_gate1.c_off needs S_slidefull.On;
+
+//Gate2 is only allowed to close when there is a metal product before the stopper
+requirement A_gate2.c_on needs S_optical.On;
+requirement A_gate2.c_on needs S_inductive.On;
+requirement A_gate2.c_on needs STimer.Timeout;
+
+//Gate2 is only allowed to open when product entered the buffer
+requirement A_gate2.c_off needs S_slidefull.On;
+
+//Gate1 and 2 are only allowed to actuate when the stopper is closed
+requirement {A_gate1.c_on, A_gate1.c_off} needs A_stopperretract.Off;
+requirement {A_gate2.c_on, A_gate2.c_off} needs A_stopperretract.Off;
+
