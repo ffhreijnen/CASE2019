@@ -99,13 +99,13 @@ requirement A_airslide.c_off needs S_elevator_down.On;
 requirement PusherLift:
     location One:
         initial; marked;
-        edge A_elevator_down.c_off when One   goto Two;
+        edge A_elevator_down.c_off goto Two;
     location Two:
-        edge A_pusher.c_on         when Two   goto Three;
+        edge A_pusher.c_on         goto Three;
     location Three:
-        edge A_pusher.c_off        when Three goto Four;
+        edge A_pusher.c_off        goto Four;
     location Four:
-        edge A_elevator_down.c_on  when Four  goto One;
+        edge A_elevator_down.c_on  goto One;
 end
 
 //BUFFERING

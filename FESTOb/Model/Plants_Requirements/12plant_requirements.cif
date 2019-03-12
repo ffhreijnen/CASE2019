@@ -118,10 +118,10 @@ plant S_zpos:
     location Atup:
         initial;
         marked;
-        edge u_atup_off  goto Between;
+        edge u_atup_off   goto Between;
     location Between:
-        edge u_atup_on   goto Atup;
-        edge u_atdown_on goto Atdown;
+        edge u_atup_on    goto Atup;
+        edge u_atdown_on  goto Atdown;
     location Atdown:
         edge u_atdown_off goto Between;
 end
@@ -138,9 +138,9 @@ plant S_transfer:
     location Atdrop:
         edge u_atdrop_off    goto Between;
     location Between:
-        edge u_athalfway_on goto Athalfway;
-        edge u_atpickup_on  goto Atpickup;
-        edge u_atdrop_on    goto Atdrop;
+        edge u_athalfway_on  goto Athalfway;
+        edge u_atpickup_on   goto Atpickup;
+        edge u_atdrop_on     goto Atdrop;
 end
 
 S_vacuum             : TwoStateSensor(false);

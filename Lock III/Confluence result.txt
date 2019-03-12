@@ -1,0 +1,86 @@
+Event pad_N.c_open and event culvert_N.c_enable are undefined
+Event pad_N.c_open and event culvert_S.c_enable are undefined
+Event pad_N.c_open and event gate_U_N.c_open are undefined
+Event pad_N.c_open and event gate_U_S.c_open are undefined
+Event pad_S.c_open and event culvert_N.c_enable are undefined
+Event pad_S.c_open and event culvert_S.c_enable are undefined
+Event pad_S.c_open and event gate_U_N.c_open are undefined
+Event pad_S.c_open and event gate_U_S.c_open are undefined
+Event culvert_N.c_enable and event gate_D_N.c_open are undefined
+Event culvert_N.c_enable and event gate_D_S.c_open are undefined
+Event culvert_S.c_enable and event gate_D_N.c_open are undefined
+Event culvert_S.c_enable and event gate_D_S.c_open are undefined
+Event gate_D_N.c_open and event gate_D_N.c_fc_on are undefined
+Event gate_D_N.c_open and event gate_D_N.c_sc_on are undefined
+Event gate_D_N.c_open and event gate_U_N.c_open are undefined
+Event gate_D_N.c_open and event gate_U_S.c_open are undefined
+Event gate_D_N.c_close and event gate_D_N.c_fo_on are undefined
+Event gate_D_N.c_close and event gate_D_N.c_so_on are undefined
+Event gate_D_N.c_close and event out_D_N.c_green are undefined
+Event gate_D_N.c_close and event out_D_S.c_green are undefined
+Event gate_D_N.c_close and event in_D_N.c_redgreen are undefined
+Event gate_D_N.c_close and event in_D_S.c_redgreen are undefined
+Event gate_D_N.c_stopO and event gate_D_N.c_fo_on are undefined
+Event gate_D_N.c_stopO and event gate_D_N.c_so_on are undefined
+Event gate_D_N.c_stopC and event gate_D_N.c_fc_on are undefined
+Event gate_D_N.c_stopC and event gate_D_N.c_sc_on are undefined
+Event gate_D_S.c_open and event gate_D_S.c_fc_on are undefined
+Event gate_D_S.c_open and event gate_D_S.c_sc_on are undefined
+Event gate_D_S.c_open and event gate_U_N.c_open are undefined
+Event gate_D_S.c_open and event gate_U_S.c_open are undefined
+Event gate_D_S.c_close and event gate_D_S.c_fo_on are undefined
+Event gate_D_S.c_close and event gate_D_S.c_so_on are undefined
+Event gate_D_S.c_close and event out_D_N.c_green are undefined
+Event gate_D_S.c_close and event out_D_S.c_green are undefined
+Event gate_D_S.c_close and event in_D_N.c_redgreen are undefined
+Event gate_D_S.c_close and event in_D_S.c_redgreen are undefined
+Event gate_D_S.c_stopO and event gate_D_S.c_fo_on are undefined
+Event gate_D_S.c_stopO and event gate_D_S.c_so_on are undefined
+Event gate_D_S.c_stopC and event gate_D_S.c_fc_on are undefined
+Event gate_D_S.c_stopC and event gate_D_S.c_sc_on are undefined
+Event gate_U_N.c_open and event gate_U_N.c_fc_on are undefined
+Event gate_U_N.c_open and event gate_U_N.c_sc_on are undefined
+Event gate_U_N.c_close and event gate_U_N.c_fo_on are undefined
+Event gate_U_N.c_close and event gate_U_N.c_so_on are undefined
+Event gate_U_N.c_close and event out_U_N.c_green are undefined
+Event gate_U_N.c_close and event out_U_S.c_green are undefined
+Event gate_U_N.c_close and event in_U_N.c_redgreen are undefined
+Event gate_U_N.c_close and event in_U_S.c_redgreen are undefined
+Event gate_U_N.c_stopO and event gate_U_N.c_fo_on are undefined
+Event gate_U_N.c_stopO and event gate_U_N.c_so_on are undefined
+Event gate_U_N.c_stopC and event gate_U_N.c_fc_on are undefined
+Event gate_U_N.c_stopC and event gate_U_N.c_sc_on are undefined
+Event gate_U_S.c_open and event gate_U_S.c_fc_on are undefined
+Event gate_U_S.c_open and event gate_U_S.c_sc_on are undefined
+Event gate_U_S.c_close and event gate_U_S.c_fo_on are undefined
+Event gate_U_S.c_close and event gate_U_S.c_so_on are undefined
+Event gate_U_S.c_close and event out_U_N.c_green are undefined
+Event gate_U_S.c_close and event out_U_S.c_green are undefined
+Event gate_U_S.c_close and event in_U_N.c_redgreen are undefined
+Event gate_U_S.c_close and event in_U_S.c_redgreen are undefined
+Event gate_U_S.c_stopO and event gate_U_S.c_fo_on are undefined
+Event gate_U_S.c_stopO and event gate_U_S.c_so_on are undefined
+Event gate_U_S.c_stopC and event gate_U_S.c_fc_on are undefined
+Event gate_U_S.c_stopC and event gate_U_S.c_sc_on are undefined
+Event out_D_N.c_green and event in_D_N.c_green are undefined
+Event out_D_N.c_green and event in_D_S.c_green are undefined
+Event out_D_S.c_green and event in_D_N.c_green are undefined
+Event out_D_S.c_green and event in_D_S.c_green are undefined
+Event out_U_N.c_green and event in_U_N.c_green are undefined
+Event out_U_N.c_green and event in_U_S.c_green are undefined
+Event out_U_S.c_green and event in_U_N.c_green are undefined
+Event out_U_S.c_green and event in_U_S.c_green are undefined
+Event in_D_N.c_redgreen and event in_D_N.c_redred are undefined
+Event in_D_S.c_redgreen and event in_D_S.c_redred are undefined
+Event in_U_N.c_redgreen and event in_U_N.c_redred are undefined
+Event in_U_S.c_redgreen and event in_U_S.c_redred are undefined
+
+628 forcible-event combinations are mutually exclusive.
+4186 forcible-event combinations are independent.
+0 forcible-event combinations are update equivalent.
+12 forcible-event combinations are skippable.
+24 forcible-event combinations are reversible.
+24 forcible-event combinations are confluent after explicit check.
+Warning: 76 forcible-event combinations are undefined.
+
+The specification is not confluent.

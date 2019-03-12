@@ -3,11 +3,11 @@ plant def TwoStateSensor(alg bool InitialOn):
     location On:
         initial InitialOn;
         marked  InitialOn;
-        edge u_off when On  goto Off;
+        edge u_off goto Off;
     location Off:
         initial not InitialOn;
         marked  not InitialOn;
-        edge u_on  when Off goto On;
+        edge u_on  goto On;
 end
 
 plant def TwoStateActuator(alg bool InitialOn):
@@ -15,11 +15,11 @@ plant def TwoStateActuator(alg bool InitialOn):
     location On:
         initial InitialOn;
         marked  InitialOn;
-        edge c_off when On  goto Off;
+        edge c_off goto Off;
     location Off:
         initial not InitialOn;
         marked  not InitialOn;
-        edge c_on  when Off goto On;
+        edge c_on  goto On;
 end
 
 plant def TwoStateActuator2(alg bool InitialOn):
@@ -27,31 +27,31 @@ plant def TwoStateActuator2(alg bool InitialOn):
     location On:
         initial InitialOn;
         marked;
-        edge c_off when On  goto Off;
+        edge c_off goto Off;
     location Off:
         initial not InitialOn;
         marked;
-        edge c_on  when Off goto On;
+        edge c_on  goto On;
 end
 
 plant def Button():
     uncontrollable u_push, u_release;
     location Released:
         initial; marked;
-        edge u_push    when Released goto Pushed;
+        edge u_push    goto Pushed;
     location Pushed:
-        edge u_release when Pushed   goto Released;
+        edge u_release goto Released;
 end
 
 plant def Timer():
         controllable c_on, c_reset; uncontrollable u_timeout;
     location Off:
         initial; marked;
-        edge c_on      when Off     goto Running;
+        edge c_on      goto Running;
     location Running:
-        edge u_timeout when Running goto Timeout;
-        edge c_reset   when Running goto Off;
+        edge u_timeout goto Timeout;
+        edge c_reset   goto Off;
     location Timeout:
         marked;
-        edge c_reset   when Timeout goto Off;
+        edge c_reset   goto Off;
 end

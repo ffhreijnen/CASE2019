@@ -1,0 +1,228 @@
+Checking for finite response...
+Iteration 1
+
+The following events have initially been encountered in a forcible-event loop of automaton pad_N.A
+* (pad_N.c_close pad_N.c_open)
+* (pad_N.c_open pad_N.c_close pad_N.c_stopC)
+* (pad_N.c_open pad_N.c_stopO)
+* (pad_N.c_close pad_N.c_open pad_N.c_stopO)
+* (pad_N.c_close pad_N.c_stopC)
+
+(pad_N.c_close pad_N.c_open) is forcible-unconnectable
+(pad_N.c_open pad_N.c_close pad_N.c_stopC) is forcible-unconnectable
+(pad_N.c_open pad_N.c_stopO) is forcible-unconnectable
+(pad_N.c_close pad_N.c_open pad_N.c_stopO) is forcible-unconnectable
+(pad_N.c_close pad_N.c_stopC) is forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton pad_S.A
+* (pad_S.c_close pad_S.c_open)
+* (pad_S.c_open pad_S.c_close pad_S.c_stopC)
+* (pad_S.c_open pad_S.c_stopO)
+* (pad_S.c_close pad_S.c_open pad_S.c_stopO)
+* (pad_S.c_close pad_S.c_stopC)
+
+(pad_S.c_close pad_S.c_open) is forcible-unconnectable
+(pad_S.c_open pad_S.c_close pad_S.c_stopC) is forcible-unconnectable
+(pad_S.c_open pad_S.c_stopO) is forcible-unconnectable
+(pad_S.c_close pad_S.c_open pad_S.c_stopO) is forcible-unconnectable
+(pad_S.c_close pad_S.c_stopC) is forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton culvert_N.A
+* (culvert_N.c_enable culvert_N.c_disable)
+
+(culvert_N.c_enable culvert_N.c_disable) is forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton culvert_S.A
+* (culvert_S.c_enable culvert_S.c_disable)
+
+(culvert_S.c_enable culvert_S.c_disable) is forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton gate_D_N.Dir
+* (gate_D_N.c_close gate_D_N.c_open)
+* (gate_D_N.c_open gate_D_N.c_close gate_D_N.c_stopC)
+* (gate_D_N.c_open gate_D_N.c_stopO)
+* (gate_D_N.c_close gate_D_N.c_open gate_D_N.c_stopO)
+* (gate_D_N.c_close gate_D_N.c_stopC)
+
+(gate_D_N.c_close gate_D_N.c_open) is forcible-unconnectable
+(gate_D_N.c_open gate_D_N.c_close gate_D_N.c_stopC) is forcible-unconnectable
+(gate_D_N.c_open gate_D_N.c_stopO) is forcible-unconnectable
+(gate_D_N.c_close gate_D_N.c_open gate_D_N.c_stopO) is forcible-unconnectable
+(gate_D_N.c_close gate_D_N.c_stopC) is forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton gate_D_N.Spe
+* (gate_D_N.c_fc_on gate_D_N.c_fc_off)
+* (gate_D_N.c_sc_on gate_D_N.c_sc_off)
+* (gate_D_N.c_fo_on gate_D_N.c_fo_off)
+* (gate_D_N.c_so_on gate_D_N.c_so_off)
+
+(gate_D_N.c_fc_on gate_D_N.c_fc_off) is forcible-unconnectable
+(gate_D_N.c_sc_on gate_D_N.c_sc_off) is forcible-unconnectable
+(gate_D_N.c_fo_on gate_D_N.c_fo_off) is forcible-unconnectable
+(gate_D_N.c_so_on gate_D_N.c_so_off) is forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton gate_D_N.Pre
+* (gate_D_N.c_high_on gate_D_N.c_high_off)
+* (gate_D_N.c_low_on gate_D_N.c_low_off)
+
+(gate_D_N.c_high_on gate_D_N.c_high_off) is forcible-unconnectable
+(gate_D_N.c_low_on gate_D_N.c_low_off) is forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton gate_D_S.Dir
+* (gate_D_S.c_close gate_D_S.c_open)
+* (gate_D_S.c_open gate_D_S.c_close gate_D_S.c_stopC)
+* (gate_D_S.c_open gate_D_S.c_stopO)
+* (gate_D_S.c_close gate_D_S.c_open gate_D_S.c_stopO)
+* (gate_D_S.c_close gate_D_S.c_stopC)
+
+(gate_D_S.c_close gate_D_S.c_open) is forcible-unconnectable
+(gate_D_S.c_open gate_D_S.c_close gate_D_S.c_stopC) is forcible-unconnectable
+(gate_D_S.c_open gate_D_S.c_stopO) is forcible-unconnectable
+(gate_D_S.c_close gate_D_S.c_open gate_D_S.c_stopO) is forcible-unconnectable
+(gate_D_S.c_close gate_D_S.c_stopC) is forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton gate_D_S.Spe
+* (gate_D_S.c_fc_on gate_D_S.c_fc_off)
+* (gate_D_S.c_sc_on gate_D_S.c_sc_off)
+* (gate_D_S.c_fo_on gate_D_S.c_fo_off)
+* (gate_D_S.c_so_on gate_D_S.c_so_off)
+
+(gate_D_S.c_fc_on gate_D_S.c_fc_off) is forcible-unconnectable
+(gate_D_S.c_sc_on gate_D_S.c_sc_off) is forcible-unconnectable
+(gate_D_S.c_fo_on gate_D_S.c_fo_off) is forcible-unconnectable
+(gate_D_S.c_so_on gate_D_S.c_so_off) is forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton gate_D_S.Pre
+* (gate_D_S.c_high_on gate_D_S.c_high_off)
+* (gate_D_S.c_low_on gate_D_S.c_low_off)
+
+(gate_D_S.c_high_on gate_D_S.c_high_off) is forcible-unconnectable
+(gate_D_S.c_low_on gate_D_S.c_low_off) is forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton gate_U_N.Dir
+* (gate_U_N.c_close gate_U_N.c_open)
+* (gate_U_N.c_open gate_U_N.c_close gate_U_N.c_stopC)
+* (gate_U_N.c_open gate_U_N.c_stopO)
+* (gate_U_N.c_close gate_U_N.c_open gate_U_N.c_stopO)
+* (gate_U_N.c_close gate_U_N.c_stopC)
+
+(gate_U_N.c_close gate_U_N.c_open) is forcible-unconnectable
+(gate_U_N.c_open gate_U_N.c_close gate_U_N.c_stopC) is forcible-unconnectable
+(gate_U_N.c_open gate_U_N.c_stopO) is forcible-unconnectable
+(gate_U_N.c_close gate_U_N.c_open gate_U_N.c_stopO) is forcible-unconnectable
+(gate_U_N.c_close gate_U_N.c_stopC) is forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton gate_U_N.Spe
+* (gate_U_N.c_fc_on gate_U_N.c_fc_off)
+* (gate_U_N.c_sc_on gate_U_N.c_sc_off)
+* (gate_U_N.c_fo_on gate_U_N.c_fo_off)
+* (gate_U_N.c_so_on gate_U_N.c_so_off)
+
+(gate_U_N.c_fc_on gate_U_N.c_fc_off) is forcible-unconnectable
+(gate_U_N.c_sc_on gate_U_N.c_sc_off) is forcible-unconnectable
+(gate_U_N.c_fo_on gate_U_N.c_fo_off) is forcible-unconnectable
+(gate_U_N.c_so_on gate_U_N.c_so_off) is forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton gate_U_N.Pre
+* (gate_U_N.c_high_on gate_U_N.c_high_off)
+* (gate_U_N.c_low_on gate_U_N.c_low_off)
+
+(gate_U_N.c_high_on gate_U_N.c_high_off) is forcible-unconnectable
+(gate_U_N.c_low_on gate_U_N.c_low_off) is forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton gate_U_S.Dir
+* (gate_U_S.c_close gate_U_S.c_open)
+* (gate_U_S.c_open gate_U_S.c_close gate_U_S.c_stopC)
+* (gate_U_S.c_open gate_U_S.c_stopO)
+* (gate_U_S.c_close gate_U_S.c_open gate_U_S.c_stopO)
+* (gate_U_S.c_close gate_U_S.c_stopC)
+
+(gate_U_S.c_close gate_U_S.c_open) is forcible-unconnectable
+(gate_U_S.c_open gate_U_S.c_close gate_U_S.c_stopC) is forcible-unconnectable
+(gate_U_S.c_open gate_U_S.c_stopO) is forcible-unconnectable
+(gate_U_S.c_close gate_U_S.c_open gate_U_S.c_stopO) is forcible-unconnectable
+(gate_U_S.c_close gate_U_S.c_stopC) is forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton gate_U_S.Spe
+* (gate_U_S.c_fc_on gate_U_S.c_fc_off)
+* (gate_U_S.c_sc_on gate_U_S.c_sc_off)
+* (gate_U_S.c_fo_on gate_U_S.c_fo_off)
+* (gate_U_S.c_so_on gate_U_S.c_so_off)
+
+(gate_U_S.c_fc_on gate_U_S.c_fc_off) is forcible-unconnectable
+(gate_U_S.c_sc_on gate_U_S.c_sc_off) is forcible-unconnectable
+(gate_U_S.c_fo_on gate_U_S.c_fo_off) is forcible-unconnectable
+(gate_U_S.c_so_on gate_U_S.c_so_off) is forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton gate_U_S.Pre
+* (gate_U_S.c_high_on gate_U_S.c_high_off)
+* (gate_U_S.c_low_on gate_U_S.c_low_off)
+
+(gate_U_S.c_high_on gate_U_S.c_high_off) is forcible-unconnectable
+(gate_U_S.c_low_on gate_U_S.c_low_off) is forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton out_D_N.A
+* (out_D_N.c_green out_D_N.c_red)
+
+(out_D_N.c_green out_D_N.c_red) is forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton out_D_S.A
+* (out_D_S.c_green out_D_S.c_red)
+
+(out_D_S.c_green out_D_S.c_red) is forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton out_U_N.A
+* (out_U_N.c_green out_U_N.c_red)
+
+(out_U_N.c_green out_U_N.c_red) is forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton out_U_S.A
+* (out_U_S.c_green out_U_S.c_red)
+
+(out_U_S.c_green out_U_S.c_red) is forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton in_D_N.A
+* (in_D_N.c_redgreen in_D_N.c_green in_D_N.c_red)
+* (in_D_N.c_green in_D_N.c_redgreen)
+* (in_D_N.c_redgreen in_D_N.c_red)
+* (in_D_N.c_redred in_D_N.c_red)
+
+(in_D_N.c_redgreen in_D_N.c_green in_D_N.c_red) is forcible-unconnectable
+(in_D_N.c_green in_D_N.c_redgreen) is forcible-unconnectable
+(in_D_N.c_redgreen in_D_N.c_red) is forcible-unconnectable
+(in_D_N.c_redred in_D_N.c_red) is forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton in_D_S.A
+* (in_D_S.c_redgreen in_D_S.c_green in_D_S.c_red)
+* (in_D_S.c_green in_D_S.c_redgreen)
+* (in_D_S.c_redgreen in_D_S.c_red)
+* (in_D_S.c_redred in_D_S.c_red)
+
+(in_D_S.c_redgreen in_D_S.c_green in_D_S.c_red) is forcible-unconnectable
+(in_D_S.c_green in_D_S.c_redgreen) is forcible-unconnectable
+(in_D_S.c_redgreen in_D_S.c_red) is forcible-unconnectable
+(in_D_S.c_redred in_D_S.c_red) is forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton in_U_N.A
+* (in_U_N.c_redgreen in_U_N.c_green in_U_N.c_red)
+* (in_U_N.c_green in_U_N.c_redgreen)
+* (in_U_N.c_redgreen in_U_N.c_red)
+* (in_U_N.c_redred in_U_N.c_red)
+
+(in_U_N.c_redgreen in_U_N.c_green in_U_N.c_red) is forcible-unconnectable
+(in_U_N.c_green in_U_N.c_redgreen) is forcible-unconnectable
+(in_U_N.c_redgreen in_U_N.c_red) is forcible-unconnectable
+(in_U_N.c_redred in_U_N.c_red) is forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton in_U_S.A
+* (in_U_S.c_redgreen in_U_S.c_green in_U_S.c_red)
+* (in_U_S.c_green in_U_S.c_redgreen)
+* (in_U_S.c_redgreen in_U_S.c_red)
+* (in_U_S.c_redred in_U_S.c_red)
+
+(in_U_S.c_redgreen in_U_S.c_green in_U_S.c_red) is forcible-unconnectable
+(in_U_S.c_green in_U_S.c_redgreen) is forcible-unconnectable
+(in_U_S.c_redgreen in_U_S.c_red) is forcible-unconnectable
+(in_U_S.c_redred in_U_S.c_red) is forcible-unconnectable
+Iteration 2
+The specification has finite response.

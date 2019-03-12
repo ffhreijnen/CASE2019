@@ -1,0 +1,35 @@
+import "Model.cif";
+
+// The global guards for the state transitions
+alg bool Activatable = BS.Inactive and BA.Ok and (FB.Pressed and BB.Released) or (BB.Pressed and FB.Released) and RB.Released and MM.Reset;
+alg bool Emergency   = R18c.B;//(MM.Reset or MM.Active) and
+alg bool Reset       = BS.Inactive and BA.Ok and RB.Pressed; //(MM.Emergency or MM.Active) and ;
+
+// To counter control loop.
+requirement MM.c_emergency needs not RB.Pressed;
+
+// Internal state switch has priority.
+requirement {DM.c_fw, DM.c_fwslow, DM.c_fwstop, DM.c_bw, DM.c_bwslow, DM.c_bwstop} needs not Reset;
+requirement {DM.c_enable_fw, DM.c_enable_bw} needs not Reset;
+requirement SM.c_enable    needs not Reset;
+requirement SH.c_enable    needs not Reset;
+
+// Internal state switch has priority.
+requirement {DM.c_fw, DM.c_fwslow, DM.c_fwstop, DM.c_bw, DM.c_bwslow, DM.c_bwstop} needs not Emergency;
+requirement {DM.c_enable_fw, DM.c_enable_bw} needs not Emergency;
+requirement SM.c_enable    needs not Emergency;
+requirement SH.c_enable    needs not Emergency;
+requirement MM.c_active    needs not Emergency;
+
+// Internal state switch has priority.
+requirement DM.c_stop    needs not Activatable;
+requirement SH.c_disable needs not Activatable;
+
+// Direction.
+requirement DM.c_enable_fw needs FB.Pressed  and BB.Released;
+requirement DM.c_enable_bw needs FB.Released and BB.Pressed;
+
+// Power the steer motor off when we're stopping
+// requirement SM.c_disable needs DM.Off; replaced by:
+requirement SM.c_disable needs DM.Off or DM.Stopping;
+

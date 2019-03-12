@@ -1,0 +1,9 @@
+142 forcible-event combinations are mutually exclusive.
+80 forcible-event combinations are independent.
+0 forcible-event combinations are update equivalent.
+0 forcible-event combinations are skippable.
+9 forcible-event combinations are reversible.
+0 forcible-event combinations are confluent after explicit check.
+0 forcible-event combinations are undefined.
+
+The specification is confluent.

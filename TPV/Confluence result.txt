@@ -1,0 +1,33 @@
+Event SH.c_disable and event MM.c_active are undefined
+Event SM.c_enable and event MM.c_reset are undefined
+Event SM.c_enable and event MM.c_emergency are undefined
+Event SM.c_disable and event DM.c_stop are undefined
+Event DM.c_enable_fw and event DM.c_enable_bw are undefined
+Event DM.c_enable_fw and event MM.c_reset are undefined
+Event DM.c_enable_fw and event MM.c_emergency are undefined
+Event DM.c_enable_bw and event MM.c_reset are undefined
+Event DM.c_enable_bw and event MM.c_emergency are undefined
+Event DM.c_stop and event MM.c_active are undefined
+Event DM.c_fw and event MM.c_reset are undefined
+Event DM.c_fw and event MM.c_emergency are undefined
+Event DM.c_fwslow and event MM.c_reset are undefined
+Event DM.c_fwslow and event MM.c_emergency are undefined
+Event DM.c_fwstop and event MM.c_reset are undefined
+Event DM.c_fwstop and event MM.c_emergency are undefined
+Event DM.c_bw and event MM.c_reset are undefined
+Event DM.c_bw and event MM.c_emergency are undefined
+Event DM.c_bwslow and event MM.c_reset are undefined
+Event DM.c_bwslow and event MM.c_emergency are undefined
+Event DM.c_bwstop and event MM.c_reset are undefined
+Event DM.c_bwstop and event MM.c_emergency are undefined
+Event MM.c_emergency and event MM.c_active are undefined
+
+117 forcible-event combinations are mutually exclusive.
+79 forcible-event combinations are independent.
+0 forcible-event combinations are update equivalent.
+1 forcible-event combinations are skippable.
+11 forcible-event combinations are reversible.
+0 forcible-event combinations are confluent after explicit check.
+Warning: 23 forcible-event combinations are undefined.
+
+The specification is not confluent.

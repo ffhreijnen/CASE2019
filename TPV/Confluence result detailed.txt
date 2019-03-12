@@ -1,0 +1,244 @@
+Loading CIF specification "Model.cif"...
+Converting to internal representation...
+Checking for confluence...
+Event RL.c_on and event RL.c_off are mutually exclusive.
+Event RL.c_on and event FL.c_on are mutually exclusive.
+Event RL.c_on and event FL.c_off are independent.
+Event RL.c_on and event BL.c_on are mutually exclusive.
+Event RL.c_on and event BL.c_off are independent.
+Event RL.c_on and event SH.c_enable are mutually exclusive.
+Event RL.c_on and event SH.c_disable are independent.
+Event RL.c_on and event SM.c_enable are mutually exclusive.
+Event RL.c_on and event SM.c_disable are independent.
+Event RL.c_on and event DM.c_enable_fw are mutually exclusive.
+Event RL.c_on and event DM.c_enable_bw are mutually exclusive.
+Event RL.c_on and event DM.c_stop are independent.
+Event RL.c_on and event DM.c_fw are mutually exclusive.
+Event RL.c_on and event DM.c_fwslow are mutually exclusive.
+Event RL.c_on and event DM.c_fwstop are mutually exclusive.
+Event RL.c_on and event DM.c_bw are mutually exclusive.
+Event RL.c_on and event DM.c_bwslow are mutually exclusive.
+Event RL.c_on and event DM.c_bwstop are mutually exclusive.
+Event RL.c_on and event MM.c_reset are reversible, with reversible event RL.c_off.
+Event RL.c_on and event MM.c_emergency are mutually exclusive.
+Event RL.c_on and event MM.c_active are mutually exclusive.
+Event RL.c_off and event FL.c_on are independent.
+Event RL.c_off and event FL.c_off are independent.
+Event RL.c_off and event BL.c_on are independent.
+Event RL.c_off and event BL.c_off are independent.
+Event RL.c_off and event SH.c_enable are independent.
+Event RL.c_off and event SH.c_disable are independent.
+Event RL.c_off and event SM.c_enable are independent.
+Event RL.c_off and event SM.c_disable are independent.
+Event RL.c_off and event DM.c_enable_fw are independent.
+Event RL.c_off and event DM.c_enable_bw are independent.
+Event RL.c_off and event DM.c_stop are independent.
+Event RL.c_off and event DM.c_fw are independent.
+Event RL.c_off and event DM.c_fwslow are independent.
+Event RL.c_off and event DM.c_fwstop are independent.
+Event RL.c_off and event DM.c_bw are independent.
+Event RL.c_off and event DM.c_bwslow are independent.
+Event RL.c_off and event DM.c_bwstop are independent.
+Event RL.c_off and event MM.c_reset are independent.
+Event RL.c_off and event MM.c_emergency are reversible, with reversible event RL.c_on.
+Event RL.c_off and event MM.c_active are independent.
+Event FL.c_on and event FL.c_off are mutually exclusive.
+Event FL.c_on and event BL.c_on are independent.
+Event FL.c_on and event BL.c_off are mutually exclusive.
+Event FL.c_on and event SH.c_enable are mutually exclusive.
+Event FL.c_on and event SH.c_disable are independent.
+Event FL.c_on and event SM.c_enable are mutually exclusive.
+Event FL.c_on and event SM.c_disable are independent.
+Event FL.c_on and event DM.c_enable_fw are mutually exclusive.
+Event FL.c_on and event DM.c_enable_bw are mutually exclusive.
+Event FL.c_on and event DM.c_stop are independent.
+Event FL.c_on and event DM.c_fw are mutually exclusive.
+Event FL.c_on and event DM.c_fwslow are mutually exclusive.
+Event FL.c_on and event DM.c_fwstop are mutually exclusive.
+Event FL.c_on and event DM.c_bw are mutually exclusive.
+Event FL.c_on and event DM.c_bwslow are mutually exclusive.
+Event FL.c_on and event DM.c_bwstop are mutually exclusive.
+Event FL.c_on and event MM.c_reset are mutually exclusive.
+Event FL.c_on and event MM.c_emergency are reversible, with reversible event FL.c_off.
+Event FL.c_on and event MM.c_active are reversible, with reversible event FL.c_off.
+Event FL.c_off and event BL.c_on are mutually exclusive.
+Event FL.c_off and event BL.c_off are independent.
+Event FL.c_off and event SH.c_enable are independent.
+Event FL.c_off and event SH.c_disable are independent.
+Event FL.c_off and event SM.c_enable are independent.
+Event FL.c_off and event SM.c_disable are independent.
+Event FL.c_off and event DM.c_enable_fw are independent.
+Event FL.c_off and event DM.c_enable_bw are independent.
+Event FL.c_off and event DM.c_stop are independent.
+Event FL.c_off and event DM.c_fw are independent.
+Event FL.c_off and event DM.c_fwslow are independent.
+Event FL.c_off and event DM.c_fwstop are independent.
+Event FL.c_off and event DM.c_bw are independent.
+Event FL.c_off and event DM.c_bwslow are independent.
+Event FL.c_off and event DM.c_bwstop are independent.
+Event FL.c_off and event MM.c_reset are reversible, with reversible event FL.c_on.
+Event FL.c_off and event MM.c_emergency are independent.
+Event FL.c_off and event MM.c_active are mutually exclusive.
+Event BL.c_on and event BL.c_off are mutually exclusive.
+Event BL.c_on and event SH.c_enable are mutually exclusive.
+Event BL.c_on and event SH.c_disable are independent.
+Event BL.c_on and event SM.c_enable are mutually exclusive.
+Event BL.c_on and event SM.c_disable are independent.
+Event BL.c_on and event DM.c_enable_fw are mutually exclusive.
+Event BL.c_on and event DM.c_enable_bw are mutually exclusive.
+Event BL.c_on and event DM.c_stop are independent.
+Event BL.c_on and event DM.c_fw are mutually exclusive.
+Event BL.c_on and event DM.c_fwslow are mutually exclusive.
+Event BL.c_on and event DM.c_fwstop are mutually exclusive.
+Event BL.c_on and event DM.c_bw are mutually exclusive.
+Event BL.c_on and event DM.c_bwslow are mutually exclusive.
+Event BL.c_on and event DM.c_bwstop are mutually exclusive.
+Event BL.c_on and event MM.c_reset are mutually exclusive.
+Event BL.c_on and event MM.c_emergency are reversible, with reversible event BL.c_off.
+Event BL.c_on and event MM.c_active are reversible, with reversible event BL.c_off.
+Event BL.c_off and event SH.c_enable are independent.
+Event BL.c_off and event SH.c_disable are independent.
+Event BL.c_off and event SM.c_enable are independent.
+Event BL.c_off and event SM.c_disable are independent.
+Event BL.c_off and event DM.c_enable_fw are independent.
+Event BL.c_off and event DM.c_enable_bw are independent.
+Event BL.c_off and event DM.c_stop are independent.
+Event BL.c_off and event DM.c_fw are independent.
+Event BL.c_off and event DM.c_fwslow are independent.
+Event BL.c_off and event DM.c_fwstop are independent.
+Event BL.c_off and event DM.c_bw are independent.
+Event BL.c_off and event DM.c_bwslow are independent.
+Event BL.c_off and event DM.c_bwstop are independent.
+Event BL.c_off and event MM.c_reset are reversible, with reversible event BL.c_on.
+Event BL.c_off and event MM.c_emergency are independent.
+Event BL.c_off and event MM.c_active are mutually exclusive.
+Event SH.c_enable and event SH.c_disable are mutually exclusive.
+Event SH.c_enable and event SM.c_enable are mutually exclusive.
+Event SH.c_enable and event SM.c_disable are mutually exclusive.
+Event SH.c_enable and event DM.c_enable_fw are mutually exclusive.
+Event SH.c_enable and event DM.c_enable_bw are mutually exclusive.
+Event SH.c_enable and event DM.c_stop are mutually exclusive.
+Event SH.c_enable and event DM.c_fw are independent.
+Event SH.c_enable and event DM.c_fwslow are independent.
+Event SH.c_enable and event DM.c_fwstop are independent.
+Event SH.c_enable and event DM.c_bw are independent.
+Event SH.c_enable and event DM.c_bwslow are independent.
+Event SH.c_enable and event DM.c_bwstop are independent.
+Event SH.c_enable and event MM.c_reset are reversible, with reversible event SH.c_disable.
+Event SH.c_enable and event MM.c_emergency are reversible, with reversible event SH.c_disable.
+Event SH.c_enable and event MM.c_active are mutually exclusive.
+Event SH.c_disable and event SM.c_enable are mutually exclusive.
+Event SH.c_disable and event SM.c_disable are independent.
+Event SH.c_disable and event DM.c_enable_fw are mutually exclusive.
+Event SH.c_disable and event DM.c_enable_bw are mutually exclusive.
+Event SH.c_disable and event DM.c_stop are mutually exclusive.
+Event SH.c_disable and event DM.c_fw are mutually exclusive.
+Event SH.c_disable and event DM.c_fwslow are mutually exclusive.
+Event SH.c_disable and event DM.c_fwstop are mutually exclusive.
+Event SH.c_disable and event DM.c_bw are mutually exclusive.
+Event SH.c_disable and event DM.c_bwslow are mutually exclusive.
+Event SH.c_disable and event DM.c_bwstop are mutually exclusive.
+Event SH.c_disable and event MM.c_reset are independent.
+Event SH.c_disable and event MM.c_emergency are independent.
+Event SH.c_disable and event MM.c_active are undefined
+Event SM.c_enable and event SM.c_disable are mutually exclusive.
+Event SM.c_enable and event DM.c_enable_fw are mutually exclusive.
+Event SM.c_enable and event DM.c_enable_bw are mutually exclusive.
+Event SM.c_enable and event DM.c_stop are mutually exclusive.
+Event SM.c_enable and event DM.c_fw are independent.
+Event SM.c_enable and event DM.c_fwslow are independent.
+Event SM.c_enable and event DM.c_fwstop are independent.
+Event SM.c_enable and event DM.c_bw are independent.
+Event SM.c_enable and event DM.c_bwslow are independent.
+Event SM.c_enable and event DM.c_bwstop are independent.
+Event SM.c_enable and event MM.c_reset are undefined
+Event SM.c_enable and event MM.c_emergency are undefined
+Event SM.c_enable and event MM.c_active are mutually exclusive.
+Event SM.c_disable and event DM.c_enable_fw are mutually exclusive.
+Event SM.c_disable and event DM.c_enable_bw are mutually exclusive.
+Event SM.c_disable and event DM.c_stop are undefined
+Event SM.c_disable and event DM.c_fw are mutually exclusive.
+Event SM.c_disable and event DM.c_fwslow are mutually exclusive.
+Event SM.c_disable and event DM.c_fwstop are mutually exclusive.
+Event SM.c_disable and event DM.c_bw are mutually exclusive.
+Event SM.c_disable and event DM.c_bwslow are mutually exclusive.
+Event SM.c_disable and event DM.c_bwstop are mutually exclusive.
+Event SM.c_disable and event MM.c_reset are independent.
+Event SM.c_disable and event MM.c_emergency are independent.
+Event SM.c_disable and event MM.c_active are reversible, with reversible event SM.c_enable.
+Event DM.c_enable_fw and event DM.c_enable_bw are undefined
+Event DM.c_enable_fw and event DM.c_stop are mutually exclusive.
+Event DM.c_enable_fw and event DM.c_fw are mutually exclusive.
+Event DM.c_enable_fw and event DM.c_fwslow are mutually exclusive.
+Event DM.c_enable_fw and event DM.c_fwstop are mutually exclusive.
+Event DM.c_enable_fw and event DM.c_bw are mutually exclusive.
+Event DM.c_enable_fw and event DM.c_bwslow are mutually exclusive.
+Event DM.c_enable_fw and event DM.c_bwstop are mutually exclusive.
+Event DM.c_enable_fw and event MM.c_reset are undefined
+Event DM.c_enable_fw and event MM.c_emergency are undefined
+Event DM.c_enable_fw and event MM.c_active are mutually exclusive.
+Event DM.c_enable_bw and event DM.c_stop are mutually exclusive.
+Event DM.c_enable_bw and event DM.c_fw are mutually exclusive.
+Event DM.c_enable_bw and event DM.c_fwslow are mutually exclusive.
+Event DM.c_enable_bw and event DM.c_fwstop are mutually exclusive.
+Event DM.c_enable_bw and event DM.c_bw are mutually exclusive.
+Event DM.c_enable_bw and event DM.c_bwslow are mutually exclusive.
+Event DM.c_enable_bw and event DM.c_bwstop are mutually exclusive.
+Event DM.c_enable_bw and event MM.c_reset are undefined
+Event DM.c_enable_bw and event MM.c_emergency are undefined
+Event DM.c_enable_bw and event MM.c_active are mutually exclusive.
+Event DM.c_stop and event DM.c_fw are mutually exclusive.
+Event DM.c_stop and event DM.c_fwslow are mutually exclusive.
+Event DM.c_stop and event DM.c_fwstop are mutually exclusive.
+Event DM.c_stop and event DM.c_bw are mutually exclusive.
+Event DM.c_stop and event DM.c_bwslow are mutually exclusive.
+Event DM.c_stop and event DM.c_bwstop are mutually exclusive.
+Event DM.c_stop and event MM.c_reset are independent.
+Event DM.c_stop and event MM.c_emergency are independent.
+Event DM.c_stop and event MM.c_active are undefined
+Event DM.c_fw and event DM.c_fwslow are mutually exclusive.
+Event DM.c_fw and event DM.c_fwstop are mutually exclusive.
+Event DM.c_fw and event DM.c_bw are mutually exclusive.
+Event DM.c_fw and event DM.c_bwslow are mutually exclusive.
+Event DM.c_fw and event DM.c_bwstop are mutually exclusive.
+Event DM.c_fw and event MM.c_reset are undefined
+Event DM.c_fw and event MM.c_emergency are undefined
+Event DM.c_fw and event MM.c_active are mutually exclusive.
+Event DM.c_fwslow and event DM.c_fwstop are mutually exclusive.
+Event DM.c_fwslow and event DM.c_bw are mutually exclusive.
+Event DM.c_fwslow and event DM.c_bwslow are mutually exclusive.
+Event DM.c_fwslow and event DM.c_bwstop are mutually exclusive.
+Event DM.c_fwslow and event MM.c_reset are undefined
+Event DM.c_fwslow and event MM.c_emergency are undefined
+Event DM.c_fwslow and event MM.c_active are mutually exclusive.
+Event DM.c_fwstop and event DM.c_bw are mutually exclusive.
+Event DM.c_fwstop and event DM.c_bwslow are mutually exclusive.
+Event DM.c_fwstop and event DM.c_bwstop are mutually exclusive.
+Event DM.c_fwstop and event MM.c_reset are undefined
+Event DM.c_fwstop and event MM.c_emergency are undefined
+Event DM.c_fwstop and event MM.c_active are mutually exclusive.
+Event DM.c_bw and event DM.c_bwslow are mutually exclusive.
+Event DM.c_bw and event DM.c_bwstop are mutually exclusive.
+Event DM.c_bw and event MM.c_reset are undefined
+Event DM.c_bw and event MM.c_emergency are undefined
+Event DM.c_bw and event MM.c_active are mutually exclusive.
+Event DM.c_bwslow and event DM.c_bwstop are mutually exclusive.
+Event DM.c_bwslow and event MM.c_reset are undefined
+Event DM.c_bwslow and event MM.c_emergency are undefined
+Event DM.c_bwslow and event MM.c_active are mutually exclusive.
+Event DM.c_bwstop and event MM.c_reset are undefined
+Event DM.c_bwstop and event MM.c_emergency are undefined
+Event DM.c_bwstop and event MM.c_active are mutually exclusive.
+Event MM.c_reset and event MM.c_emergency are skippable.
+Event MM.c_reset and event MM.c_active are mutually exclusive.
+Event MM.c_emergency and event MM.c_active are undefined
+
+117 forcible-event combinations are mutually exclusive.
+79 forcible-event combinations are independent.
+0 forcible-event combinations are update equivalent.
+1 forcible-event combinations are skippable.
+11 forcible-event combinations are reversible.
+0 forcible-event combinations are confluent after explicit check.
+Warning: 23 forcible-event combinations are undefined.
+
+The specification is not confluent.

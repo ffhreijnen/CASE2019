@@ -1,0 +1,15 @@
+The specification does not have finite response, at least one forcible-event loop was found.
+The following events might still occur in a forcible loop.
+
+RL.c_on, 
+RL.c_off, 
+FL.c_on, 
+FL.c_off, 
+BL.c_on, 
+BL.c_off, 
+SH.c_enable, 
+SH.c_disable, 
+SM.c_enable, 
+SM.c_disable, 
+MM.c_reset, 
+MM.c_emergency, 

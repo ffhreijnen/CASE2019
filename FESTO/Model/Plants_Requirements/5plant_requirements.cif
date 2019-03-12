@@ -49,7 +49,7 @@ requirement PTimer.c_reset needs S_turntable.Off;
 
 //Turn table
 //The turn table is only allowed to enable at a valid positions
-requirement A_turntable.c_on  needs S_turntable.On;
+requirement A_turntable.c_on needs S_turntable.On;
 requirement A_turntable.c_on needs PTimer.Timeout;
 
 //(R4) The turntable actuator can be disabled when the turntable leaves the valid position.
@@ -82,12 +82,12 @@ requirement A_tester.c_off needs S_test_ok.On;
 requirement Tester:
     location One:
         initial; marked;
-        edge A_turntable.c_on  when One;
-        edge A_tester.c_on     when One   goto Two;
+        edge A_turntable.c_on;
+        edge A_tester.c_on    goto Two;
     location Two:
-        edge A_tester.c_off    when Two   goto Three;
+        edge A_tester.c_off   goto Three;
     location Three:
-        edge A_turntable.c_on  when Three goto One;
+        edge A_turntable.c_on goto One;
 end
 
 
@@ -119,7 +119,6 @@ requirement A_drill.c_on  needs S_clamp.On;
 //The drill is only allowed to disable at the upper position
 requirement A_drill.c_off needs S_drill_up.On;
 
-
 //Drill movement
 //(R11) The cycle at the drilling location should be as follows:
 //The drill is only allowed to descend when it is fully ascended
@@ -134,24 +133,24 @@ requirement {A_drillup.c_on, A_drilldown.c_off} needs S_drill_down.On;
 requirement ClampDrill:
     location one:
         initial; marked;
-        edge A_turntable.c_on  when one;
-        edge A_clamp.c_on      when one   goto two;
+        edge A_turntable.c_on;
+        edge A_clamp.c_on      goto two;
     location two:
-        edge A_drill.c_on      when two   goto three;
+        edge A_drill.c_on      goto three;
     location three:
-        edge A_drillup.c_off   when three goto four;
+        edge A_drillup.c_off   goto four;
     location four:
-        edge A_drilldown.c_on  when four  goto five;
+        edge A_drilldown.c_on  goto five;
     location five:
-        edge A_drilldown.c_off when five  goto six;
+        edge A_drilldown.c_off goto six;
     location six:
-        edge A_drillup.c_on    when six   goto seven;
+        edge A_drillup.c_on    goto seven;
     location seven:
-        edge A_drill.c_off     when seven goto eight;
+        edge A_drill.c_off     goto eight;
     location eight:
-        edge A_clamp.c_off     when eight goto nine;
+        edge A_clamp.c_off     goto nine;
     location nine:
-        edge A_turntable.c_on  when nine  goto one;
+        edge A_turntable.c_on  goto one;
 end
 
 //Eject

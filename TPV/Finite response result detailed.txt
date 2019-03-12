@@ -1,0 +1,327 @@
+Loading CIF specification "Model.cif"...
+Converting to internal representation...
+Checking for finite response...
+Iteration 1
+
+The following events have initially been encountered in a forcible-event loop of automaton RL
+* (RL.c_on RL.c_off)
+
+Warning: (RL.c_on RL.c_off) is not forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton FL
+* (FL.c_on FL.c_off)
+
+Warning: (FL.c_on FL.c_off) is not forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton BL
+* (BL.c_on BL.c_off)
+
+Warning: (BL.c_on BL.c_off) is not forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton SH
+* (SH.c_enable SH.c_disable)
+
+Warning: (SH.c_enable SH.c_disable) is not forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton SM
+* (SM.c_enable SM.c_disable)
+
+Warning: (SM.c_enable SM.c_disable) is not forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton DM
+* (DM.c_fw)
+* (DM.c_fwslow)
+* (DM.c_fwstop)
+* (DM.c_bw)
+* (DM.c_bwslow)
+* (DM.c_bwstop)
+* (DM.c_stop DM.c_enable_fw)
+* (DM.c_stop DM.c_enable_bw)
+
+Warning: (DM.c_fw) is not forcible-unconnectable
+Warning: (DM.c_fwslow) is not forcible-unconnectable
+Warning: (DM.c_fwstop) is not forcible-unconnectable
+Warning: (DM.c_bw) is not forcible-unconnectable
+Warning: (DM.c_bwslow) is not forcible-unconnectable
+Warning: (DM.c_bwstop) is not forcible-unconnectable
+Warning: (DM.c_stop DM.c_enable_fw) is not forcible-unconnectable
+Warning: (DM.c_stop DM.c_enable_bw) is not forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton MM
+* (MM.c_reset MM.c_emergency)
+* (MM.c_reset MM.c_active MM.c_emergency)
+* (MM.c_active MM.c_reset)
+
+Warning: (MM.c_reset MM.c_emergency) is not forcible-unconnectable
+(MM.c_reset MM.c_active MM.c_emergency) is forcible-unconnectable
+(MM.c_active MM.c_reset) is forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton R18c
+* (MM.c_reset)
+* (MM.c_emergency)
+
+Warning: (MM.c_reset) is not forcible-unconnectable
+Warning: (MM.c_emergency) is not forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton R21
+* (DM.c_fw)
+* (DM.c_fwslow)
+* (DM.c_fwstop)
+* (DM.c_bw)
+* (DM.c_bwslow)
+* (DM.c_bwstop)
+
+Warning: (DM.c_fw) is not forcible-unconnectable
+Warning: (DM.c_fwslow) is not forcible-unconnectable
+Warning: (DM.c_fwstop) is not forcible-unconnectable
+Warning: (DM.c_bw) is not forcible-unconnectable
+Warning: (DM.c_bwslow) is not forcible-unconnectable
+Warning: (DM.c_bwstop) is not forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton R22a
+* (MM.c_emergency)
+* (MM.c_reset)
+
+Warning: (MM.c_emergency) is not forcible-unconnectable
+Warning: (MM.c_reset) is not forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton R22b
+* (MM.c_emergency)
+* (MM.c_reset)
+
+Warning: (MM.c_emergency) is not forcible-unconnectable
+Warning: (MM.c_reset) is not forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton Last
+* (DM.c_fwslow DM.c_fw)
+* (DM.c_fwslow DM.c_fwstop DM.c_fw)
+* (DM.c_fwstop DM.c_fwslow)
+* (DM.c_fwslow DM.c_fwstop DM.c_bw DM.c_fw)
+* (DM.c_fwstop DM.c_bw DM.c_fwslow)
+* (DM.c_bw DM.c_fwstop)
+* (DM.c_fwslow DM.c_fwstop DM.c_bw DM.c_bwslow DM.c_fw)
+* (DM.c_fwstop DM.c_bw DM.c_bwslow DM.c_fwslow)
+* (DM.c_bw DM.c_bwslow DM.c_fwstop)
+* (DM.c_bwslow DM.c_bw)
+* (DM.c_fwslow DM.c_fwstop DM.c_bw DM.c_bwslow DM.c_bwstop DM.c_fw)
+* (DM.c_fwstop DM.c_bw DM.c_bwslow DM.c_bwstop DM.c_fwslow)
+* (DM.c_bw DM.c_bwslow DM.c_bwstop DM.c_fwstop)
+* (DM.c_bwslow DM.c_bwstop DM.c_bw)
+* (DM.c_bwstop DM.c_bwslow)
+* (DM.c_fwslow DM.c_fwstop DM.c_bw DM.c_bwstop DM.c_fw)
+* (DM.c_fwstop DM.c_bw DM.c_bwstop DM.c_fwslow)
+* (DM.c_bw DM.c_bwstop DM.c_fwstop)
+* (DM.c_bwstop DM.c_bw)
+* (DM.c_fwslow DM.c_fwstop DM.c_bwslow DM.c_fw)
+* (DM.c_fwstop DM.c_bwslow DM.c_fwslow)
+* (DM.c_bwslow DM.c_fwstop)
+* (DM.c_fwslow DM.c_fwstop DM.c_bwslow DM.c_bwstop DM.c_fw)
+* (DM.c_fwstop DM.c_bwslow DM.c_bwstop DM.c_fwslow)
+* (DM.c_bwslow DM.c_bwstop DM.c_fwstop)
+* (DM.c_fwslow DM.c_fwstop DM.c_bwstop DM.c_fw)
+* (DM.c_fwstop DM.c_bwstop DM.c_fwslow)
+* (DM.c_bwstop DM.c_fwstop)
+* (DM.c_fwslow DM.c_bw DM.c_fw)
+* (DM.c_bw DM.c_fwslow)
+* (DM.c_fwslow DM.c_bw DM.c_bwslow DM.c_fw)
+* (DM.c_bw DM.c_bwslow DM.c_fwslow)
+* (DM.c_fwslow DM.c_bw DM.c_bwslow DM.c_bwstop DM.c_fw)
+* (DM.c_bw DM.c_bwslow DM.c_bwstop DM.c_fwslow)
+* (DM.c_fwslow DM.c_bw DM.c_bwstop DM.c_fw)
+* (DM.c_bw DM.c_bwstop DM.c_fwslow)
+* (DM.c_fwslow DM.c_bwslow DM.c_fw)
+* (DM.c_bwslow DM.c_fwslow)
+* (DM.c_fwslow DM.c_bwslow DM.c_bwstop DM.c_fw)
+* (DM.c_bwslow DM.c_bwstop DM.c_fwslow)
+* (DM.c_fwslow DM.c_bwstop DM.c_fw)
+* (DM.c_bwstop DM.c_fwslow)
+* (DM.c_fwstop DM.c_fw)
+* (DM.c_fwstop DM.c_bw DM.c_fw)
+* (DM.c_fwstop DM.c_bw DM.c_bwslow DM.c_fw)
+* (DM.c_fwstop DM.c_bw DM.c_bwslow DM.c_bwstop DM.c_fw)
+* (DM.c_fwstop DM.c_bw DM.c_bwstop DM.c_fw)
+* (DM.c_fwstop DM.c_bwslow DM.c_fw)
+* (DM.c_fwstop DM.c_bwslow DM.c_bwstop DM.c_fw)
+* (DM.c_fwstop DM.c_bwstop DM.c_fw)
+* (DM.c_bw DM.c_fw)
+* (DM.c_bw DM.c_bwslow DM.c_fw)
+* (DM.c_bw DM.c_bwslow DM.c_bwstop DM.c_fw)
+* (DM.c_bw DM.c_bwstop DM.c_fw)
+* (DM.c_bwslow DM.c_fw)
+* (DM.c_bwslow DM.c_bwstop DM.c_fw)
+* (DM.c_bwstop DM.c_fw)
+
+(DM.c_fwslow DM.c_fw) is forcible-unconnectable
+(DM.c_fwslow DM.c_fwstop DM.c_fw) is forcible-unconnectable
+(DM.c_fwstop DM.c_fwslow) is forcible-unconnectable
+(DM.c_fwslow DM.c_fwstop DM.c_bw DM.c_fw) is forcible-unconnectable
+(DM.c_fwstop DM.c_bw DM.c_fwslow) is forcible-unconnectable
+(DM.c_bw DM.c_fwstop) is forcible-unconnectable
+(DM.c_fwslow DM.c_fwstop DM.c_bw DM.c_bwslow DM.c_fw) is forcible-unconnectable
+(DM.c_fwstop DM.c_bw DM.c_bwslow DM.c_fwslow) is forcible-unconnectable
+(DM.c_bw DM.c_bwslow DM.c_fwstop) is forcible-unconnectable
+(DM.c_bwslow DM.c_bw) is forcible-unconnectable
+(DM.c_fwslow DM.c_fwstop DM.c_bw DM.c_bwslow DM.c_bwstop DM.c_fw) is forcible-unconnectable
+(DM.c_fwstop DM.c_bw DM.c_bwslow DM.c_bwstop DM.c_fwslow) is forcible-unconnectable
+(DM.c_bw DM.c_bwslow DM.c_bwstop DM.c_fwstop) is forcible-unconnectable
+(DM.c_bwslow DM.c_bwstop DM.c_bw) is forcible-unconnectable
+(DM.c_bwstop DM.c_bwslow) is forcible-unconnectable
+(DM.c_fwslow DM.c_fwstop DM.c_bw DM.c_bwstop DM.c_fw) is forcible-unconnectable
+(DM.c_fwstop DM.c_bw DM.c_bwstop DM.c_fwslow) is forcible-unconnectable
+(DM.c_bw DM.c_bwstop DM.c_fwstop) is forcible-unconnectable
+(DM.c_bwstop DM.c_bw) is forcible-unconnectable
+(DM.c_fwslow DM.c_fwstop DM.c_bwslow DM.c_fw) is forcible-unconnectable
+(DM.c_fwstop DM.c_bwslow DM.c_fwslow) is forcible-unconnectable
+(DM.c_bwslow DM.c_fwstop) is forcible-unconnectable
+(DM.c_fwslow DM.c_fwstop DM.c_bwslow DM.c_bwstop DM.c_fw) is forcible-unconnectable
+(DM.c_fwstop DM.c_bwslow DM.c_bwstop DM.c_fwslow) is forcible-unconnectable
+(DM.c_bwslow DM.c_bwstop DM.c_fwstop) is forcible-unconnectable
+(DM.c_fwslow DM.c_fwstop DM.c_bwstop DM.c_fw) is forcible-unconnectable
+(DM.c_fwstop DM.c_bwstop DM.c_fwslow) is forcible-unconnectable
+(DM.c_bwstop DM.c_fwstop) is forcible-unconnectable
+(DM.c_fwslow DM.c_bw DM.c_fw) is forcible-unconnectable
+(DM.c_bw DM.c_fwslow) is forcible-unconnectable
+(DM.c_fwslow DM.c_bw DM.c_bwslow DM.c_fw) is forcible-unconnectable
+(DM.c_bw DM.c_bwslow DM.c_fwslow) is forcible-unconnectable
+(DM.c_fwslow DM.c_bw DM.c_bwslow DM.c_bwstop DM.c_fw) is forcible-unconnectable
+(DM.c_bw DM.c_bwslow DM.c_bwstop DM.c_fwslow) is forcible-unconnectable
+(DM.c_fwslow DM.c_bw DM.c_bwstop DM.c_fw) is forcible-unconnectable
+(DM.c_bw DM.c_bwstop DM.c_fwslow) is forcible-unconnectable
+(DM.c_fwslow DM.c_bwslow DM.c_fw) is forcible-unconnectable
+(DM.c_bwslow DM.c_fwslow) is forcible-unconnectable
+(DM.c_fwslow DM.c_bwslow DM.c_bwstop DM.c_fw) is forcible-unconnectable
+(DM.c_bwslow DM.c_bwstop DM.c_fwslow) is forcible-unconnectable
+(DM.c_fwslow DM.c_bwstop DM.c_fw) is forcible-unconnectable
+(DM.c_bwstop DM.c_fwslow) is forcible-unconnectable
+(DM.c_fwstop DM.c_fw) is forcible-unconnectable
+(DM.c_fwstop DM.c_bw DM.c_fw) is forcible-unconnectable
+(DM.c_fwstop DM.c_bw DM.c_bwslow DM.c_fw) is forcible-unconnectable
+(DM.c_fwstop DM.c_bw DM.c_bwslow DM.c_bwstop DM.c_fw) is forcible-unconnectable
+(DM.c_fwstop DM.c_bw DM.c_bwstop DM.c_fw) is forcible-unconnectable
+(DM.c_fwstop DM.c_bwslow DM.c_fw) is forcible-unconnectable
+(DM.c_fwstop DM.c_bwslow DM.c_bwstop DM.c_fw) is forcible-unconnectable
+(DM.c_fwstop DM.c_bwstop DM.c_fw) is forcible-unconnectable
+(DM.c_bw DM.c_fw) is forcible-unconnectable
+(DM.c_bw DM.c_bwslow DM.c_fw) is forcible-unconnectable
+(DM.c_bw DM.c_bwslow DM.c_bwstop DM.c_fw) is forcible-unconnectable
+(DM.c_bw DM.c_bwstop DM.c_fw) is forcible-unconnectable
+(DM.c_bwslow DM.c_fw) is forcible-unconnectable
+(DM.c_bwslow DM.c_bwstop DM.c_fw) is forcible-unconnectable
+(DM.c_bwstop DM.c_fw) is forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton RequirementStateEvtExcls
+* (MM.c_reset)
+* (RL.c_off)
+* (RL.c_on)
+* (FL.c_on)
+* (FL.c_off)
+* (BL.c_on)
+* (BL.c_off)
+* (SH.c_disable)
+* (SM.c_disable)
+* (SM.c_enable)
+* (SH.c_enable)
+
+Warning: (MM.c_reset) is not forcible-unconnectable
+Warning: (RL.c_off) is not forcible-unconnectable
+Warning: (RL.c_on) is not forcible-unconnectable
+Warning: (FL.c_on) is not forcible-unconnectable
+Warning: (FL.c_off) is not forcible-unconnectable
+Warning: (BL.c_on) is not forcible-unconnectable
+Warning: (BL.c_off) is not forcible-unconnectable
+Warning: (SH.c_disable) is not forcible-unconnectable
+Warning: (SM.c_disable) is not forcible-unconnectable
+Warning: (SM.c_enable) is not forcible-unconnectable
+Warning: (SH.c_enable) is not forcible-unconnectable
+Iteration 2
+
+The following events have initially been encountered in a forcible-event loop of automaton RL
+* (RL.c_on RL.c_off)
+
+Warning: (RL.c_on RL.c_off) is not forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton FL
+* (FL.c_on FL.c_off)
+
+Warning: (FL.c_on FL.c_off) is not forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton BL
+* (BL.c_on BL.c_off)
+
+Warning: (BL.c_on BL.c_off) is not forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton SH
+* (SH.c_enable SH.c_disable)
+
+Warning: (SH.c_enable SH.c_disable) is not forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton SM
+* (SM.c_enable SM.c_disable)
+
+Warning: (SM.c_enable SM.c_disable) is not forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton MM
+* (MM.c_reset MM.c_emergency)
+
+Warning: (MM.c_reset MM.c_emergency) is not forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton R18c
+* (MM.c_reset)
+* (MM.c_emergency)
+
+Warning: (MM.c_reset) is not forcible-unconnectable
+Warning: (MM.c_emergency) is not forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton R22a
+* (MM.c_emergency)
+* (MM.c_reset)
+
+Warning: (MM.c_emergency) is not forcible-unconnectable
+Warning: (MM.c_reset) is not forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton R22b
+* (MM.c_emergency)
+* (MM.c_reset)
+
+Warning: (MM.c_emergency) is not forcible-unconnectable
+Warning: (MM.c_reset) is not forcible-unconnectable
+
+The following events have initially been encountered in a forcible-event loop of automaton RequirementStateEvtExcls
+* (MM.c_reset)
+* (RL.c_off)
+* (RL.c_on)
+* (FL.c_on)
+* (FL.c_off)
+* (BL.c_on)
+* (BL.c_off)
+* (SH.c_disable)
+* (SM.c_disable)
+* (SM.c_enable)
+* (SH.c_enable)
+
+Warning: (MM.c_reset) is not forcible-unconnectable
+Warning: (RL.c_off) is not forcible-unconnectable
+Warning: (RL.c_on) is not forcible-unconnectable
+Warning: (FL.c_on) is not forcible-unconnectable
+Warning: (FL.c_off) is not forcible-unconnectable
+Warning: (BL.c_on) is not forcible-unconnectable
+Warning: (BL.c_off) is not forcible-unconnectable
+Warning: (SH.c_disable) is not forcible-unconnectable
+Warning: (SM.c_disable) is not forcible-unconnectable
+Warning: (SM.c_enable) is not forcible-unconnectable
+Warning: (SH.c_enable) is not forcible-unconnectable
+
+The specification does not have finite response, at least one forcible-event loop was found.
+The following events might still occur in a forcible loop.
+RL.c_on, 
+RL.c_off, 
+FL.c_on, 
+FL.c_off, 
+BL.c_on, 
+BL.c_off, 
+SH.c_enable, 
+SH.c_disable, 
+SM.c_enable, 
+SM.c_disable, 
+MM.c_reset, 
+MM.c_emergency, 
